@@ -1,7 +1,7 @@
-# Instructor materials
+# Instructor-supplied files
 
-No instructor-provided datasets were bundled with this workspace at project discovery.
+The course submission requires **two original supplied files** included **without modification**.
 
-Raw CSV files are generated locally using `generate_data.py` in the project root and are documented as **synthetic sample data** in `PROJECT_REQUIREMENTS.md` and `README.md`.
+At the time of this audit, this folder does **not** contain those instructor originals—only this README. Place the unmodified copies here (exact filenames as provided by your instructor) before final submission.
 
-If official course files are added here later, prefer them over regenerated synthetic data and update the documentation accordingly.
+Do **not** replace them with the project’s implemented `generate_data.py` or `mock_llm.py` at the repository root; those are student implementations unless your instructor designated them as the supplied files.

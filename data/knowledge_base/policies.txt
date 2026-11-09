@@ -1,3 +1,19 @@
-=== P1 | Fraud ===
-Fraud
-Fraud policy
+=== POL-REF-001 | Refund within 24 hours of delivery ===
+Refund within 24 hours of delivery
+Customers may request a full refund within 24 hours of confirmed delivery if items are damaged, expired, or missing. Proof photo may be required. Refunds are not automatic for orders marked Delivered more than 48 hours ago.
+
+=== POL-REF-002 | Partial refund for quality issues ===
+Partial refund for quality issues
+Product quality complaints may qualify for partial refund up to 50% when the item is usable but below quality standards. Fraud or repeated abuse of refunds leads to manual review.
+
+=== POL-DEL-001 | Delivery delay compensation ===
+Delivery delay compensation
+If delivery exceeds promised time by more than 45 minutes, customer may receive a voucher. Escalate to operations if delay exceeds 2 hours.
+
+=== POL-PAY-001 | Payment failure and double debit ===
+Payment failure and double debit
+Failed payments may still show pending debit for 3-5 bank working days. Escalate to payment team if debit persists beyond 7 days with transaction ID.
+
+=== POL-FRD-001 | Fraud escalation ===
+Fraud escalation
+All fraud allegations require human review. Do not auto-approve refunds for fraud tickets. Collect order ID and verify account activity.
