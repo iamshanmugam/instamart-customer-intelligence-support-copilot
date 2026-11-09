@@ -19,16 +19,17 @@ def create_database(datasets: dict[str, pd.DataFrame], db_path: Path | None = No
         customers = datasets["customers"].copy()
         orders = datasets["orders"].copy()
         tickets = datasets["tickets"].copy()
-        if "registration_date" in customers.columns:
-            customers["registration_date"] = customers["registration_date"].astype(str)
-        if "order_date" in orders.columns:
-            orders["order_date"] = orders["order_date"].astype(str)
-        if "created_at" in tickets.columns:
-            tickets["created_at"] = tickets["created_at"].astype(str)
-
+        products = datasets.get("products")
+        for frame in (customers, orders, tickets):
+            for col in frame.columns:
+                if pd.api.types.is_datetime64_any_dtype(frame[col]):
+                    frame[col] = frame[col].astype(str)
         customers.to_sql("customers", conn, index=False, if_exists="replace")
         orders.to_sql("orders", conn, index=False, if_exists="replace")
         tickets.to_sql("tickets", conn, index=False, if_exists="replace")
+        if products is not None:
+            products = products.copy()
+            products.to_sql("products", conn, index=False, if_exists="replace")
 
         conn.executescript(
             """
@@ -58,6 +59,14 @@ def validate_database(
             "orders": len(datasets["orders"]),
             "tickets": len(datasets["tickets"]),
         }
+        if "products" in datasets:
+            try:
+                counts["products"] = int(
+                    pd.read_sql_query("SELECT COUNT(*) as c FROM products", conn)["c"][0]
+                )
+                expected["products"] = len(datasets["products"])
+            except Exception:
+                pass
         match = all(counts[k] == expected[k] for k in expected)
         return {**counts, "counts_match_pandas": match}
     finally:

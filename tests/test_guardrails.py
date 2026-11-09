@@ -21,10 +21,10 @@ def test_oversized_rejected(monkeypatch):
 
 
 def test_pii_masked():
-    text = "Email user@test.com phone +919876543210 order ORD000123"
+    text = "Email user@test.com phone +919876543210 order ORD-100001"
     masked = mask_pii(text)
     assert "user@test.com" not in masked
-    assert "ORD000123" not in masked
+    assert "ORD-100001" not in masked
 
 
 def test_rejected_never_calls_llm():

@@ -9,7 +9,7 @@ load_dotenv(PROJECT_ROOT / ".env")
 
 
 def get_rfm_reference_date() -> date:
-    raw = os.getenv("RFM_REFERENCE_DATE", "2025-10-31")
+    raw = os.getenv("RFM_REFERENCE_DATE", "2025-09-30")
     y, m, d = map(int, raw.split("-"))
     return date(y, m, d)
 

@@ -1,0 +1,8 @@
+scenario_id,expected_outcome,agent_response
+S1,REFUND,TOOL:get_order
+S2,REFUND,TOOL:get_order
+S3,ESCALATE,TOOL:get_order
+S4,DENIED,TOOL:get_order
+S5,DENIED,TOOL:get_order
+S6,NOT_FOUND,TOOL:get_order
+S7,FALLBACK,TOOL:search_policy

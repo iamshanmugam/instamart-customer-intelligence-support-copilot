@@ -53,9 +53,9 @@ def stage_validate() -> None:
 
 
 def stage_generate() -> None:
-    import generate_data
+    import subprocess
 
-    generate_data.main(force=False)
+    subprocess.run([sys.executable, str(ROOT / "generate_data.py")], check=True, cwd=ROOT)
 
 
 def stage_load():
@@ -129,8 +129,7 @@ def run_pipeline(stages: list[str] | None = None) -> None:
         agent = RefundAgent(rag)
         sample_order = cleaned["orders"].iloc[0]["order_id"]
         lookup_order(str(sample_order))
-        agent.process(str(sample_order), "I want a refund, item was damaged.")
-        agent.process(str(sample_order), "Fraud on my account")
+        agent.run_scenarios()
 
     logger.info("Pipeline completed successfully.")
 

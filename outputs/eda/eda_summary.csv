@@ -1,5 +1,8 @@
 ,0
-total_customers,500.0
-total_orders,3829.0
-total_tickets,800.0
-avg_order_value_completed,791.0232997481108
+total_customers,1200
+total_orders,12309
+total_tickets,160
+completed_orders,11110
+avg_order_value_completed,268.557601260126
+orders_completed_pct,0.902591599642538
+tickets_by_category,"{'delivery': 43, 'fraud': 39, 'billing': 39, 'technical': 39}"

@@ -8,7 +8,7 @@ from src.common.config import MAX_TICKET_CHARS, MAX_PROMPT_TOKENS
 
 EMAIL_RE = re.compile(r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+")
 PHONE_RE = re.compile(r"\+?\d[\d\s\-]{8,}\d")
-ORDER_RE = re.compile(r"\bORD\d{5,}\b", re.IGNORECASE)
+ORDER_RE = re.compile(r"\bORD-\d{6}\b", re.IGNORECASE)
 
 
 @dataclass

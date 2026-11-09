@@ -24,11 +24,10 @@ htmlcov/
 # Jupyter
 .ipynb_checkpoints/
 
-# Project outputs (optional - keep structure, ignore large regenerable)
-# Uncomment to ignore all outputs:
-# outputs/**
-# models/**
-# database/*.sqlite
+# Charts optional and must not be submitted
+outputs/**/*.png
+outputs/**/*.jpg
+outputs/**/*.pdf
 
 # OS
 .DS_Store

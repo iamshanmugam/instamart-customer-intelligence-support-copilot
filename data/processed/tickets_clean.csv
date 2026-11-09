@@ -1,801 +1,161 @@
-ticket_id,customer_id,order_id,created_at,category_label,priority,status,ticket_text
-TKT00001,CUST00414,ORD003175,2024-11-21,Refund,High,Resolved,I want a refund for order ORD003175. Item was damaged. Contact me at user0@example.com or +91987650000.
-TKT00002,CUST00455,ORD003508,2025-04-12,Delivery Delay,Low,Closed,Order ORD003508 is very late. Please help. Contact me at user1@example.com or +91987650001.
-TKT00003,CUST00114,ORD000861,2024-05-02,Payment,Low,Resolved,Payment failed but amount debited for order ORD000861. Contact me at user2@example.com or +91987650002.
-TKT00004,CUST00172,ORD001295,2025-03-14,Fraud,Medium,Open,Suspicious activity on my account related to order ORD001295. Contact me at user3@example.com or +91987650003.
-TKT00005,CUST00149,ORD001131,2025-06-04,Product Quality,Low,Open,Poor quality products in order ORD001131. Contact me at user4@example.com or +91987650004.
-TKT00006,CUST00145,ORD001096,2025-02-05,App Issue,Medium,In Progress,App crashes when I track order ORD001096. Contact me at user5@example.com or +91987650005.
-TKT00007,CUST00491,ORD003773,2025-06-02,Other,High,In Progress,General inquiry about order ORD003773. Contact me at user6@example.com or +91987650006.
-TKT00008,CUST00406,ORD003093,2024-03-19,Payment,Medium,In Progress,Payment failed but amount debited for order ORD003093. Contact me at user7@example.com or +91987650007.
-TKT00009,CUST00216,ORD001639,2024-02-12,App Issue,Critical,Open,App crashes when I track order ORD001639. Contact me at user8@example.com or +91987650008.
-TKT00010,CUST00295,ORD002170,2024-09-15,Other,Critical,Resolved,General inquiry about order ORD002170. Contact me at user9@example.com or +91987650009.
-TKT00011,CUST00062,ORD000467,2024-04-01,Other,Low,Resolved,General inquiry about order ORD000467. Contact me at user10@example.com or +91987650010.
-TKT00012,CUST00165,ORD001239,2024-05-07,Product Quality,Low,Open,Poor quality products in order ORD001239. Contact me at user11@example.com or +91987650011.
-TKT00013,CUST00043,ORD000331,2024-10-04,Payment,Medium,In Progress,Payment failed but amount debited for order ORD000331. Contact me at user12@example.com or +91987650012.
-TKT00014,CUST00198,ORD001483,2024-12-25,Other,Low,Resolved,General inquiry about order ORD001483. Contact me at user13@example.com or +91987650013.
-TKT00015,CUST00290,ORD002136,2024-05-14,Delivery Delay,Medium,Resolved,Order ORD002136 is very late. Please help. Contact me at user14@example.com or +91987650014.
-TKT00016,CUST00446,ORD003445,2024-07-07,Other,High,Open,General inquiry about order ORD003445. Contact me at user15@example.com or +91987650015.
-TKT00017,CUST00413,ORD003172,2024-12-30,Other,Low,In Progress,General inquiry about order ORD003172. Contact me at user16@example.com or +91987650016.
-TKT00018,CUST00384,ORD002920,2025-05-30,Payment,High,Resolved,Payment failed but amount debited for order ORD002920. Contact me at user17@example.com or +91987650017.
-TKT00019,CUST00484,ORD003736,2024-03-04,Fraud,High,Open,Suspicious activity on my account related to order ORD003736. Contact me at user18@example.com or +91987650018.
-TKT00020,CUST00019,ORD000131,2024-02-27,Refund,Critical,Resolved,I want a refund for order ORD000131. Item was damaged. Contact me at user19@example.com or +91987650019.
-TKT00021,CUST00223,ORD001686,2025-08-09,App Issue,Low,Closed,App crashes when I track order ORD001686. Contact me at user20@example.com or +91987650020.
-TKT00022,CUST00437,ORD003381,2024-04-02,Payment,Medium,Closed,Payment failed but amount debited for order ORD003381. Contact me at user21@example.com or +91987650021.
-TKT00023,CUST00099,ORD000770,2024-12-28,Delivery Delay,Medium,In Progress,Order ORD000770 is very late. Please help. Contact me at user22@example.com or +91987650022.
-TKT00024,CUST00322,ORD002392,2024-07-27,Delivery Delay,Critical,Closed,Order ORD002392 is very late. Please help. Contact me at user23@example.com or +91987650023.
-TKT00025,CUST00202,ORD001516,2024-05-12,Product Quality,Low,Open,Poor quality products in order ORD001516. Contact me at user24@example.com or +91987650024.
-TKT00026,CUST00450,ORD003486,2024-03-22,App Issue,Low,Closed,App crashes when I track order ORD003486. Contact me at user25@example.com or +91987650025.
-TKT00027,CUST00375,ORD002854,2024-07-03,Product Quality,High,Closed,Poor quality products in order ORD002854. Contact me at user26@example.com or +91987650026.
-TKT00028,CUST00325,ORD002434,2025-09-10,Other,Critical,Closed,General inquiry about order ORD002434. Contact me at user27@example.com or +91987650027.
-TKT00029,CUST00161,ORD001216,2025-03-14,App Issue,High,In Progress,App crashes when I track order ORD001216. Contact me at user28@example.com or +91987650028.
-TKT00030,CUST00125,ORD000956,2024-11-12,App Issue,Critical,Closed,App crashes when I track order ORD000956. Contact me at user29@example.com or +91987650029.
-TKT00031,CUST00315,ORD002325,2024-08-04,Refund,Critical,In Progress,I want a refund for order ORD002325. Item was damaged. Contact me at user30@example.com or +91987650030.
-TKT00032,CUST00154,ORD001185,2024-02-16,Payment,High,Resolved,Payment failed but amount debited for order ORD001185. Contact me at user31@example.com or +91987650031.
-TKT00033,CUST00061,ORD000460,2025-08-25,Refund,High,In Progress,I want a refund for order ORD000460. Item was damaged. Contact me at user32@example.com or +91987650032.
-TKT00034,CUST00437,ORD003386,2025-02-22,Product Quality,High,Closed,Poor quality products in order ORD003386. Contact me at user33@example.com or +91987650033.
-TKT00035,CUST00005,ORD000022,2025-05-24,Payment,Medium,Resolved,Payment failed but amount debited for order ORD000022. Contact me at user34@example.com or +91987650034.
-TKT00036,CUST00311,ORD002301,2025-07-13,App Issue,Low,In Progress,App crashes when I track order ORD002301. Contact me at user35@example.com or +91987650035.
-TKT00037,CUST00096,ORD000748,2025-06-17,Payment,High,Resolved,Payment failed but amount debited for order ORD000748. Contact me at user36@example.com or +91987650036.
-TKT00038,CUST00382,ORD002905,2024-05-22,Product Quality,Medium,Open,Poor quality products in order ORD002905. Contact me at user37@example.com or +91987650037.
-TKT00039,CUST00470,ORD003633,2024-01-26,Product Quality,Critical,Resolved,Poor quality products in order ORD003633. Contact me at user38@example.com or +91987650038.
-TKT00040,CUST00062,ORD000475,2024-03-09,Other,High,In Progress,General inquiry about order ORD000475. Contact me at user39@example.com or +91987650039.
-TKT00041,CUST00144,ORD001083,2024-08-23,Fraud,Low,Closed,Suspicious activity on my account related to order ORD001083. Contact me at user40@example.com or +91987650040.
-TKT00042,CUST00341,ORD002559,2025-08-24,Product Quality,Low,Closed,Poor quality products in order ORD002559. Contact me at user41@example.com or +91987650041.
-TKT00043,CUST00488,ORD003754,2024-04-19,Payment,High,In Progress,Payment failed but amount debited for order ORD003754. Contact me at user42@example.com or +91987650042.
-TKT00044,CUST00277,ORD002048,2024-02-11,Delivery Delay,Medium,In Progress,Order ORD002048 is very late. Please help. Contact me at user43@example.com or +91987650043.
-TKT00045,CUST00460,ORD003548,2024-09-02,Refund,Medium,In Progress,I want a refund for order ORD003548. Item was damaged. Contact me at user44@example.com or +91987650044.
-TKT00046,CUST00364,ORD002748,2024-08-27,Delivery Delay,Medium,In Progress,Order ORD002748 is very late. Please help. Contact me at user45@example.com or +91987650045.
-TKT00047,CUST00128,ORD000976,2025-03-14,App Issue,Low,Open,App crashes when I track order ORD000976. Contact me at user46@example.com or +91987650046.
-TKT00048,CUST00242,ORD001807,2025-03-02,Payment,Low,In Progress,Payment failed but amount debited for order ORD001807. Contact me at user47@example.com or +91987650047.
-TKT00049,CUST00028,ORD000190,2025-08-01,Other,Medium,Open,General inquiry about order ORD000190. Contact me at user48@example.com or +91987650048.
-TKT00050,CUST00397,ORD003006,2025-03-26,Refund,Medium,Open,I want a refund for order ORD003006. Item was damaged. Contact me at user49@example.com or +91987650049.
-TKT00051,CUST00363,ORD002735,2024-03-23,Refund,High,Open,I want a refund for order ORD002735. Item was damaged. Contact me at user50@example.com or +91987650050.
-TKT00052,CUST00397,ORD003006,2025-03-26,Refund,Low,In Progress,I want a refund for order ORD003006. Item was damaged. Contact me at user51@example.com or +91987650051.
-TKT00053,CUST00071,ORD000563,2025-04-15,App Issue,Medium,Open,App crashes when I track order ORD000563. Contact me at user52@example.com or +91987650052.
-TKT00054,CUST00254,ORD001900,2024-03-29,App Issue,Critical,Closed,App crashes when I track order ORD001900. Contact me at user53@example.com or +91987650053.
-TKT00055,CUST00471,ORD003639,2024-05-15,Other,Critical,Open,General inquiry about order ORD003639. Contact me at user54@example.com or +91987650054.
-TKT00056,CUST00167,ORD001268,2024-03-24,Refund,Low,In Progress,I want a refund for order ORD001268. Item was damaged. Contact me at user55@example.com or +91987650055.
-TKT00057,CUST00378,ORD002880,2024-09-01,Delivery Delay,Medium,Closed,Order ORD002880 is very late. Please help. Contact me at user56@example.com or +91987650056.
-TKT00058,CUST00204,ORD001529,2024-11-18,Refund,Medium,Resolved,I want a refund for order ORD001529. Item was damaged. Contact me at user57@example.com or +91987650057.
-TKT00059,CUST00417,ORD003203,2024-01-25,Delivery Delay,Critical,Open,Order ORD003203 is very late. Please help. Contact me at user58@example.com or +91987650058.
-TKT00060,CUST00460,ORD003557,2025-06-26,Fraud,Medium,Open,Suspicious activity on my account related to order ORD003557. Contact me at user59@example.com or +91987650059.
-TKT00061,CUST00084,ORD000647,2024-01-28,Delivery Delay,Medium,Resolved,Order ORD000647 is very late. Please help. Contact me at user60@example.com or +91987650060.
-TKT00062,CUST00279,ORD002069,2025-08-02,App Issue,High,Closed,App crashes when I track order ORD002069. Contact me at user61@example.com or +91987650061.
-TKT00063,CUST00380,ORD002889,2025-07-05,App Issue,High,In Progress,App crashes when I track order ORD002889. Contact me at user62@example.com or +91987650062.
-TKT00064,CUST00300,ORD002215,2025-01-28,App Issue,Low,Resolved,App crashes when I track order ORD002215. Contact me at user63@example.com or +91987650063.
-TKT00065,CUST00172,ORD001298,2024-03-08,Refund,Critical,Resolved,I want a refund for order ORD001298. Item was damaged. Contact me at user64@example.com or +91987650064.
-TKT00066,CUST00326,ORD002436,2024-08-22,Refund,Critical,Resolved,I want a refund for order ORD002436. Item was damaged. Contact me at user65@example.com or +91987650065.
-TKT00067,CUST00077,ORD000601,2025-01-05,Refund,Critical,Resolved,I want a refund for order ORD000601. Item was damaged. Contact me at user66@example.com or +91987650066.
-TKT00068,CUST00318,ORD002364,2025-08-04,Refund,High,Resolved,I want a refund for order ORD002364. Item was damaged. Contact me at user67@example.com or +91987650067.
-TKT00069,CUST00278,ORD002062,2025-09-26,Fraud,Critical,Closed,Suspicious activity on my account related to order ORD002062. Contact me at user68@example.com or +91987650068.
-TKT00070,CUST00035,ORD000242,2025-01-13,Refund,High,Resolved,I want a refund for order ORD000242. Item was damaged. Contact me at user69@example.com or +91987650069.
-TKT00071,CUST00276,ORD002042,2024-08-08,Other,Low,Open,General inquiry about order ORD002042. Contact me at user70@example.com or +91987650070.
-TKT00072,CUST00372,ORD002825,2024-07-08,Delivery Delay,Low,Closed,Order ORD002825 is very late. Please help. Contact me at user71@example.com or +91987650071.
-TKT00073,CUST00444,ORD003418,2024-11-14,App Issue,High,In Progress,App crashes when I track order ORD003418. Contact me at user72@example.com or +91987650072.
-TKT00074,CUST00347,ORD002613,2024-03-11,Delivery Delay,High,Resolved,Order ORD002613 is very late. Please help. Contact me at user73@example.com or +91987650073.
-TKT00075,CUST00387,ORD002946,2024-02-02,Product Quality,Critical,Closed,Poor quality products in order ORD002946. Contact me at user74@example.com or +91987650074.
-TKT00076,CUST00182,ORD001364,2024-08-02,App Issue,Medium,Resolved,App crashes when I track order ORD001364. Contact me at user75@example.com or +91987650075.
-TKT00077,CUST00290,ORD002140,2024-01-14,Fraud,High,Open,Suspicious activity on my account related to order ORD002140. Contact me at user76@example.com or +91987650076.
-TKT00078,CUST00186,ORD001391,2024-11-20,Delivery Delay,Medium,In Progress,Order ORD001391 is very late. Please help. Contact me at user77@example.com or +91987650077.
-TKT00079,CUST00397,ORD003004,2024-09-15,Product Quality,Critical,Closed,Poor quality products in order ORD003004. Contact me at user78@example.com or +91987650078.
-TKT00080,CUST00198,ORD001479,2024-03-05,Payment,High,In Progress,Payment failed but amount debited for order ORD001479. Contact me at user79@example.com or +91987650079.
-TKT00081,CUST00454,ORD003500,2024-07-14,Fraud,Low,Closed,Suspicious activity on my account related to order ORD003500. Contact me at user80@example.com or +91987650080.
-TKT00082,CUST00341,ORD002557,2025-05-19,Payment,High,Closed,Payment failed but amount debited for order ORD002557. Contact me at user81@example.com or +91987650081.
-TKT00083,CUST00100,ORD000776,2025-01-20,Payment,High,Open,Payment failed but amount debited for order ORD000776. Contact me at user82@example.com or +91987650082.
-TKT00084,CUST00008,ORD000035,2024-06-21,Other,High,In Progress,General inquiry about order ORD000035. Contact me at user83@example.com or +91987650083.
-TKT00085,CUST00305,ORD002254,2025-09-23,Fraud,Low,In Progress,Suspicious activity on my account related to order ORD002254. Contact me at user84@example.com or +91987650084.
-TKT00086,CUST00411,ORD003153,2024-02-03,Payment,Critical,In Progress,Payment failed but amount debited for order ORD003153. Contact me at user85@example.com or +91987650085.
-TKT00087,CUST00264,ORD001956,2024-03-26,Other,Low,In Progress,General inquiry about order ORD001956. Contact me at user86@example.com or +91987650086.
-TKT00088,CUST00210,ORD001586,2025-04-11,Fraud,Critical,Closed,Suspicious activity on my account related to order ORD001586. Contact me at user87@example.com or +91987650087.
-TKT00089,CUST00448,ORD003460,2025-06-11,Product Quality,Low,Closed,Poor quality products in order ORD003460. Contact me at user88@example.com or +91987650088.
-TKT00090,CUST00404,ORD003074,2024-05-11,Product Quality,Low,Resolved,Poor quality products in order ORD003074. Contact me at user89@example.com or +91987650089.
-TKT00091,CUST00138,ORD001022,2024-10-10,Delivery Delay,Low,Resolved,Order ORD001022 is very late. Please help. Contact me at user90@example.com or +91987650090.
-TKT00092,CUST00449,ORD003462,2024-06-29,App Issue,Medium,In Progress,App crashes when I track order ORD003462. Contact me at user91@example.com or +91987650091.
-TKT00093,CUST00347,ORD002614,2025-09-22,Fraud,Medium,Closed,Suspicious activity on my account related to order ORD002614. Contact me at user92@example.com or +91987650092.
-TKT00094,CUST00149,ORD001130,2025-09-01,App Issue,Medium,Open,App crashes when I track order ORD001130. Contact me at user93@example.com or +91987650093.
-TKT00095,CUST00200,ORD001501,2025-08-25,Other,Low,Open,General inquiry about order ORD001501. Contact me at user94@example.com or +91987650094.
-TKT00096,CUST00091,ORD000703,2024-06-19,Refund,High,Open,I want a refund for order ORD000703. Item was damaged. Contact me at user95@example.com or +91987650095.
-TKT00097,CUST00327,ORD002450,2024-01-25,Refund,High,Resolved,I want a refund for order ORD002450. Item was damaged. Contact me at user96@example.com or +91987650096.
-TKT00098,CUST00367,ORD002778,2024-07-31,Payment,Critical,Closed,Payment failed but amount debited for order ORD002778. Contact me at user97@example.com or +91987650097.
-TKT00099,CUST00210,ORD001580,2025-02-18,Payment,Low,Open,Payment failed but amount debited for order ORD001580. Contact me at user98@example.com or +91987650098.
-TKT00100,CUST00024,ORD000162,2025-04-04,Payment,Low,Closed,Payment failed but amount debited for order ORD000162. Contact me at user99@example.com or +91987650099.
-TKT00101,CUST00029,ORD000202,2025-05-08,Payment,Medium,Open,Payment failed but amount debited for order ORD000202. Contact me at user100@example.com or +91987650100.
-TKT00102,CUST00268,ORD001982,2025-06-10,Delivery Delay,Low,Resolved,Order ORD001982 is very late. Please help. Contact me at user101@example.com or +91987650101.
-TKT00103,CUST00133,ORD000996,2024-04-19,Payment,Medium,Closed,Payment failed but amount debited for order ORD000996. Contact me at user102@example.com or +91987650102.
-TKT00104,CUST00314,ORD002318,2025-06-10,Product Quality,High,Closed,Poor quality products in order ORD002318. Contact me at user103@example.com or +91987650103.
-TKT00105,CUST00107,ORD000816,2025-01-10,Product Quality,Low,Closed,Poor quality products in order ORD000816. Contact me at user104@example.com or +91987650104.
-TKT00106,CUST00433,ORD003343,2025-06-12,Payment,Critical,Resolved,Payment failed but amount debited for order ORD003343. Contact me at user105@example.com or +91987650105.
-TKT00107,CUST00060,ORD000456,2024-06-09,Other,Critical,Resolved,General inquiry about order ORD000456. Contact me at user106@example.com or +91987650106.
-TKT00108,CUST00458,ORD003534,2024-09-19,Payment,High,Open,Payment failed but amount debited for order ORD003534. Contact me at user107@example.com or +91987650107.
-TKT00109,CUST00494,ORD003799,2025-02-11,Product Quality,Medium,Resolved,Poor quality products in order ORD003799. Contact me at user108@example.com or +91987650108.
-TKT00110,CUST00169,ORD001276,2025-08-21,Refund,Critical,Closed,I want a refund for order ORD001276. Item was damaged. Contact me at user109@example.com or +91987650109.
-TKT00111,CUST00136,ORD001017,2025-09-08,Refund,Low,Resolved,I want a refund for order ORD001017. Item was damaged. Contact me at user110@example.com or +91987650110.
-TKT00112,CUST00491,ORD003774,2025-08-16,Delivery Delay,High,Closed,Order ORD003774 is very late. Please help. Contact me at user111@example.com or +91987650111.
-TKT00113,CUST00316,ORD002344,2024-09-30,Payment,Medium,Resolved,Payment failed but amount debited for order ORD002344. Contact me at user112@example.com or +91987650112.
-TKT00114,CUST00494,ORD003797,2025-08-09,Product Quality,Medium,Open,Poor quality products in order ORD003797. Contact me at user113@example.com or +91987650113.
-TKT00115,CUST00367,ORD002768,2024-07-11,Delivery Delay,Low,Resolved,Order ORD002768 is very late. Please help. Contact me at user114@example.com or +91987650114.
-TKT00116,CUST00498,ORD003821,2024-06-24,Other,Low,Open,General inquiry about order ORD003821. Contact me at user115@example.com or +91987650115.
-TKT00117,CUST00043,ORD000338,2025-08-18,Product Quality,Critical,In Progress,Poor quality products in order ORD000338. Contact me at user116@example.com or +91987650116.
-TKT00118,CUST00115,ORD000879,2025-03-04,Delivery Delay,Medium,Closed,Order ORD000879 is very late. Please help. Contact me at user117@example.com or +91987650117.
-TKT00119,CUST00143,ORD001077,2024-03-21,Payment,Critical,In Progress,Payment failed but amount debited for order ORD001077. Contact me at user118@example.com or +91987650118.
-TKT00120,CUST00103,ORD000792,2024-09-01,Other,Critical,Open,General inquiry about order ORD000792. Contact me at user119@example.com or +91987650119.
-TKT00121,CUST00307,ORD002265,2025-09-09,App Issue,High,Resolved,App crashes when I track order ORD002265. Contact me at user120@example.com or +91987650120.
-TKT00122,CUST00098,ORD000764,2024-04-17,Payment,Critical,Open,Payment failed but amount debited for order ORD000764. Contact me at user121@example.com or +91987650121.
-TKT00123,CUST00303,ORD002236,2025-08-25,Fraud,Critical,Resolved,Suspicious activity on my account related to order ORD002236. Contact me at user122@example.com or +91987650122.
-TKT00124,CUST00047,ORD000380,2024-10-06,Delivery Delay,Medium,Closed,Order ORD000380 is very late. Please help. Contact me at user123@example.com or +91987650123.
-TKT00125,CUST00065,ORD000493,2025-07-12,App Issue,Medium,Closed,App crashes when I track order ORD000493. Contact me at user124@example.com or +91987650124.
-TKT00126,CUST00408,ORD003113,2024-12-06,Payment,Low,In Progress,Payment failed but amount debited for order ORD003113. Contact me at user125@example.com or +91987650125.
-TKT00127,CUST00154,ORD001181,2024-12-09,Fraud,Medium,Resolved,Suspicious activity on my account related to order ORD001181. Contact me at user126@example.com or +91987650126.
-TKT00128,CUST00278,ORD002063,2025-01-10,Product Quality,High,In Progress,Poor quality products in order ORD002063. Contact me at user127@example.com or +91987650127.
-TKT00129,CUST00011,ORD000065,2025-09-21,Fraud,Critical,In Progress,Suspicious activity on my account related to order ORD000065. Contact me at user128@example.com or +91987650128.
-TKT00130,CUST00342,ORD002569,2024-12-21,Refund,High,Closed,I want a refund for order ORD002569. Item was damaged. Contact me at user129@example.com or +91987650129.
-TKT00131,CUST00183,ORD001368,2024-05-28,App Issue,High,In Progress,App crashes when I track order ORD001368. Contact me at user130@example.com or +91987650130.
-TKT00132,CUST00151,ORD001153,2024-01-07,Product Quality,Critical,In Progress,Poor quality products in order ORD001153. Contact me at user131@example.com or +91987650131.
-TKT00133,CUST00275,ORD002028,2025-07-22,Payment,Critical,Closed,Payment failed but amount debited for order ORD002028. Contact me at user132@example.com or +91987650132.
-TKT00134,CUST00358,ORD002696,2024-08-28,Fraud,High,Closed,Suspicious activity on my account related to order ORD002696. Contact me at user133@example.com or +91987650133.
-TKT00135,CUST00199,ORD001496,2024-12-28,Refund,Medium,Resolved,I want a refund for order ORD001496. Item was damaged. Contact me at user134@example.com or +91987650134.
-TKT00136,CUST00410,ORD003135,2024-12-16,Payment,Low,In Progress,Payment failed but amount debited for order ORD003135. Contact me at user135@example.com or +91987650135.
-TKT00137,CUST00152,ORD001163,2024-04-04,Delivery Delay,Medium,Open,Order ORD001163 is very late. Please help. Contact me at user136@example.com or +91987650136.
-TKT00138,CUST00203,ORD001523,2024-07-30,Fraud,Critical,Resolved,Suspicious activity on my account related to order ORD001523. Contact me at user137@example.com or +91987650137.
-TKT00139,CUST00352,ORD002641,2024-02-03,Delivery Delay,Critical,Closed,Order ORD002641 is very late. Please help. Contact me at user138@example.com or +91987650138.
-TKT00140,CUST00049,ORD000392,2024-01-22,Product Quality,Critical,Closed,Poor quality products in order ORD000392. Contact me at user139@example.com or +91987650139.
-TKT00141,CUST00225,ORD001699,2025-02-03,Delivery Delay,Low,Resolved,Order ORD001699 is very late. Please help. Contact me at user140@example.com or +91987650140.
-TKT00142,CUST00054,ORD000419,2024-11-26,Delivery Delay,Critical,Closed,Order ORD000419 is very late. Please help. Contact me at user141@example.com or +91987650141.
-TKT00143,CUST00316,ORD002337,2024-03-08,Payment,Low,In Progress,Payment failed but amount debited for order ORD002337. Contact me at user142@example.com or +91987650142.
-TKT00144,CUST00047,ORD000379,2025-05-08,Payment,Critical,In Progress,Payment failed but amount debited for order ORD000379. Contact me at user143@example.com or +91987650143.
-TKT00145,CUST00240,ORD001797,2024-08-24,Payment,High,Open,Payment failed but amount debited for order ORD001797. Contact me at user144@example.com or +91987650144.
-TKT00146,CUST00461,ORD003562,2024-05-30,Other,Low,Closed,General inquiry about order ORD003562. Contact me at user145@example.com or +91987650145.
-TKT00147,CUST00309,ORD002279,2024-09-30,Refund,Medium,Open,I want a refund for order ORD002279. Item was damaged. Contact me at user146@example.com or +91987650146.
-TKT00148,CUST00401,ORD003066,2024-02-14,Product Quality,High,Closed,Poor quality products in order ORD003066. Contact me at user147@example.com or +91987650147.
-TKT00149,CUST00281,ORD002089,2024-11-04,Refund,High,Open,I want a refund for order ORD002089. Item was damaged. Contact me at user148@example.com or +91987650148.
-TKT00150,CUST00407,ORD003100,2024-09-29,Product Quality,Critical,Closed,Poor quality products in order ORD003100. Contact me at user149@example.com or +91987650149.
-TKT00151,CUST00296,ORD002183,2024-03-16,Other,Low,In Progress,General inquiry about order ORD002183. Contact me at user150@example.com or +91987650150.
-TKT00152,CUST00029,ORD000201,2025-07-24,Payment,High,Open,Payment failed but amount debited for order ORD000201. Contact me at user151@example.com or +91987650151.
-TKT00153,CUST00249,ORD001864,2025-02-24,Other,High,Open,General inquiry about order ORD001864. Contact me at user152@example.com or +91987650152.
-TKT00154,CUST00101,ORD000780,2024-05-07,Delivery Delay,High,Closed,Order ORD000780 is very late. Please help. Contact me at user153@example.com or +91987650153.
-TKT00155,CUST00393,ORD002978,2024-11-08,Product Quality,Low,Resolved,Poor quality products in order ORD002978. Contact me at user154@example.com or +91987650154.
-TKT00156,CUST00407,ORD003105,2024-08-02,Product Quality,Low,Closed,Poor quality products in order ORD003105. Contact me at user155@example.com or +91987650155.
-TKT00157,CUST00408,ORD003120,2025-01-23,Other,High,In Progress,General inquiry about order ORD003120. Contact me at user156@example.com or +91987650156.
-TKT00158,CUST00066,ORD000503,2024-04-12,Delivery Delay,Medium,Closed,Order ORD000503 is very late. Please help. Contact me at user157@example.com or +91987650157.
-TKT00159,CUST00328,ORD002455,2024-10-08,Refund,Medium,In Progress,I want a refund for order ORD002455. Item was damaged. Contact me at user158@example.com or +91987650158.
-TKT00160,CUST00472,ORD003646,2024-11-29,App Issue,Critical,Resolved,App crashes when I track order ORD003646. Contact me at user159@example.com or +91987650159.
-TKT00161,CUST00233,ORD001752,2024-11-25,Delivery Delay,Medium,Closed,Order ORD001752 is very late. Please help. Contact me at user160@example.com or +91987650160.
-TKT00162,CUST00105,ORD000805,2024-04-11,Payment,Low,Open,Payment failed but amount debited for order ORD000805. Contact me at user161@example.com or +91987650161.
-TKT00163,CUST00291,ORD002147,2025-08-11,Fraud,Low,Open,Suspicious activity on my account related to order ORD002147. Contact me at user162@example.com or +91987650162.
-TKT00164,CUST00362,ORD002732,2024-04-17,Delivery Delay,Critical,Resolved,Order ORD002732 is very late. Please help. Contact me at user163@example.com or +91987650163.
-TKT00165,CUST00254,ORD001896,2025-04-09,Product Quality,Medium,In Progress,Poor quality products in order ORD001896. Contact me at user164@example.com or +91987650164.
-TKT00166,CUST00367,ORD002774,2025-09-11,Payment,Critical,Open,Payment failed but amount debited for order ORD002774. Contact me at user165@example.com or +91987650165.
-TKT00167,CUST00209,ORD001571,2025-03-09,App Issue,Critical,In Progress,App crashes when I track order ORD001571. Contact me at user166@example.com or +91987650166.
-TKT00168,CUST00125,ORD000961,2025-07-12,App Issue,Critical,Closed,App crashes when I track order ORD000961. Contact me at user167@example.com or +91987650167.
-TKT00169,CUST00497,ORD003811,2025-09-03,Other,Low,In Progress,General inquiry about order ORD003811. Contact me at user168@example.com or +91987650168.
-TKT00170,CUST00355,ORD002661,2025-08-09,Other,Low,Open,General inquiry about order ORD002661. Contact me at user169@example.com or +91987650169.
-TKT00171,CUST00199,ORD001486,2025-03-15,Payment,Medium,Resolved,Payment failed but amount debited for order ORD001486. Contact me at user170@example.com or +91987650170.
-TKT00172,CUST00358,ORD002691,2024-11-23,Payment,Low,Open,Payment failed but amount debited for order ORD002691. Contact me at user171@example.com or +91987650171.
-TKT00173,CUST00138,ORD001029,2025-08-31,Product Quality,Medium,Open,Poor quality products in order ORD001029. Contact me at user172@example.com or +91987650172.
-TKT00174,CUST00426,ORD003290,2024-06-27,Refund,High,Open,I want a refund for order ORD003290. Item was damaged. Contact me at user173@example.com or +91987650173.
-TKT00175,CUST00066,ORD000503,2024-04-12,Payment,Critical,Open,Payment failed but amount debited for order ORD000503. Contact me at user174@example.com or +91987650174.
-TKT00176,CUST00371,ORD002815,2024-09-12,Product Quality,Critical,In Progress,Poor quality products in order ORD002815. Contact me at user175@example.com or +91987650175.
-TKT00177,CUST00050,ORD000398,2024-03-21,Other,Medium,Open,General inquiry about order ORD000398. Contact me at user176@example.com or +91987650176.
-TKT00178,CUST00115,ORD000871,2025-05-08,Fraud,Critical,In Progress,Suspicious activity on my account related to order ORD000871. Contact me at user177@example.com or +91987650177.
-TKT00179,CUST00374,ORD002843,2024-02-21,Fraud,Low,Closed,Suspicious activity on my account related to order ORD002843. Contact me at user178@example.com or +91987650178.
-TKT00180,CUST00049,ORD000393,2024-09-28,Refund,High,Closed,I want a refund for order ORD000393. Item was damaged. Contact me at user179@example.com or +91987650179.
-TKT00181,CUST00030,ORD000207,2025-03-28,Other,Medium,In Progress,General inquiry about order ORD000207. Contact me at user180@example.com or +91987650180.
-TKT00182,CUST00139,ORD001039,2025-06-21,Payment,Critical,Open,Payment failed but amount debited for order ORD001039. Contact me at user181@example.com or +91987650181.
-TKT00183,CUST00251,ORD001882,2025-05-09,Delivery Delay,Low,Resolved,Order ORD001882 is very late. Please help. Contact me at user182@example.com or +91987650182.
-TKT00184,CUST00469,ORD003626,2025-07-20,Payment,High,In Progress,Payment failed but amount debited for order ORD003626. Contact me at user183@example.com or +91987650183.
-TKT00185,CUST00387,ORD002940,2024-02-13,Other,Low,In Progress,General inquiry about order ORD002940. Contact me at user184@example.com or +91987650184.
-TKT00186,CUST00198,ORD001485,2024-08-22,Refund,Medium,In Progress,I want a refund for order ORD001485. Item was damaged. Contact me at user185@example.com or +91987650185.
-TKT00187,CUST00490,ORD003763,2024-08-26,Delivery Delay,High,Resolved,Order ORD003763 is very late. Please help. Contact me at user186@example.com or +91987650186.
-TKT00188,CUST00472,ORD003647,2025-08-25,Refund,Critical,Resolved,I want a refund for order ORD003647. Item was damaged. Contact me at user187@example.com or +91987650187.
-TKT00189,CUST00114,ORD000864,2024-06-23,App Issue,Medium,Resolved,App crashes when I track order ORD000864. Contact me at user188@example.com or +91987650188.
-TKT00190,CUST00369,ORD002791,2024-07-20,Delivery Delay,Medium,Closed,Order ORD002791 is very late. Please help. Contact me at user189@example.com or +91987650189.
-TKT00191,CUST00428,ORD003313,2025-07-08,Product Quality,Low,Closed,Poor quality products in order ORD003313. Contact me at user190@example.com or +91987650190.
-TKT00192,CUST00072,ORD000564,2025-05-25,Other,High,Resolved,General inquiry about order ORD000564. Contact me at user191@example.com or +91987650191.
-TKT00193,CUST00138,ORD001021,2024-02-25,Refund,Medium,Resolved,I want a refund for order ORD001021. Item was damaged. Contact me at user192@example.com or +91987650192.
-TKT00194,CUST00016,ORD000096,2025-09-21,Other,Medium,Closed,General inquiry about order ORD000096. Contact me at user193@example.com or +91987650193.
-TKT00195,CUST00259,ORD001924,2025-03-31,App Issue,Critical,Open,App crashes when I track order ORD001924. Contact me at user194@example.com or +91987650194.
-TKT00196,CUST00233,ORD001758,2024-12-24,Product Quality,Medium,Open,Poor quality products in order ORD001758. Contact me at user195@example.com or +91987650195.
-TKT00197,CUST00339,ORD002533,2024-12-09,Fraud,High,Resolved,Suspicious activity on my account related to order ORD002533. Contact me at user196@example.com or +91987650196.
-TKT00198,CUST00450,ORD003479,2025-03-18,Other,Low,Open,General inquiry about order ORD003479. Contact me at user197@example.com or +91987650197.
-TKT00199,CUST00309,ORD002279,2024-09-30,Other,Medium,Closed,General inquiry about order ORD002279. Contact me at user198@example.com or +91987650198.
-TKT00200,CUST00370,ORD002797,2025-09-25,Fraud,Critical,In Progress,Suspicious activity on my account related to order ORD002797. Contact me at user199@example.com or +91987650199.
-TKT00201,CUST00222,ORD001679,2024-01-03,Delivery Delay,Critical,In Progress,Order ORD001679 is very late. Please help. Contact me at user200@example.com or +91987650200.
-TKT00202,CUST00422,ORD003243,2025-07-01,Fraud,Low,In Progress,Suspicious activity on my account related to order ORD003243. Contact me at user201@example.com or +91987650201.
-TKT00203,CUST00070,ORD000541,2024-12-05,Delivery Delay,Medium,Resolved,Order ORD000541 is very late. Please help. Contact me at user202@example.com or +91987650202.
-TKT00204,CUST00142,ORD001060,2025-09-03,Payment,High,Resolved,Payment failed but amount debited for order ORD001060. Contact me at user203@example.com or +91987650203.
-TKT00205,CUST00342,ORD002573,2024-02-29,Delivery Delay,Critical,In Progress,Order ORD002573 is very late. Please help. Contact me at user204@example.com or +91987650204.
-TKT00206,CUST00154,ORD001184,2024-04-18,Other,High,Resolved,General inquiry about order ORD001184. Contact me at user205@example.com or +91987650205.
-TKT00207,CUST00228,ORD001723,2024-01-17,Other,Critical,Open,General inquiry about order ORD001723. Contact me at user206@example.com or +91987650206.
-TKT00208,CUST00429,ORD003315,2025-03-19,Fraud,Medium,In Progress,Suspicious activity on my account related to order ORD003315. Contact me at user207@example.com or +91987650207.
-TKT00209,CUST00412,ORD003158,2024-07-01,Product Quality,Critical,Resolved,Poor quality products in order ORD003158. Contact me at user208@example.com or +91987650208.
-TKT00210,CUST00244,ORD001820,2024-12-03,Delivery Delay,Critical,Open,Order ORD001820 is very late. Please help. Contact me at user209@example.com or +91987650209.
-TKT00211,CUST00348,ORD002626,2025-06-23,App Issue,Critical,In Progress,App crashes when I track order ORD002626. Contact me at user210@example.com or +91987650210.
-TKT00212,CUST00362,ORD002730,2024-12-22,Other,Critical,Resolved,General inquiry about order ORD002730. Contact me at user211@example.com or +91987650211.
-TKT00213,CUST00347,ORD002605,2024-01-16,App Issue,Medium,Resolved,App crashes when I track order ORD002605. Contact me at user212@example.com or +91987650212.
-TKT00214,CUST00211,ORD001598,2024-01-26,Other,Low,In Progress,General inquiry about order ORD001598. Contact me at user213@example.com or +91987650213.
-TKT00215,CUST00401,ORD003061,2025-06-03,App Issue,High,In Progress,App crashes when I track order ORD003061. Contact me at user214@example.com or +91987650214.
-TKT00216,CUST00358,ORD002694,2025-08-15,App Issue,Critical,Open,App crashes when I track order ORD002694. Contact me at user215@example.com or +91987650215.
-TKT00217,CUST00104,ORD000796,2025-05-22,Product Quality,Medium,Resolved,Poor quality products in order ORD000796. Contact me at user216@example.com or +91987650216.
-TKT00218,CUST00141,ORD001052,2025-05-28,App Issue,Low,In Progress,App crashes when I track order ORD001052. Contact me at user217@example.com or +91987650217.
-TKT00219,CUST00217,ORD001644,2024-10-02,Product Quality,High,Resolved,Poor quality products in order ORD001644. Contact me at user218@example.com or +91987650218.
-TKT00220,CUST00469,ORD003628,2025-03-30,App Issue,Critical,In Progress,App crashes when I track order ORD003628. Contact me at user219@example.com or +91987650219.
-TKT00221,CUST00182,ORD001364,2024-08-02,Payment,Low,Open,Payment failed but amount debited for order ORD001364. Contact me at user220@example.com or +91987650220.
-TKT00222,CUST00268,ORD001982,2025-06-10,Delivery Delay,Medium,Open,Order ORD001982 is very late. Please help. Contact me at user221@example.com or +91987650221.
-TKT00223,CUST00179,ORD001355,2024-05-10,Refund,Medium,In Progress,I want a refund for order ORD001355. Item was damaged. Contact me at user222@example.com or +91987650222.
-TKT00224,CUST00219,ORD001664,2024-09-09,App Issue,High,Open,App crashes when I track order ORD001664. Contact me at user223@example.com or +91987650223.
-TKT00225,CUST00204,ORD001530,2024-10-21,Refund,High,Open,I want a refund for order ORD001530. Item was damaged. Contact me at user224@example.com or +91987650224.
-TKT00226,CUST00276,ORD002039,2025-04-08,Fraud,Critical,Resolved,Suspicious activity on my account related to order ORD002039. Contact me at user225@example.com or +91987650225.
-TKT00227,CUST00444,ORD003420,2025-04-18,App Issue,High,In Progress,App crashes when I track order ORD003420. Contact me at user226@example.com or +91987650226.
-TKT00228,CUST00199,ORD001497,2024-10-25,Product Quality,Critical,Open,Poor quality products in order ORD001497. Contact me at user227@example.com or +91987650227.
-TKT00229,CUST00428,ORD003303,2025-05-27,Delivery Delay,Critical,In Progress,Order ORD003303 is very late. Please help. Contact me at user228@example.com or +91987650228.
-TKT00230,CUST00303,ORD002238,2024-02-29,Refund,High,Resolved,I want a refund for order ORD002238. Item was damaged. Contact me at user229@example.com or +91987650229.
-TKT00231,CUST00427,ORD003297,2025-06-08,Refund,High,Resolved,I want a refund for order ORD003297. Item was damaged. Contact me at user230@example.com or +91987650230.
-TKT00232,CUST00189,ORD001409,2025-03-12,Other,Low,Open,General inquiry about order ORD001409. Contact me at user231@example.com or +91987650231.
-TKT00233,CUST00188,ORD001401,2024-11-21,App Issue,Low,Open,App crashes when I track order ORD001401. Contact me at user232@example.com or +91987650232.
-TKT00234,CUST00174,ORD001307,2025-01-22,Other,Critical,In Progress,General inquiry about order ORD001307. Contact me at user233@example.com or +91987650233.
-TKT00235,CUST00357,ORD002681,2025-03-14,Other,Low,Open,General inquiry about order ORD002681. Contact me at user234@example.com or +91987650234.
-TKT00236,CUST00356,ORD002676,2024-07-01,Product Quality,Low,Open,Poor quality products in order ORD002676. Contact me at user235@example.com or +91987650235.
-TKT00237,CUST00127,ORD000973,2025-06-11,Refund,Critical,Resolved,I want a refund for order ORD000973. Item was damaged. Contact me at user236@example.com or +91987650236.
-TKT00238,CUST00234,ORD001769,2025-03-17,Other,High,Open,General inquiry about order ORD001769. Contact me at user237@example.com or +91987650237.
-TKT00239,CUST00171,ORD001283,2024-08-03,App Issue,Medium,Open,App crashes when I track order ORD001283. Contact me at user238@example.com or +91987650238.
-TKT00240,CUST00445,ORD003431,2025-08-03,App Issue,Critical,Open,App crashes when I track order ORD003431. Contact me at user239@example.com or +91987650239.
-TKT00241,CUST00092,ORD000710,2024-01-06,Delivery Delay,Medium,In Progress,Order ORD000710 is very late. Please help. Contact me at user240@example.com or +91987650240.
-TKT00242,CUST00198,ORD001480,2025-01-03,Delivery Delay,High,Closed,Order ORD001480 is very late. Please help. Contact me at user241@example.com or +91987650241.
-TKT00243,CUST00191,ORD001435,2025-07-08,Product Quality,Medium,Closed,Poor quality products in order ORD001435. Contact me at user242@example.com or +91987650242.
-TKT00244,CUST00085,ORD000649,2025-07-23,Other,Low,Open,General inquiry about order ORD000649. Contact me at user243@example.com or +91987650243.
-TKT00245,CUST00041,ORD000318,2024-04-28,Payment,High,Closed,Payment failed but amount debited for order ORD000318. Contact me at user244@example.com or +91987650244.
-TKT00246,CUST00487,ORD003749,2024-09-05,Payment,Critical,Resolved,Payment failed but amount debited for order ORD003749. Contact me at user245@example.com or +91987650245.
-TKT00247,CUST00427,ORD003297,2025-06-08,Refund,High,Closed,I want a refund for order ORD003297. Item was damaged. Contact me at user246@example.com or +91987650246.
-TKT00248,CUST00167,ORD001258,2024-09-27,Product Quality,Low,Resolved,Poor quality products in order ORD001258. Contact me at user247@example.com or +91987650247.
-TKT00249,CUST00090,ORD000684,2025-06-12,Delivery Delay,Medium,Open,Order ORD000684 is very late. Please help. Contact me at user248@example.com or +91987650248.
-TKT00250,CUST00086,ORD000664,2024-07-01,Delivery Delay,Critical,Resolved,Order ORD000664 is very late. Please help. Contact me at user249@example.com or +91987650249.
-TKT00251,CUST00272,ORD001999,2025-10-01,Fraud,Low,Open,Suspicious activity on my account related to order ORD001999. Contact me at user250@example.com or +91987650250.
-TKT00252,CUST00447,ORD003446,2024-05-22,Payment,Low,Resolved,Payment failed but amount debited for order ORD003446. Contact me at user251@example.com or +91987650251.
-TKT00253,CUST00485,ORD003744,2024-01-28,Delivery Delay,Low,In Progress,Order ORD003744 is very late. Please help. Contact me at user252@example.com or +91987650252.
-TKT00254,CUST00215,ORD001632,2025-01-03,Refund,Low,Closed,I want a refund for order ORD001632. Item was damaged. Contact me at user253@example.com or +91987650253.
-TKT00255,CUST00199,ORD001496,2024-12-28,Other,Medium,In Progress,General inquiry about order ORD001496. Contact me at user254@example.com or +91987650254.
-TKT00256,CUST00428,ORD003305,2025-05-20,Delivery Delay,High,Closed,Order ORD003305 is very late. Please help. Contact me at user255@example.com or +91987650255.
-TKT00257,CUST00490,ORD003764,2024-08-13,Fraud,High,Open,Suspicious activity on my account related to order ORD003764. Contact me at user256@example.com or +91987650256.
-TKT00258,CUST00150,ORD001137,2024-03-30,Product Quality,Low,Open,Poor quality products in order ORD001137. Contact me at user257@example.com or +91987650257.
-TKT00259,CUST00248,ORD001854,2025-01-21,Refund,High,Open,I want a refund for order ORD001854. Item was damaged. Contact me at user258@example.com or +91987650258.
-TKT00260,CUST00202,ORD001521,2025-09-26,Product Quality,Low,Closed,Poor quality products in order ORD001521. Contact me at user259@example.com or +91987650259.
-TKT00261,CUST00333,ORD002490,2024-10-27,Refund,High,Resolved,I want a refund for order ORD002490. Item was damaged. Contact me at user260@example.com or +91987650260.
-TKT00262,CUST00072,ORD000564,2025-05-25,Fraud,High,Resolved,Suspicious activity on my account related to order ORD000564. Contact me at user261@example.com or +91987650261.
-TKT00263,CUST00172,ORD001292,2024-10-02,Payment,Low,Open,Payment failed but amount debited for order ORD001292. Contact me at user262@example.com or +91987650262.
-TKT00264,CUST00463,ORD003582,2024-05-06,Refund,Critical,Closed,I want a refund for order ORD003582. Item was damaged. Contact me at user263@example.com or +91987650263.
-TKT00265,CUST00448,ORD003458,2025-03-02,Delivery Delay,High,Open,Order ORD003458 is very late. Please help. Contact me at user264@example.com or +91987650264.
-TKT00266,CUST00448,ORD003459,2025-05-01,Delivery Delay,Low,Closed,Order ORD003459 is very late. Please help. Contact me at user265@example.com or +91987650265.
-TKT00267,CUST00415,ORD003185,2024-05-15,Delivery Delay,Medium,Closed,Order ORD003185 is very late. Please help. Contact me at user266@example.com or +91987650266.
-TKT00268,CUST00216,ORD001637,2024-12-21,App Issue,Medium,Open,App crashes when I track order ORD001637. Contact me at user267@example.com or +91987650267.
-TKT00269,CUST00480,ORD003697,2024-03-16,Delivery Delay,Medium,In Progress,Order ORD003697 is very late. Please help. Contact me at user268@example.com or +91987650268.
-TKT00270,CUST00396,ORD003000,2025-06-10,Payment,Medium,In Progress,Payment failed but amount debited for order ORD003000. Contact me at user269@example.com or +91987650269.
-TKT00271,CUST00411,ORD003153,2024-02-03,Product Quality,Low,Resolved,Poor quality products in order ORD003153. Contact me at user270@example.com or +91987650270.
-TKT00272,CUST00091,ORD000699,2025-04-07,Fraud,Critical,Closed,Suspicious activity on my account related to order ORD000699. Contact me at user271@example.com or +91987650271.
-TKT00273,CUST00293,ORD002161,2024-10-26,App Issue,High,Open,App crashes when I track order ORD002161. Contact me at user272@example.com or +91987650272.
-TKT00274,CUST00001,ORD000002,2025-07-31,App Issue,Medium,Open,App crashes when I track order ORD000002. Contact me at user273@example.com or +91987650273.
-TKT00275,CUST00084,ORD000642,2025-05-13,App Issue,High,Open,App crashes when I track order ORD000642. Contact me at user274@example.com or +91987650274.
-TKT00276,CUST00308,ORD002268,2024-02-27,Payment,Critical,In Progress,Payment failed but amount debited for order ORD002268. Contact me at user275@example.com or +91987650275.
-TKT00277,CUST00211,ORD001590,2024-01-24,Delivery Delay,Critical,Resolved,Order ORD001590 is very late. Please help. Contact me at user276@example.com or +91987650276.
-TKT00278,CUST00112,ORD000855,2025-08-27,Other,Low,Resolved,General inquiry about order ORD000855. Contact me at user277@example.com or +91987650277.
-TKT00279,CUST00234,ORD001760,2024-07-29,Product Quality,Medium,Resolved,Poor quality products in order ORD001760. Contact me at user278@example.com or +91987650278.
-TKT00280,CUST00427,ORD003297,2025-06-08,Fraud,Medium,Closed,Suspicious activity on my account related to order ORD003297. Contact me at user279@example.com or +91987650279.
-TKT00281,CUST00325,ORD002433,2025-01-18,Other,High,Open,General inquiry about order ORD002433. Contact me at user280@example.com or +91987650280.
-TKT00282,CUST00449,ORD003475,2025-01-15,Refund,Medium,Open,I want a refund for order ORD003475. Item was damaged. Contact me at user281@example.com or +91987650281.
-TKT00283,CUST00219,ORD001662,2024-11-05,Product Quality,Low,In Progress,Poor quality products in order ORD001662. Contact me at user282@example.com or +91987650282.
-TKT00284,CUST00151,ORD001154,2024-11-20,Refund,High,Open,I want a refund for order ORD001154. Item was damaged. Contact me at user283@example.com or +91987650283.
-TKT00285,CUST00143,ORD001077,2024-03-21,App Issue,High,Open,App crashes when I track order ORD001077. Contact me at user284@example.com or +91987650284.
-TKT00286,CUST00226,ORD001708,2024-12-17,Delivery Delay,High,Open,Order ORD001708 is very late. Please help. Contact me at user285@example.com or +91987650285.
-TKT00287,CUST00367,ORD002778,2024-07-31,App Issue,High,Closed,App crashes when I track order ORD002778. Contact me at user286@example.com or +91987650286.
-TKT00288,CUST00224,ORD001696,2024-03-16,App Issue,Low,In Progress,App crashes when I track order ORD001696. Contact me at user287@example.com or +91987650287.
-TKT00289,CUST00229,ORD001734,2025-08-24,App Issue,Low,Closed,App crashes when I track order ORD001734. Contact me at user288@example.com or +91987650288.
-TKT00290,CUST00193,ORD001440,2024-04-25,Payment,High,Closed,Payment failed but amount debited for order ORD001440. Contact me at user289@example.com or +91987650289.
-TKT00291,CUST00311,ORD002295,2025-01-24,Delivery Delay,High,In Progress,Order ORD002295 is very late. Please help. Contact me at user290@example.com or +91987650290.
-TKT00292,CUST00109,ORD000836,2024-09-16,Product Quality,Medium,Open,Poor quality products in order ORD000836. Contact me at user291@example.com or +91987650291.
-TKT00293,CUST00455,ORD003511,2025-03-16,Payment,High,In Progress,Payment failed but amount debited for order ORD003511. Contact me at user292@example.com or +91987650292.
-TKT00294,CUST00030,ORD000203,2024-05-06,Payment,Medium,Open,Payment failed but amount debited for order ORD000203. Contact me at user293@example.com or +91987650293.
-TKT00295,CUST00423,ORD003256,2024-09-16,Other,High,Closed,General inquiry about order ORD003256. Contact me at user294@example.com or +91987650294.
-TKT00296,CUST00019,ORD000123,2024-03-06,Refund,Low,Resolved,I want a refund for order ORD000123. Item was damaged. Contact me at user295@example.com or +91987650295.
-TKT00297,CUST00051,ORD000401,2024-11-08,Payment,Critical,Resolved,Payment failed but amount debited for order ORD000401. Contact me at user296@example.com or +91987650296.
-TKT00298,CUST00098,ORD000767,2025-03-19,Delivery Delay,Critical,Resolved,Order ORD000767 is very late. Please help. Contact me at user297@example.com or +91987650297.
-TKT00299,CUST00040,ORD000294,2024-05-16,Fraud,High,Resolved,Suspicious activity on my account related to order ORD000294. Contact me at user298@example.com or +91987650298.
-TKT00300,CUST00315,ORD002328,2025-07-29,Refund,Medium,Resolved,I want a refund for order ORD002328. Item was damaged. Contact me at user299@example.com or +91987650299.
-TKT00301,CUST00386,ORD002932,2024-09-17,Payment,High,In Progress,Payment failed but amount debited for order ORD002932. Contact me at user300@example.com or +91987650300.
-TKT00302,CUST00479,ORD003682,2024-03-29,Other,Medium,Open,General inquiry about order ORD003682. Contact me at user301@example.com or +91987650301.
-TKT00303,CUST00029,ORD000198,2024-11-13,Other,Low,Closed,General inquiry about order ORD000198. Contact me at user302@example.com or +91987650302.
-TKT00304,CUST00398,ORD003030,2024-01-10,Product Quality,High,Resolved,Poor quality products in order ORD003030. Contact me at user303@example.com or +91987650303.
-TKT00305,CUST00260,ORD001931,2024-06-12,Refund,High,Open,I want a refund for order ORD001931. Item was damaged. Contact me at user304@example.com or +91987650304.
-TKT00306,CUST00463,ORD003583,2024-10-13,Delivery Delay,Medium,Open,Order ORD003583 is very late. Please help. Contact me at user305@example.com or +91987650305.
-TKT00307,CUST00370,ORD002800,2025-02-26,Payment,Critical,In Progress,Payment failed but amount debited for order ORD002800. Contact me at user306@example.com or +91987650306.
-TKT00308,CUST00297,ORD002192,2024-02-12,Product Quality,Low,Closed,Poor quality products in order ORD002192. Contact me at user307@example.com or +91987650307.
-TKT00309,CUST00081,ORD000609,2024-07-06,Product Quality,Low,Resolved,Poor quality products in order ORD000609. Contact me at user308@example.com or +91987650308.
-TKT00310,CUST00424,ORD003273,2024-03-27,Fraud,Low,Resolved,Suspicious activity on my account related to order ORD003273. Contact me at user309@example.com or +91987650309.
-TKT00311,CUST00151,ORD001148,2024-07-25,Other,High,Resolved,General inquiry about order ORD001148. Contact me at user310@example.com or +91987650310.
-TKT00312,CUST00028,ORD000187,2024-01-26,Refund,Low,In Progress,I want a refund for order ORD000187. Item was damaged. Contact me at user311@example.com or +91987650311.
-TKT00313,CUST00439,ORD003398,2025-02-03,Other,Low,Open,General inquiry about order ORD003398. Contact me at user312@example.com or +91987650312.
-TKT00314,CUST00336,ORD002512,2024-02-16,Refund,High,Open,I want a refund for order ORD002512. Item was damaged. Contact me at user313@example.com or +91987650313.
-TKT00315,CUST00444,ORD003421,2025-02-22,Other,Critical,Resolved,General inquiry about order ORD003421. Contact me at user314@example.com or +91987650314.
-TKT00316,CUST00240,ORD001795,2024-08-01,Fraud,Low,Resolved,Suspicious activity on my account related to order ORD001795. Contact me at user315@example.com or +91987650315.
-TKT00317,CUST00086,ORD000660,2024-10-09,App Issue,Critical,In Progress,App crashes when I track order ORD000660. Contact me at user316@example.com or +91987650316.
-TKT00318,CUST00371,ORD002812,2024-09-30,Delivery Delay,High,Resolved,Order ORD002812 is very late. Please help. Contact me at user317@example.com or +91987650317.
-TKT00319,CUST00397,ORD003003,2024-09-21,Other,Low,Resolved,General inquiry about order ORD003003. Contact me at user318@example.com or +91987650318.
-TKT00320,CUST00264,ORD001956,2024-03-26,Other,Low,Open,General inquiry about order ORD001956. Contact me at user319@example.com or +91987650319.
-TKT00321,CUST00327,ORD002451,2025-06-19,Fraud,Critical,Closed,Suspicious activity on my account related to order ORD002451. Contact me at user320@example.com or +91987650320.
-TKT00322,CUST00183,ORD001370,2025-07-09,Payment,Medium,Open,Payment failed but amount debited for order ORD001370. Contact me at user321@example.com or +91987650321.
-TKT00323,CUST00270,ORD001987,2025-09-14,Delivery Delay,High,Closed,Order ORD001987 is very late. Please help. Contact me at user322@example.com or +91987650322.
-TKT00324,CUST00206,ORD001535,2024-01-11,Payment,High,Resolved,Payment failed but amount debited for order ORD001535. Contact me at user323@example.com or +91987650323.
-TKT00325,CUST00022,ORD000147,2025-01-16,Payment,Medium,Closed,Payment failed but amount debited for order ORD000147. Contact me at user324@example.com or +91987650324.
-TKT00326,CUST00419,ORD003220,2025-01-22,Refund,Low,In Progress,I want a refund for order ORD003220. Item was damaged. Contact me at user325@example.com or +91987650325.
-TKT00327,CUST00383,ORD002912,2024-06-30,Refund,High,Open,I want a refund for order ORD002912. Item was damaged. Contact me at user326@example.com or +91987650326.
-TKT00328,CUST00229,ORD001735,2024-01-30,Product Quality,Low,Resolved,Poor quality products in order ORD001735. Contact me at user327@example.com or +91987650327.
-TKT00329,CUST00247,ORD001844,2024-10-12,Other,Critical,Closed,General inquiry about order ORD001844. Contact me at user328@example.com or +91987650328.
-TKT00330,CUST00064,ORD000489,2024-10-15,App Issue,High,Resolved,App crashes when I track order ORD000489. Contact me at user329@example.com or +91987650329.
-TKT00331,CUST00392,ORD002977,2025-01-05,Other,High,In Progress,General inquiry about order ORD002977. Contact me at user330@example.com or +91987650330.
-TKT00332,CUST00266,ORD001960,2025-01-25,Fraud,High,Closed,Suspicious activity on my account related to order ORD001960. Contact me at user331@example.com or +91987650331.
-TKT00333,CUST00219,ORD001664,2024-09-09,Payment,High,Resolved,Payment failed but amount debited for order ORD001664. Contact me at user332@example.com or +91987650332.
-TKT00334,CUST00346,ORD002599,2025-05-18,Product Quality,Critical,Open,Poor quality products in order ORD002599. Contact me at user333@example.com or +91987650333.
-TKT00335,CUST00320,ORD002386,2024-10-01,App Issue,Medium,In Progress,App crashes when I track order ORD002386. Contact me at user334@example.com or +91987650334.
-TKT00336,CUST00384,ORD002920,2025-05-30,Payment,Low,In Progress,Payment failed but amount debited for order ORD002920. Contact me at user335@example.com or +91987650335.
-TKT00337,CUST00084,ORD000641,2025-01-24,Refund,Low,Resolved,I want a refund for order ORD000641. Item was damaged. Contact me at user336@example.com or +91987650336.
-TKT00338,CUST00242,ORD001803,2025-03-24,App Issue,Medium,Resolved,App crashes when I track order ORD001803. Contact me at user337@example.com or +91987650337.
-TKT00339,CUST00338,ORD002521,2024-03-05,App Issue,High,Resolved,App crashes when I track order ORD002521. Contact me at user338@example.com or +91987650338.
-TKT00340,CUST00268,ORD001970,2025-01-04,Payment,Low,Open,Payment failed but amount debited for order ORD001970. Contact me at user339@example.com or +91987650339.
-TKT00341,CUST00297,ORD002199,2024-03-03,Payment,Critical,Closed,Payment failed but amount debited for order ORD002199. Contact me at user340@example.com or +91987650340.
-TKT00342,CUST00193,ORD001439,2024-08-16,Refund,Critical,Closed,I want a refund for order ORD001439. Item was damaged. Contact me at user341@example.com or +91987650341.
-TKT00343,CUST00436,ORD003370,2024-04-09,Payment,Critical,Resolved,Payment failed but amount debited for order ORD003370. Contact me at user342@example.com or +91987650342.
-TKT00344,CUST00215,ORD001635,2024-11-10,Payment,High,Resolved,Payment failed but amount debited for order ORD001635. Contact me at user343@example.com or +91987650343.
-TKT00345,CUST00037,ORD000263,2024-11-18,Other,Critical,Resolved,General inquiry about order ORD000263. Contact me at user344@example.com or +91987650344.
-TKT00346,CUST00239,ORD001788,2025-03-19,Payment,High,In Progress,Payment failed but amount debited for order ORD001788. Contact me at user345@example.com or +91987650345.
-TKT00347,CUST00297,ORD002192,2024-02-12,Refund,Critical,In Progress,I want a refund for order ORD002192. Item was damaged. Contact me at user346@example.com or +91987650346.
-TKT00348,CUST00322,ORD002394,2024-03-29,App Issue,Low,Resolved,App crashes when I track order ORD002394. Contact me at user347@example.com or +91987650347.
-TKT00349,CUST00082,ORD000624,2024-11-23,Product Quality,Critical,Resolved,Poor quality products in order ORD000624. Contact me at user348@example.com or +91987650348.
-TKT00350,CUST00136,ORD001017,2025-09-08,Payment,Critical,In Progress,Payment failed but amount debited for order ORD001017. Contact me at user349@example.com or +91987650349.
-TKT00351,CUST00472,ORD003644,2024-06-24,App Issue,Medium,Open,App crashes when I track order ORD003644. Contact me at user350@example.com or +91987650350.
-TKT00352,CUST00115,ORD000881,2025-08-10,Payment,High,Closed,Payment failed but amount debited for order ORD000881. Contact me at user351@example.com or +91987650351.
-TKT00353,CUST00277,ORD002050,2025-02-06,Fraud,High,Resolved,Suspicious activity on my account related to order ORD002050. Contact me at user352@example.com or +91987650352.
-TKT00354,CUST00387,ORD002945,2024-07-07,App Issue,Critical,Resolved,App crashes when I track order ORD002945. Contact me at user353@example.com or +91987650353.
-TKT00355,CUST00176,ORD001328,2025-01-17,Other,Low,Resolved,General inquiry about order ORD001328. Contact me at user354@example.com or +91987650354.
-TKT00356,CUST00311,ORD002302,2025-07-06,Fraud,Low,In Progress,Suspicious activity on my account related to order ORD002302. Contact me at user355@example.com or +91987650355.
-TKT00357,CUST00482,ORD003724,2025-06-01,Fraud,Critical,Resolved,Suspicious activity on my account related to order ORD003724. Contact me at user356@example.com or +91987650356.
-TKT00358,CUST00060,ORD000453,2025-01-03,Other,Low,In Progress,General inquiry about order ORD000453. Contact me at user357@example.com or +91987650357.
-TKT00359,CUST00407,ORD003109,2024-09-17,Product Quality,Medium,In Progress,Poor quality products in order ORD003109. Contact me at user358@example.com or +91987650358.
-TKT00360,CUST00154,ORD001184,2024-04-18,Other,High,Open,General inquiry about order ORD001184. Contact me at user359@example.com or +91987650359.
-TKT00361,CUST00401,ORD003063,2024-06-03,Fraud,High,Resolved,Suspicious activity on my account related to order ORD003063. Contact me at user360@example.com or +91987650360.
-TKT00362,CUST00278,ORD002057,2024-05-17,Other,High,Open,General inquiry about order ORD002057. Contact me at user361@example.com or +91987650361.
-TKT00363,CUST00428,ORD003305,2025-05-20,Product Quality,Low,Closed,Poor quality products in order ORD003305. Contact me at user362@example.com or +91987650362.
-TKT00364,CUST00413,ORD003171,2024-03-03,Payment,Medium,Closed,Payment failed but amount debited for order ORD003171. Contact me at user363@example.com or +91987650363.
-TKT00365,CUST00223,ORD001683,2025-08-26,Fraud,Low,In Progress,Suspicious activity on my account related to order ORD001683. Contact me at user364@example.com or +91987650364.
-TKT00366,CUST00376,ORD002864,2025-03-16,Fraud,High,In Progress,Suspicious activity on my account related to order ORD002864. Contact me at user365@example.com or +91987650365.
-TKT00367,CUST00306,ORD002256,2024-06-07,Product Quality,Critical,Resolved,Poor quality products in order ORD002256. Contact me at user366@example.com or +91987650366.
-TKT00368,CUST00152,ORD001155,2024-10-23,Other,Low,Resolved,General inquiry about order ORD001155. Contact me at user367@example.com or +91987650367.
-TKT00369,CUST00051,ORD000404,2024-03-16,Delivery Delay,Low,Open,Order ORD000404 is very late. Please help. Contact me at user368@example.com or +91987650368.
-TKT00370,CUST00297,ORD002200,2024-01-15,Payment,Medium,Resolved,Payment failed but amount debited for order ORD002200. Contact me at user369@example.com or +91987650369.
-TKT00371,CUST00284,ORD002102,2024-12-18,Payment,Medium,Resolved,Payment failed but amount debited for order ORD002102. Contact me at user370@example.com or +91987650370.
-TKT00372,CUST00416,ORD003192,2025-04-08,Product Quality,Medium,Open,Poor quality products in order ORD003192. Contact me at user371@example.com or +91987650371.
-TKT00373,CUST00225,ORD001697,2024-11-24,Delivery Delay,Critical,Closed,Order ORD001697 is very late. Please help. Contact me at user372@example.com or +91987650372.
-TKT00374,CUST00082,ORD000628,2024-01-02,App Issue,Critical,Open,App crashes when I track order ORD000628. Contact me at user373@example.com or +91987650373.
-TKT00375,CUST00076,ORD000587,2025-08-06,Fraud,Medium,Open,Suspicious activity on my account related to order ORD000587. Contact me at user374@example.com or +91987650374.
-TKT00376,CUST00217,ORD001649,2025-02-17,Refund,Low,Resolved,I want a refund for order ORD001649. Item was damaged. Contact me at user375@example.com or +91987650375.
-TKT00377,CUST00194,ORD001444,2024-10-31,App Issue,Medium,Resolved,App crashes when I track order ORD001444. Contact me at user376@example.com or +91987650376.
-TKT00378,CUST00194,ORD001446,2024-01-07,Payment,Low,In Progress,Payment failed but amount debited for order ORD001446. Contact me at user377@example.com or +91987650377.
-TKT00379,CUST00016,ORD000104,2025-07-01,Refund,Critical,Closed,I want a refund for order ORD000104. Item was damaged. Contact me at user378@example.com or +91987650378.
-TKT00380,CUST00036,ORD000254,2025-07-11,Fraud,Medium,Resolved,Suspicious activity on my account related to order ORD000254. Contact me at user379@example.com or +91987650379.
-TKT00381,CUST00427,ORD003299,2025-09-21,Refund,Critical,Open,I want a refund for order ORD003299. Item was damaged. Contact me at user380@example.com or +91987650380.
-TKT00382,CUST00415,ORD003184,2025-02-03,Delivery Delay,High,Closed,Order ORD003184 is very late. Please help. Contact me at user381@example.com or +91987650381.
-TKT00383,CUST00341,ORD002558,2024-06-23,Payment,High,Resolved,Payment failed but amount debited for order ORD002558. Contact me at user382@example.com or +91987650382.
-TKT00384,CUST00199,ORD001497,2024-10-25,Refund,Critical,Resolved,I want a refund for order ORD001497. Item was damaged. Contact me at user383@example.com or +91987650383.
-TKT00385,CUST00016,ORD000099,2024-02-18,Refund,Low,Resolved,I want a refund for order ORD000099. Item was damaged. Contact me at user384@example.com or +91987650384.
-TKT00386,CUST00297,ORD002201,2025-02-15,Payment,Medium,In Progress,Payment failed but amount debited for order ORD002201. Contact me at user385@example.com or +91987650385.
-TKT00387,CUST00252,ORD001885,2025-07-29,Other,Medium,Resolved,General inquiry about order ORD001885. Contact me at user386@example.com or +91987650386.
-TKT00388,CUST00390,ORD002962,2025-05-21,Delivery Delay,Critical,In Progress,Order ORD002962 is very late. Please help. Contact me at user387@example.com or +91987650387.
-TKT00389,CUST00257,ORD001920,2024-11-01,Payment,Low,In Progress,Payment failed but amount debited for order ORD001920. Contact me at user388@example.com or +91987650388.
-TKT00390,CUST00115,ORD000878,2025-03-07,Refund,Critical,Resolved,I want a refund for order ORD000878. Item was damaged. Contact me at user389@example.com or +91987650389.
-TKT00391,CUST00043,ORD000338,2025-08-18,Refund,High,In Progress,I want a refund for order ORD000338. Item was damaged. Contact me at user390@example.com or +91987650390.
-TKT00392,CUST00491,ORD003778,2024-04-27,Product Quality,Medium,Resolved,Poor quality products in order ORD003778. Contact me at user391@example.com or +91987650391.
-TKT00393,CUST00377,ORD002870,2025-09-15,App Issue,Critical,In Progress,App crashes when I track order ORD002870. Contact me at user392@example.com or +91987650392.
-TKT00394,CUST00420,ORD003235,2024-07-14,Delivery Delay,Low,In Progress,Order ORD003235 is very late. Please help. Contact me at user393@example.com or +91987650393.
-TKT00395,CUST00494,ORD003792,2024-06-04,Other,Critical,Open,General inquiry about order ORD003792. Contact me at user394@example.com or +91987650394.
-TKT00396,CUST00125,ORD000957,2024-01-24,Payment,Low,In Progress,Payment failed but amount debited for order ORD000957. Contact me at user395@example.com or +91987650395.
-TKT00397,CUST00226,ORD001705,2025-02-05,Delivery Delay,Medium,Open,Order ORD001705 is very late. Please help. Contact me at user396@example.com or +91987650396.
-TKT00398,CUST00024,ORD000161,2024-11-08,Other,Low,Open,General inquiry about order ORD000161. Contact me at user397@example.com or +91987650397.
-TKT00399,CUST00212,ORD001604,2024-06-15,Product Quality,Critical,Closed,Poor quality products in order ORD001604. Contact me at user398@example.com or +91987650398.
-TKT00400,CUST00374,ORD002849,2025-05-04,Delivery Delay,High,Closed,Order ORD002849 is very late. Please help. Contact me at user399@example.com or +91987650399.
-TKT00401,CUST00050,ORD000398,2024-03-21,Other,Medium,In Progress,General inquiry about order ORD000398. Contact me at user400@example.com or +91987650400.
-TKT00402,CUST00173,ORD001301,2025-09-06,Fraud,Medium,Closed,Suspicious activity on my account related to order ORD001301. Contact me at user401@example.com or +91987650401.
-TKT00403,CUST00107,ORD000816,2025-01-10,Fraud,High,In Progress,Suspicious activity on my account related to order ORD000816. Contact me at user402@example.com or +91987650402.
-TKT00404,CUST00203,ORD001528,2024-07-22,Product Quality,Critical,Closed,Poor quality products in order ORD001528. Contact me at user403@example.com or +91987650403.
-TKT00405,CUST00257,ORD001920,2024-11-01,App Issue,Critical,In Progress,App crashes when I track order ORD001920. Contact me at user404@example.com or +91987650404.
-TKT00406,CUST00190,ORD001416,2024-07-05,Product Quality,Low,Resolved,Poor quality products in order ORD001416. Contact me at user405@example.com or +91987650405.
-TKT00407,CUST00152,ORD001159,2024-02-18,Payment,High,In Progress,Payment failed but amount debited for order ORD001159. Contact me at user406@example.com or +91987650406.
-TKT00408,CUST00161,ORD001219,2025-05-07,Refund,Low,Open,I want a refund for order ORD001219. Item was damaged. Contact me at user407@example.com or +91987650407.
-TKT00409,CUST00051,ORD000401,2024-11-08,App Issue,Medium,Resolved,App crashes when I track order ORD000401. Contact me at user408@example.com or +91987650408.
-TKT00410,CUST00084,ORD000640,2025-02-27,Delivery Delay,Medium,In Progress,Order ORD000640 is very late. Please help. Contact me at user409@example.com or +91987650409.
-TKT00411,CUST00407,ORD003105,2024-08-02,Product Quality,Low,Resolved,Poor quality products in order ORD003105. Contact me at user410@example.com or +91987650410.
-TKT00412,CUST00363,ORD002736,2025-01-25,Other,Critical,Open,General inquiry about order ORD002736. Contact me at user411@example.com or +91987650411.
-TKT00413,CUST00061,ORD000460,2025-08-25,Other,Medium,In Progress,General inquiry about order ORD000460. Contact me at user412@example.com or +91987650412.
-TKT00414,CUST00124,ORD000955,2025-01-17,App Issue,Medium,In Progress,App crashes when I track order ORD000955. Contact me at user413@example.com or +91987650413.
-TKT00415,CUST00062,ORD000470,2024-07-25,Refund,Low,In Progress,I want a refund for order ORD000470. Item was damaged. Contact me at user414@example.com or +91987650414.
-TKT00416,CUST00448,ORD003447,2024-05-10,Delivery Delay,Medium,In Progress,Order ORD003447 is very late. Please help. Contact me at user415@example.com or +91987650415.
-TKT00417,CUST00140,ORD001046,2024-04-27,Fraud,Medium,Closed,Suspicious activity on my account related to order ORD001046. Contact me at user416@example.com or +91987650416.
-TKT00418,CUST00370,ORD002798,2025-04-17,Payment,Medium,Closed,Payment failed but amount debited for order ORD002798. Contact me at user417@example.com or +91987650417.
-TKT00419,CUST00224,ORD001694,2025-09-16,Refund,Low,Closed,I want a refund for order ORD001694. Item was damaged. Contact me at user418@example.com or +91987650418.
-TKT00420,CUST00281,ORD002086,2024-08-21,Delivery Delay,Low,In Progress,Order ORD002086 is very late. Please help. Contact me at user419@example.com or +91987650419.
-TKT00421,CUST00309,ORD002278,2024-01-27,Delivery Delay,Low,Resolved,Order ORD002278 is very late. Please help. Contact me at user420@example.com or +91987650420.
-TKT00422,CUST00446,ORD003437,2025-04-25,Product Quality,Low,Closed,Poor quality products in order ORD003437. Contact me at user421@example.com or +91987650421.
-TKT00423,CUST00071,ORD000563,2025-04-15,Other,High,Resolved,General inquiry about order ORD000563. Contact me at user422@example.com or +91987650422.
-TKT00424,CUST00332,ORD002486,2024-11-20,Other,High,Closed,General inquiry about order ORD002486. Contact me at user423@example.com or +91987650423.
-TKT00425,CUST00240,ORD001800,2024-04-26,Payment,Medium,Closed,Payment failed but amount debited for order ORD001800. Contact me at user424@example.com or +91987650424.
-TKT00426,CUST00435,ORD003355,2025-09-18,Refund,Medium,Open,I want a refund for order ORD003355. Item was damaged. Contact me at user425@example.com or +91987650425.
-TKT00427,CUST00279,ORD002075,2024-01-10,Delivery Delay,Low,Closed,Order ORD002075 is very late. Please help. Contact me at user426@example.com or +91987650426.
-TKT00428,CUST00031,ORD000226,2025-03-15,Product Quality,Medium,In Progress,Poor quality products in order ORD000226. Contact me at user427@example.com or +91987650427.
-TKT00429,CUST00434,ORD003349,2024-03-01,Payment,Medium,Open,Payment failed but amount debited for order ORD003349. Contact me at user428@example.com or +91987650428.
-TKT00430,CUST00105,ORD000798,2025-07-19,Payment,Critical,Closed,Payment failed but amount debited for order ORD000798. Contact me at user429@example.com or +91987650429.
-TKT00431,CUST00479,ORD003681,2024-12-28,Fraud,High,In Progress,Suspicious activity on my account related to order ORD003681. Contact me at user430@example.com or +91987650430.
-TKT00432,CUST00315,ORD002332,2024-11-10,Other,Critical,Resolved,General inquiry about order ORD002332. Contact me at user431@example.com or +91987650431.
-TKT00433,CUST00384,ORD002927,2025-06-10,Other,Medium,Resolved,General inquiry about order ORD002927. Contact me at user432@example.com or +91987650432.
-TKT00434,CUST00125,ORD000960,2025-08-13,Fraud,Critical,Resolved,Suspicious activity on my account related to order ORD000960. Contact me at user433@example.com or +91987650433.
-TKT00435,CUST00200,ORD001505,2024-04-23,App Issue,Critical,Closed,App crashes when I track order ORD001505. Contact me at user434@example.com or +91987650434.
-TKT00436,CUST00060,ORD000453,2025-01-03,Payment,Low,Open,Payment failed but amount debited for order ORD000453. Contact me at user435@example.com or +91987650435.
-TKT00437,CUST00402,ORD003068,2024-04-05,Other,High,In Progress,General inquiry about order ORD003068. Contact me at user436@example.com or +91987650436.
-TKT00438,CUST00107,ORD000816,2025-01-10,Delivery Delay,Low,Open,Order ORD000816 is very late. Please help. Contact me at user437@example.com or +91987650437.
-TKT00439,CUST00086,ORD000659,2024-01-10,Delivery Delay,Medium,Resolved,Order ORD000659 is very late. Please help. Contact me at user438@example.com or +91987650438.
-TKT00440,CUST00464,ORD003588,2024-08-21,Payment,Low,Open,Payment failed but amount debited for order ORD003588. Contact me at user439@example.com or +91987650439.
-TKT00441,CUST00070,ORD000547,2025-07-03,Refund,High,Open,I want a refund for order ORD000547. Item was damaged. Contact me at user440@example.com or +91987650440.
-TKT00442,CUST00161,ORD001216,2025-03-14,Payment,Medium,Closed,Payment failed but amount debited for order ORD001216. Contact me at user441@example.com or +91987650441.
-TKT00443,CUST00408,ORD003121,2025-08-01,Other,Critical,Resolved,General inquiry about order ORD003121. Contact me at user442@example.com or +91987650442.
-TKT00444,CUST00464,ORD003584,2025-09-15,Delivery Delay,Low,Closed,Order ORD003584 is very late. Please help. Contact me at user443@example.com or +91987650443.
-TKT00445,CUST00004,ORD000017,2025-07-05,Refund,Medium,Resolved,I want a refund for order ORD000017. Item was damaged. Contact me at user444@example.com or +91987650444.
-TKT00446,CUST00422,ORD003244,2024-03-30,Refund,Critical,In Progress,I want a refund for order ORD003244. Item was damaged. Contact me at user445@example.com or +91987650445.
-TKT00447,CUST00166,ORD001244,2025-01-06,Refund,Medium,In Progress,I want a refund for order ORD001244. Item was damaged. Contact me at user446@example.com or +91987650446.
-TKT00448,CUST00298,ORD002206,2025-02-02,Payment,Low,Closed,Payment failed but amount debited for order ORD002206. Contact me at user447@example.com or +91987650447.
-TKT00449,CUST00338,ORD002525,2024-06-19,Other,Low,Resolved,General inquiry about order ORD002525. Contact me at user448@example.com or +91987650448.
-TKT00450,CUST00143,ORD001070,2025-02-08,Fraud,Critical,Open,Suspicious activity on my account related to order ORD001070. Contact me at user449@example.com or +91987650449.
-TKT00451,CUST00446,ORD003445,2024-07-07,Payment,Low,Closed,Payment failed but amount debited for order ORD003445. Contact me at user450@example.com or +91987650450.
-TKT00452,CUST00342,ORD002566,2025-06-13,Product Quality,Low,Closed,Poor quality products in order ORD002566. Contact me at user451@example.com or +91987650451.
-TKT00453,CUST00291,ORD002147,2025-08-11,Other,Low,Open,General inquiry about order ORD002147. Contact me at user452@example.com or +91987650452.
-TKT00454,CUST00234,ORD001769,2025-03-17,Fraud,Critical,Open,Suspicious activity on my account related to order ORD001769. Contact me at user453@example.com or +91987650453.
-TKT00455,CUST00142,ORD001061,2024-12-04,App Issue,Critical,In Progress,App crashes when I track order ORD001061. Contact me at user454@example.com or +91987650454.
-TKT00456,CUST00315,ORD002328,2025-07-29,App Issue,Low,In Progress,App crashes when I track order ORD002328. Contact me at user455@example.com or +91987650455.
-TKT00457,CUST00444,ORD003421,2025-02-22,Payment,Critical,Resolved,Payment failed but amount debited for order ORD003421. Contact me at user456@example.com or +91987650456.
-TKT00458,CUST00340,ORD002545,2025-01-03,Delivery Delay,Low,Open,Order ORD002545 is very late. Please help. Contact me at user457@example.com or +91987650457.
-TKT00459,CUST00040,ORD000302,2024-10-19,Other,Low,In Progress,General inquiry about order ORD000302. Contact me at user458@example.com or +91987650458.
-TKT00460,CUST00027,ORD000181,2024-02-04,Other,Low,Resolved,General inquiry about order ORD000181. Contact me at user459@example.com or +91987650459.
-TKT00461,CUST00079,ORD000607,2024-07-05,Fraud,Critical,Closed,Suspicious activity on my account related to order ORD000607. Contact me at user460@example.com or +91987650460.
-TKT00462,CUST00413,ORD003171,2024-03-03,Product Quality,Medium,Open,Poor quality products in order ORD003171. Contact me at user461@example.com or +91987650461.
-TKT00463,CUST00091,ORD000700,2024-07-08,Product Quality,Medium,Closed,Poor quality products in order ORD000700. Contact me at user462@example.com or +91987650462.
-TKT00464,CUST00133,ORD000993,2025-02-16,Refund,Critical,In Progress,I want a refund for order ORD000993. Item was damaged. Contact me at user463@example.com or +91987650463.
-TKT00465,CUST00151,ORD001140,2024-06-16,Product Quality,High,Resolved,Poor quality products in order ORD001140. Contact me at user464@example.com or +91987650464.
-TKT00466,CUST00028,ORD000191,2024-07-12,Delivery Delay,Medium,Open,Order ORD000191 is very late. Please help. Contact me at user465@example.com or +91987650465.
-TKT00467,CUST00311,ORD002301,2025-07-13,Refund,High,Resolved,I want a refund for order ORD002301. Item was damaged. Contact me at user466@example.com or +91987650466.
-TKT00468,CUST00130,ORD000981,2025-03-14,Product Quality,High,In Progress,Poor quality products in order ORD000981. Contact me at user467@example.com or +91987650467.
-TKT00469,CUST00392,ORD002976,2025-09-08,Delivery Delay,Critical,Resolved,Order ORD002976 is very late. Please help. Contact me at user468@example.com or +91987650468.
-TKT00470,CUST00272,ORD002007,2024-04-04,Product Quality,Low,Closed,Poor quality products in order ORD002007. Contact me at user469@example.com or +91987650469.
-TKT00471,CUST00154,ORD001185,2024-02-16,Product Quality,Medium,In Progress,Poor quality products in order ORD001185. Contact me at user470@example.com or +91987650470.
-TKT00472,CUST00431,ORD003328,2024-08-10,Fraud,Low,Open,Suspicious activity on my account related to order ORD003328. Contact me at user471@example.com or +91987650471.
-TKT00473,CUST00439,ORD003395,2024-03-24,Delivery Delay,High,Resolved,Order ORD003395 is very late. Please help. Contact me at user472@example.com or +91987650472.
-TKT00474,CUST00019,ORD000128,2024-08-01,Fraud,Medium,Resolved,Suspicious activity on my account related to order ORD000128. Contact me at user473@example.com or +91987650473.
-TKT00475,CUST00279,ORD002066,2025-08-15,App Issue,High,Open,App crashes when I track order ORD002066. Contact me at user474@example.com or +91987650474.
-TKT00476,CUST00244,ORD001817,2024-06-12,Delivery Delay,Medium,Closed,Order ORD001817 is very late. Please help. Contact me at user475@example.com or +91987650475.
-TKT00477,CUST00234,ORD001759,2024-06-17,Payment,Medium,Resolved,Payment failed but amount debited for order ORD001759. Contact me at user476@example.com or +91987650476.
-TKT00478,CUST00347,ORD002614,2025-09-22,Delivery Delay,Medium,Open,Order ORD002614 is very late. Please help. Contact me at user477@example.com or +91987650477.
-TKT00479,CUST00072,ORD000570,2024-02-12,Fraud,High,Resolved,Suspicious activity on my account related to order ORD000570. Contact me at user478@example.com or +91987650478.
-TKT00480,CUST00177,ORD001347,2025-07-11,Product Quality,Low,Resolved,Poor quality products in order ORD001347. Contact me at user479@example.com or +91987650479.
-TKT00481,CUST00254,ORD001896,2025-04-09,App Issue,High,Open,App crashes when I track order ORD001896. Contact me at user480@example.com or +91987650480.
-TKT00482,CUST00363,ORD002734,2025-03-19,App Issue,Critical,Resolved,App crashes when I track order ORD002734. Contact me at user481@example.com or +91987650481.
-TKT00483,CUST00082,ORD000626,2024-04-20,Delivery Delay,Low,Closed,Order ORD000626 is very late. Please help. Contact me at user482@example.com or +91987650482.
-TKT00484,CUST00435,ORD003360,2025-10-01,Other,Medium,In Progress,General inquiry about order ORD003360. Contact me at user483@example.com or +91987650483.
-TKT00485,CUST00382,ORD002902,2024-06-02,Other,Low,Open,General inquiry about order ORD002902. Contact me at user484@example.com or +91987650484.
-TKT00486,CUST00223,ORD001687,2025-07-17,Product Quality,Critical,In Progress,Poor quality products in order ORD001687. Contact me at user485@example.com or +91987650485.
-TKT00487,CUST00397,ORD003010,2025-01-04,Payment,Medium,Resolved,Payment failed but amount debited for order ORD003010. Contact me at user486@example.com or +91987650486.
-TKT00488,CUST00481,ORD003711,2024-06-01,Other,Low,Open,General inquiry about order ORD003711. Contact me at user487@example.com or +91987650487.
-TKT00489,CUST00023,ORD000155,2024-09-29,Fraud,High,Open,Suspicious activity on my account related to order ORD000155. Contact me at user488@example.com or +91987650488.
-TKT00490,CUST00339,ORD002538,2024-12-02,Refund,Low,In Progress,I want a refund for order ORD002538. Item was damaged. Contact me at user489@example.com or +91987650489.
-TKT00491,CUST00189,ORD001410,2025-07-20,Delivery Delay,Critical,Resolved,Order ORD001410 is very late. Please help. Contact me at user490@example.com or +91987650490.
-TKT00492,CUST00101,ORD000785,2024-07-13,App Issue,Low,In Progress,App crashes when I track order ORD000785. Contact me at user491@example.com or +91987650491.
-TKT00493,CUST00415,ORD003176,2025-01-13,Refund,Medium,In Progress,I want a refund for order ORD003176. Item was damaged. Contact me at user492@example.com or +91987650492.
-TKT00494,CUST00449,ORD003465,2024-05-12,Product Quality,High,Resolved,Poor quality products in order ORD003465. Contact me at user493@example.com or +91987650493.
-TKT00495,CUST00036,ORD000246,2024-10-06,Product Quality,Critical,Resolved,Poor quality products in order ORD000246. Contact me at user494@example.com or +91987650494.
-TKT00496,CUST00422,ORD003248,2024-03-14,Product Quality,Medium,Open,Poor quality products in order ORD003248. Contact me at user495@example.com or +91987650495.
-TKT00497,CUST00407,ORD003111,2025-02-28,Payment,High,In Progress,Payment failed but amount debited for order ORD003111. Contact me at user496@example.com or +91987650496.
-TKT00498,CUST00200,ORD001501,2025-08-25,App Issue,Critical,Resolved,App crashes when I track order ORD001501. Contact me at user497@example.com or +91987650497.
-TKT00499,CUST00226,ORD001706,2024-01-11,Payment,Low,In Progress,Payment failed but amount debited for order ORD001706. Contact me at user498@example.com or +91987650498.
-TKT00500,CUST00371,ORD002807,2024-11-05,Fraud,High,Closed,Suspicious activity on my account related to order ORD002807. Contact me at user499@example.com or +91987650499.
-TKT00501,CUST00069,ORD000538,2025-08-08,Delivery Delay,Medium,In Progress,Order ORD000538 is very late. Please help. Contact me at user500@example.com or +91987650500.
-TKT00502,CUST00253,ORD001891,2024-01-23,Product Quality,High,In Progress,Poor quality products in order ORD001891. Contact me at user501@example.com or +91987650501.
-TKT00503,CUST00247,ORD001842,2025-08-03,Other,Critical,Resolved,General inquiry about order ORD001842. Contact me at user502@example.com or +91987650502.
-TKT00504,CUST00120,ORD000921,2024-04-04,Fraud,Low,Open,Suspicious activity on my account related to order ORD000921. Contact me at user503@example.com or +91987650503.
-TKT00505,CUST00328,ORD002456,2024-02-18,Refund,High,Closed,I want a refund for order ORD002456. Item was damaged. Contact me at user504@example.com or +91987650504.
-TKT00506,CUST00068,ORD000525,2025-08-05,Delivery Delay,Medium,Closed,Order ORD000525 is very late. Please help. Contact me at user505@example.com or +91987650505.
-TKT00507,CUST00378,ORD002876,2024-02-28,Other,Medium,Open,General inquiry about order ORD002876. Contact me at user506@example.com or +91987650506.
-TKT00508,CUST00204,ORD001530,2024-10-21,Payment,Critical,Open,Payment failed but amount debited for order ORD001530. Contact me at user507@example.com or +91987650507.
-TKT00509,CUST00387,ORD002951,2024-04-26,Refund,Critical,Open,I want a refund for order ORD002951. Item was damaged. Contact me at user508@example.com or +91987650508.
-TKT00510,CUST00008,ORD000036,2024-04-10,App Issue,Critical,Closed,App crashes when I track order ORD000036. Contact me at user509@example.com or +91987650509.
-TKT00511,CUST00090,ORD000685,2024-06-14,Product Quality,High,Closed,Poor quality products in order ORD000685. Contact me at user510@example.com or +91987650510.
-TKT00512,CUST00004,ORD000020,2025-04-27,App Issue,Low,In Progress,App crashes when I track order ORD000020. Contact me at user511@example.com or +91987650511.
-TKT00513,CUST00319,ORD002369,2025-09-15,Payment,Medium,Open,Payment failed but amount debited for order ORD002369. Contact me at user512@example.com or +91987650512.
-TKT00514,CUST00342,ORD002560,2024-11-01,Product Quality,Critical,Open,Poor quality products in order ORD002560. Contact me at user513@example.com or +91987650513.
-TKT00515,CUST00051,ORD000400,2024-06-15,Delivery Delay,Medium,In Progress,Order ORD000400 is very late. Please help. Contact me at user514@example.com or +91987650514.
-TKT00516,CUST00359,ORD002702,2025-06-02,Fraud,Low,Closed,Suspicious activity on my account related to order ORD002702. Contact me at user515@example.com or +91987650515.
-TKT00517,CUST00127,ORD000972,2024-03-09,Other,High,Closed,General inquiry about order ORD000972. Contact me at user516@example.com or +91987650516.
-TKT00518,CUST00256,ORD001907,2024-01-15,Product Quality,Medium,Open,Poor quality products in order ORD001907. Contact me at user517@example.com or +91987650517.
-TKT00519,CUST00338,ORD002519,2024-12-21,Payment,Medium,Open,Payment failed but amount debited for order ORD002519. Contact me at user518@example.com or +91987650518.
-TKT00520,CUST00153,ORD001167,2025-06-13,Product Quality,Low,Open,Poor quality products in order ORD001167. Contact me at user519@example.com or +91987650519.
-TKT00521,CUST00148,ORD001116,2025-07-30,App Issue,Medium,Resolved,App crashes when I track order ORD001116. Contact me at user520@example.com or +91987650520.
-TKT00522,CUST00445,ORD003426,2024-07-10,Payment,Critical,Resolved,Payment failed but amount debited for order ORD003426. Contact me at user521@example.com or +91987650521.
-TKT00523,CUST00109,ORD000834,2025-05-27,Other,Critical,Open,General inquiry about order ORD000834. Contact me at user522@example.com or +91987650522.
-TKT00524,CUST00244,ORD001824,2024-09-16,Payment,High,Open,Payment failed but amount debited for order ORD001824. Contact me at user523@example.com or +91987650523.
-TKT00525,CUST00367,ORD002775,2025-07-12,App Issue,High,Closed,App crashes when I track order ORD002775. Contact me at user524@example.com or +91987650524.
-TKT00526,CUST00269,ORD001983,2025-07-14,Delivery Delay,Low,In Progress,Order ORD001983 is very late. Please help. Contact me at user525@example.com or +91987650525.
-TKT00527,CUST00112,ORD000854,2024-07-14,Fraud,Critical,Resolved,Suspicious activity on my account related to order ORD000854. Contact me at user526@example.com or +91987650526.
-TKT00528,CUST00009,ORD000051,2024-06-08,Payment,Low,Open,Payment failed but amount debited for order ORD000051. Contact me at user527@example.com or +91987650527.
-TKT00529,CUST00484,ORD003737,2024-03-04,Fraud,Critical,In Progress,Suspicious activity on my account related to order ORD003737. Contact me at user528@example.com or +91987650528.
-TKT00530,CUST00491,ORD003770,2025-04-22,App Issue,Critical,Closed,App crashes when I track order ORD003770. Contact me at user529@example.com or +91987650529.
-TKT00531,CUST00073,ORD000575,2024-05-29,Payment,Low,In Progress,Payment failed but amount debited for order ORD000575. Contact me at user530@example.com or +91987650530.
-TKT00532,CUST00423,ORD003262,2025-04-19,Refund,Critical,Open,I want a refund for order ORD003262. Item was damaged. Contact me at user531@example.com or +91987650531.
-TKT00533,CUST00151,ORD001149,2025-06-11,App Issue,Low,Open,App crashes when I track order ORD001149. Contact me at user532@example.com or +91987650532.
-TKT00534,CUST00297,ORD002198,2025-04-23,Payment,Critical,Closed,Payment failed but amount debited for order ORD002198. Contact me at user533@example.com or +91987650533.
-TKT00535,CUST00318,ORD002362,2025-09-19,App Issue,Medium,Resolved,App crashes when I track order ORD002362. Contact me at user534@example.com or +91987650534.
-TKT00536,CUST00348,ORD002618,2025-04-05,Product Quality,Low,Open,Poor quality products in order ORD002618. Contact me at user535@example.com or +91987650535.
-TKT00537,CUST00444,ORD003414,2025-09-08,Other,Critical,Closed,General inquiry about order ORD003414. Contact me at user536@example.com or +91987650536.
-TKT00538,CUST00317,ORD002353,2025-05-16,App Issue,Medium,Closed,App crashes when I track order ORD002353. Contact me at user537@example.com or +91987650537.
-TKT00539,CUST00228,ORD001716,2024-10-09,Refund,Medium,Open,I want a refund for order ORD001716. Item was damaged. Contact me at user538@example.com or +91987650538.
-TKT00540,CUST00090,ORD000682,2025-05-04,Refund,High,Open,I want a refund for order ORD000682. Item was damaged. Contact me at user539@example.com or +91987650539.
-TKT00541,CUST00109,ORD000838,2025-09-26,Product Quality,Low,Open,Poor quality products in order ORD000838. Contact me at user540@example.com or +91987650540.
-TKT00542,CUST00143,ORD001078,2024-09-23,App Issue,Critical,Open,App crashes when I track order ORD001078. Contact me at user541@example.com or +91987650541.
-TKT00543,CUST00400,ORD003051,2025-06-24,Product Quality,Medium,In Progress,Poor quality products in order ORD003051. Contact me at user542@example.com or +91987650542.
-TKT00544,CUST00333,ORD002492,2024-08-26,Other,High,In Progress,General inquiry about order ORD002492. Contact me at user543@example.com or +91987650543.
-TKT00545,CUST00355,ORD002661,2025-08-09,Other,High,In Progress,General inquiry about order ORD002661. Contact me at user544@example.com or +91987650544.
-TKT00546,CUST00400,ORD003041,2025-05-27,Payment,Critical,Closed,Payment failed but amount debited for order ORD003041. Contact me at user545@example.com or +91987650545.
-TKT00547,CUST00314,ORD002312,2024-06-21,App Issue,Medium,In Progress,App crashes when I track order ORD002312. Contact me at user546@example.com or +91987650546.
-TKT00548,CUST00409,ORD003125,2024-08-31,Payment,Low,Closed,Payment failed but amount debited for order ORD003125. Contact me at user547@example.com or +91987650547.
-TKT00549,CUST00211,ORD001596,2024-05-17,Refund,High,Open,I want a refund for order ORD001596. Item was damaged. Contact me at user548@example.com or +91987650548.
-TKT00550,CUST00400,ORD003052,2024-09-23,Refund,Medium,Closed,I want a refund for order ORD003052. Item was damaged. Contact me at user549@example.com or +91987650549.
-TKT00551,CUST00480,ORD003692,2024-01-17,Delivery Delay,High,In Progress,Order ORD003692 is very late. Please help. Contact me at user550@example.com or +91987650550.
-TKT00552,CUST00002,ORD000005,2024-06-12,Fraud,High,In Progress,Suspicious activity on my account related to order ORD000005. Contact me at user551@example.com or +91987650551.
-TKT00553,CUST00149,ORD001127,2024-04-10,Other,High,Closed,General inquiry about order ORD001127. Contact me at user552@example.com or +91987650552.
-TKT00554,CUST00161,ORD001220,2024-06-21,Refund,Low,Open,I want a refund for order ORD001220. Item was damaged. Contact me at user553@example.com or +91987650553.
-TKT00555,CUST00100,ORD000774,2024-02-08,Delivery Delay,Medium,Resolved,Order ORD000774 is very late. Please help. Contact me at user554@example.com or +91987650554.
-TKT00556,CUST00115,ORD000877,2024-03-08,Delivery Delay,Critical,Closed,Order ORD000877 is very late. Please help. Contact me at user555@example.com or +91987650555.
-TKT00557,CUST00133,ORD000992,2025-04-03,App Issue,Low,In Progress,App crashes when I track order ORD000992. Contact me at user556@example.com or +91987650556.
-TKT00558,CUST00386,ORD002932,2024-09-17,Delivery Delay,Low,Resolved,Order ORD002932 is very late. Please help. Contact me at user557@example.com or +91987650557.
-TKT00559,CUST00444,ORD003422,2025-02-02,Other,Critical,Closed,General inquiry about order ORD003422. Contact me at user558@example.com or +91987650558.
-TKT00560,CUST00009,ORD000047,2025-07-14,Refund,High,Open,I want a refund for order ORD000047. Item was damaged. Contact me at user559@example.com or +91987650559.
-TKT00561,CUST00383,ORD002915,2024-09-03,App Issue,Low,Closed,App crashes when I track order ORD002915. Contact me at user560@example.com or +91987650560.
-TKT00562,CUST00377,ORD002871,2025-08-05,Fraud,Critical,In Progress,Suspicious activity on my account related to order ORD002871. Contact me at user561@example.com or +91987650561.
-TKT00563,CUST00395,ORD002984,2024-01-13,Other,Low,Closed,General inquiry about order ORD002984. Contact me at user562@example.com or +91987650562.
-TKT00564,CUST00360,ORD002704,2025-08-12,App Issue,Medium,Closed,App crashes when I track order ORD002704. Contact me at user563@example.com or +91987650563.
-TKT00565,CUST00037,ORD000269,2024-02-26,Other,Low,Open,General inquiry about order ORD000269. Contact me at user564@example.com or +91987650564.
-TKT00566,CUST00047,ORD000370,2024-07-11,Product Quality,Medium,In Progress,Poor quality products in order ORD000370. Contact me at user565@example.com or +91987650565.
-TKT00567,CUST00083,ORD000636,2024-08-24,Delivery Delay,Critical,In Progress,Order ORD000636 is very late. Please help. Contact me at user566@example.com or +91987650566.
-TKT00568,CUST00149,ORD001130,2025-09-01,App Issue,High,Resolved,App crashes when I track order ORD001130. Contact me at user567@example.com or +91987650567.
-TKT00569,CUST00224,ORD001694,2025-09-16,Other,High,Open,General inquiry about order ORD001694. Contact me at user568@example.com or +91987650568.
-TKT00570,CUST00223,ORD001683,2025-08-26,App Issue,Low,Open,App crashes when I track order ORD001683. Contact me at user569@example.com or +91987650569.
-TKT00571,CUST00085,ORD000657,2025-08-01,Payment,Low,In Progress,Payment failed but amount debited for order ORD000657. Contact me at user570@example.com or +91987650570.
-TKT00572,CUST00018,ORD000120,2025-08-20,Delivery Delay,Critical,Open,Order ORD000120 is very late. Please help. Contact me at user571@example.com or +91987650571.
-TKT00573,CUST00109,ORD000831,2024-08-04,App Issue,High,Open,App crashes when I track order ORD000831. Contact me at user572@example.com or +91987650572.
-TKT00574,CUST00243,ORD001811,2024-08-29,Fraud,Medium,Open,Suspicious activity on my account related to order ORD001811. Contact me at user573@example.com or +91987650573.
-TKT00575,CUST00478,ORD003676,2025-03-23,Delivery Delay,Medium,Closed,Order ORD003676 is very late. Please help. Contact me at user574@example.com or +91987650574.
-TKT00576,CUST00144,ORD001082,2025-03-13,Payment,Medium,Resolved,Payment failed but amount debited for order ORD001082. Contact me at user575@example.com or +91987650575.
-TKT00577,CUST00268,ORD001975,2024-04-10,Fraud,High,Resolved,Suspicious activity on my account related to order ORD001975. Contact me at user576@example.com or +91987650576.
-TKT00578,CUST00183,ORD001370,2025-07-09,Product Quality,Critical,Open,Poor quality products in order ORD001370. Contact me at user577@example.com or +91987650577.
-TKT00579,CUST00095,ORD000741,2024-07-13,App Issue,Low,Resolved,App crashes when I track order ORD000741. Contact me at user578@example.com or +91987650578.
-TKT00580,CUST00459,ORD003546,2025-05-12,Refund,Low,Open,I want a refund for order ORD003546. Item was damaged. Contact me at user579@example.com or +91987650579.
-TKT00581,CUST00018,ORD000117,2025-01-18,Refund,Medium,Open,I want a refund for order ORD000117. Item was damaged. Contact me at user580@example.com or +91987650580.
-TKT00582,CUST00248,ORD001854,2025-01-21,Payment,Medium,Closed,Payment failed but amount debited for order ORD001854. Contact me at user581@example.com or +91987650581.
-TKT00583,CUST00374,ORD002839,2024-09-07,Other,High,In Progress,General inquiry about order ORD002839. Contact me at user582@example.com or +91987650582.
-TKT00584,CUST00151,ORD001151,2024-02-14,Other,Medium,Closed,General inquiry about order ORD001151. Contact me at user583@example.com or +91987650583.
-TKT00585,CUST00449,ORD003465,2024-05-12,Delivery Delay,High,Resolved,Order ORD003465 is very late. Please help. Contact me at user584@example.com or +91987650584.
-TKT00586,CUST00260,ORD001932,2024-11-12,Delivery Delay,Low,Closed,Order ORD001932 is very late. Please help. Contact me at user585@example.com or +91987650585.
-TKT00587,CUST00136,ORD001013,2024-11-29,Fraud,Low,Closed,Suspicious activity on my account related to order ORD001013. Contact me at user586@example.com or +91987650586.
-TKT00588,CUST00219,ORD001665,2024-05-15,Product Quality,Medium,Resolved,Poor quality products in order ORD001665. Contact me at user587@example.com or +91987650587.
-TKT00589,CUST00144,ORD001082,2025-03-13,Delivery Delay,Low,Open,Order ORD001082 is very late. Please help. Contact me at user588@example.com or +91987650588.
-TKT00590,CUST00082,ORD000634,2025-01-01,App Issue,Critical,Open,App crashes when I track order ORD000634. Contact me at user589@example.com or +91987650589.
-TKT00591,CUST00067,ORD000513,2024-04-25,Payment,Low,Open,Payment failed but amount debited for order ORD000513. Contact me at user590@example.com or +91987650590.
-TKT00592,CUST00498,ORD003823,2025-06-02,Other,Critical,Closed,General inquiry about order ORD003823. Contact me at user591@example.com or +91987650591.
-TKT00593,CUST00374,ORD002850,2024-02-01,Payment,Critical,In Progress,Payment failed but amount debited for order ORD002850. Contact me at user592@example.com or +91987650592.
-TKT00594,CUST00148,ORD001120,2025-02-12,Refund,Low,In Progress,I want a refund for order ORD001120. Item was damaged. Contact me at user593@example.com or +91987650593.
-TKT00595,CUST00481,ORD003710,2025-06-16,Refund,Critical,Resolved,I want a refund for order ORD003710. Item was damaged. Contact me at user594@example.com or +91987650594.
-TKT00596,CUST00151,ORD001142,2025-01-01,Product Quality,Critical,Open,Poor quality products in order ORD001142. Contact me at user595@example.com or +91987650595.
-TKT00597,CUST00071,ORD000560,2024-04-22,App Issue,Low,Resolved,App crashes when I track order ORD000560. Contact me at user596@example.com or +91987650596.
-TKT00598,CUST00478,ORD003673,2025-08-07,Other,Low,Open,General inquiry about order ORD003673. Contact me at user597@example.com or +91987650597.
-TKT00599,CUST00064,ORD000488,2024-01-18,Product Quality,High,Closed,Poor quality products in order ORD000488. Contact me at user598@example.com or +91987650598.
-TKT00600,CUST00428,ORD003309,2025-04-03,Product Quality,Medium,Resolved,Poor quality products in order ORD003309. Contact me at user599@example.com or +91987650599.
-TKT00601,CUST00118,ORD000897,2024-12-12,Delivery Delay,High,Resolved,Order ORD000897 is very late. Please help. Contact me at user600@example.com or +91987650600.
-TKT00602,CUST00433,ORD003344,2024-05-14,Fraud,High,Open,Suspicious activity on my account related to order ORD003344. Contact me at user601@example.com or +91987650601.
-TKT00603,CUST00160,ORD001213,2025-02-23,Product Quality,High,Resolved,Poor quality products in order ORD001213. Contact me at user602@example.com or +91987650602.
-TKT00604,CUST00091,ORD000704,2025-08-05,Delivery Delay,Medium,Closed,Order ORD000704 is very late. Please help. Contact me at user603@example.com or +91987650603.
-TKT00605,CUST00196,ORD001471,2024-10-04,App Issue,High,In Progress,App crashes when I track order ORD001471. Contact me at user604@example.com or +91987650604.
-TKT00606,CUST00073,ORD000581,2024-07-25,Product Quality,Critical,Resolved,Poor quality products in order ORD000581. Contact me at user605@example.com or +91987650605.
-TKT00607,CUST00373,ORD002838,2025-06-27,Delivery Delay,Critical,Closed,Order ORD002838 is very late. Please help. Contact me at user606@example.com or +91987650606.
-TKT00608,CUST00383,ORD002909,2024-01-21,App Issue,Medium,Open,App crashes when I track order ORD002909. Contact me at user607@example.com or +91987650607.
-TKT00609,CUST00311,ORD002295,2025-01-24,Other,Critical,In Progress,General inquiry about order ORD002295. Contact me at user608@example.com or +91987650608.
-TKT00610,CUST00411,ORD003148,2024-08-15,Other,Low,Closed,General inquiry about order ORD003148. Contact me at user609@example.com or +91987650609.
-TKT00611,CUST00022,ORD000154,2024-10-05,Product Quality,Critical,In Progress,Poor quality products in order ORD000154. Contact me at user610@example.com or +91987650610.
-TKT00612,CUST00223,ORD001680,2024-06-25,Payment,Low,Resolved,Payment failed but amount debited for order ORD001680. Contact me at user611@example.com or +91987650611.
-TKT00613,CUST00455,ORD003507,2024-06-15,Fraud,Medium,Closed,Suspicious activity on my account related to order ORD003507. Contact me at user612@example.com or +91987650612.
-TKT00614,CUST00133,ORD000997,2025-07-21,Fraud,High,Open,Suspicious activity on my account related to order ORD000997. Contact me at user613@example.com or +91987650613.
-TKT00615,CUST00412,ORD003158,2024-07-01,Refund,Medium,Closed,I want a refund for order ORD003158. Item was damaged. Contact me at user614@example.com or +91987650614.
-TKT00616,CUST00364,ORD002745,2024-08-07,Fraud,Critical,Resolved,Suspicious activity on my account related to order ORD002745. Contact me at user615@example.com or +91987650615.
-TKT00617,CUST00435,ORD003357,2025-06-28,App Issue,High,In Progress,App crashes when I track order ORD003357. Contact me at user616@example.com or +91987650616.
-TKT00618,CUST00166,ORD001244,2025-01-06,Payment,Critical,Closed,Payment failed but amount debited for order ORD001244. Contact me at user617@example.com or +91987650617.
-TKT00619,CUST00145,ORD001093,2024-02-26,Fraud,High,Resolved,Suspicious activity on my account related to order ORD001093. Contact me at user618@example.com or +91987650618.
-TKT00620,CUST00408,ORD003119,2025-03-23,Other,High,In Progress,General inquiry about order ORD003119. Contact me at user619@example.com or +91987650619.
-TKT00621,CUST00135,ORD001009,2024-02-14,Delivery Delay,Low,Closed,Order ORD001009 is very late. Please help. Contact me at user620@example.com or +91987650620.
-TKT00622,CUST00290,ORD002142,2025-05-06,Fraud,Critical,Open,Suspicious activity on my account related to order ORD002142. Contact me at user621@example.com or +91987650621.
-TKT00623,CUST00236,ORD001774,2025-07-21,Other,High,In Progress,General inquiry about order ORD001774. Contact me at user622@example.com or +91987650622.
-TKT00624,CUST00125,ORD000958,2025-05-12,Product Quality,High,Resolved,Poor quality products in order ORD000958. Contact me at user623@example.com or +91987650623.
-TKT00625,CUST00401,ORD003060,2025-08-03,Delivery Delay,Low,Closed,Order ORD003060 is very late. Please help. Contact me at user624@example.com or +91987650624.
-TKT00626,CUST00060,ORD000453,2025-01-03,Refund,Medium,Resolved,I want a refund for order ORD000453. Item was damaged. Contact me at user625@example.com or +91987650625.
-TKT00627,CUST00162,ORD001228,2024-06-14,Delivery Delay,Medium,In Progress,Order ORD001228 is very late. Please help. Contact me at user626@example.com or +91987650626.
-TKT00628,CUST00390,ORD002960,2024-12-31,Delivery Delay,Critical,Resolved,Order ORD002960 is very late. Please help. Contact me at user627@example.com or +91987650627.
-TKT00629,CUST00307,ORD002266,2024-09-17,Delivery Delay,High,In Progress,Order ORD002266 is very late. Please help. Contact me at user628@example.com or +91987650628.
-TKT00630,CUST00338,ORD002522,2024-05-25,Other,Medium,Resolved,General inquiry about order ORD002522. Contact me at user629@example.com or +91987650629.
-TKT00631,CUST00331,ORD002480,2025-06-09,App Issue,Low,Closed,App crashes when I track order ORD002480. Contact me at user630@example.com or +91987650630.
-TKT00632,CUST00322,ORD002389,2024-01-24,Payment,Low,In Progress,Payment failed but amount debited for order ORD002389. Contact me at user631@example.com or +91987650631.
-TKT00633,CUST00070,ORD000551,2025-05-13,Other,Medium,In Progress,General inquiry about order ORD000551. Contact me at user632@example.com or +91987650632.
-TKT00634,CUST00215,ORD001636,2024-05-09,Payment,High,Resolved,Payment failed but amount debited for order ORD001636. Contact me at user633@example.com or +91987650633.
-TKT00635,CUST00174,ORD001313,2024-06-05,Fraud,Medium,Resolved,Suspicious activity on my account related to order ORD001313. Contact me at user634@example.com or +91987650634.
-TKT00636,CUST00431,ORD003326,2024-08-21,Other,Critical,Closed,General inquiry about order ORD003326. Contact me at user635@example.com or +91987650635.
-TKT00637,CUST00233,ORD001758,2024-12-24,App Issue,Critical,Closed,App crashes when I track order ORD001758. Contact me at user636@example.com or +91987650636.
-TKT00638,CUST00045,ORD000357,2025-03-02,Other,Medium,In Progress,General inquiry about order ORD000357. Contact me at user637@example.com or +91987650637.
-TKT00639,CUST00279,ORD002071,2024-01-08,App Issue,Low,Closed,App crashes when I track order ORD002071. Contact me at user638@example.com or +91987650638.
-TKT00640,CUST00239,ORD001786,2024-01-02,Delivery Delay,Low,In Progress,Order ORD001786 is very late. Please help. Contact me at user639@example.com or +91987650639.
-TKT00641,CUST00342,ORD002570,2024-11-25,Other,High,Open,General inquiry about order ORD002570. Contact me at user640@example.com or +91987650640.
-TKT00642,CUST00239,ORD001782,2025-02-20,App Issue,High,Open,App crashes when I track order ORD001782. Contact me at user641@example.com or +91987650641.
-TKT00643,CUST00413,ORD003172,2024-12-30,Refund,Critical,Open,I want a refund for order ORD003172. Item was damaged. Contact me at user642@example.com or +91987650642.
-TKT00644,CUST00374,ORD002850,2024-02-01,App Issue,Low,Open,App crashes when I track order ORD002850. Contact me at user643@example.com or +91987650643.
-TKT00645,CUST00422,ORD003252,2024-01-13,Payment,High,Closed,Payment failed but amount debited for order ORD003252. Contact me at user644@example.com or +91987650644.
-TKT00646,CUST00426,ORD003295,2025-03-29,Payment,High,In Progress,Payment failed but amount debited for order ORD003295. Contact me at user645@example.com or +91987650645.
-TKT00647,CUST00371,ORD002810,2024-03-09,Payment,Critical,Open,Payment failed but amount debited for order ORD002810. Contact me at user646@example.com or +91987650646.
-TKT00648,CUST00484,ORD003731,2025-10-01,Payment,Low,Open,Payment failed but amount debited for order ORD003731. Contact me at user647@example.com or +91987650647.
-TKT00649,CUST00333,ORD002490,2024-10-27,Delivery Delay,High,Closed,Order ORD002490 is very late. Please help. Contact me at user648@example.com or +91987650648.
-TKT00650,CUST00215,ORD001632,2025-01-03,App Issue,Critical,Closed,App crashes when I track order ORD001632. Contact me at user649@example.com or +91987650649.
-TKT00651,CUST00371,ORD002817,2025-07-22,Refund,Low,Resolved,I want a refund for order ORD002817. Item was damaged. Contact me at user650@example.com or +91987650650.
-TKT00652,CUST00136,ORD001016,2024-10-13,Delivery Delay,Low,Resolved,Order ORD001016 is very late. Please help. Contact me at user651@example.com or +91987650651.
-TKT00653,CUST00177,ORD001349,2024-03-10,Product Quality,Medium,Open,Poor quality products in order ORD001349. Contact me at user652@example.com or +91987650652.
-TKT00654,CUST00067,ORD000516,2024-01-03,Delivery Delay,High,Closed,Order ORD000516 is very late. Please help. Contact me at user653@example.com or +91987650653.
-TKT00655,CUST00405,ORD003088,2025-06-11,Refund,Critical,Closed,I want a refund for order ORD003088. Item was damaged. Contact me at user654@example.com or +91987650654.
-TKT00656,CUST00374,ORD002840,2025-07-08,Product Quality,Low,In Progress,Poor quality products in order ORD002840. Contact me at user655@example.com or +91987650655.
-TKT00657,CUST00043,ORD000336,2025-07-22,Refund,High,Resolved,I want a refund for order ORD000336. Item was damaged. Contact me at user656@example.com or +91987650656.
-TKT00658,CUST00239,ORD001783,2024-06-06,Delivery Delay,Medium,In Progress,Order ORD001783 is very late. Please help. Contact me at user657@example.com or +91987650657.
-TKT00659,CUST00313,ORD002306,2024-03-27,Delivery Delay,Critical,In Progress,Order ORD002306 is very late. Please help. Contact me at user658@example.com or +91987650658.
-TKT00660,CUST00065,ORD000497,2024-06-23,Product Quality,Critical,Open,Poor quality products in order ORD000497. Contact me at user659@example.com or +91987650659.
-TKT00661,CUST00118,ORD000896,2024-12-05,Delivery Delay,Critical,Resolved,Order ORD000896 is very late. Please help. Contact me at user660@example.com or +91987650660.
-TKT00662,CUST00298,ORD002208,2024-11-09,Other,High,Open,General inquiry about order ORD002208. Contact me at user661@example.com or +91987650661.
-TKT00663,CUST00459,ORD003547,2024-08-21,Other,High,In Progress,General inquiry about order ORD003547. Contact me at user662@example.com or +91987650662.
-TKT00664,CUST00111,ORD000852,2025-02-25,App Issue,High,In Progress,App crashes when I track order ORD000852. Contact me at user663@example.com or +91987650663.
-TKT00665,CUST00223,ORD001688,2025-07-11,Refund,Critical,Open,I want a refund for order ORD001688. Item was damaged. Contact me at user664@example.com or +91987650664.
-TKT00666,CUST00260,ORD001932,2024-11-12,Product Quality,High,In Progress,Poor quality products in order ORD001932. Contact me at user665@example.com or +91987650665.
-TKT00667,CUST00364,ORD002738,2024-10-23,Fraud,Low,Resolved,Suspicious activity on my account related to order ORD002738. Contact me at user666@example.com or +91987650666.
-TKT00668,CUST00486,ORD003747,2025-04-13,Other,Critical,In Progress,General inquiry about order ORD003747. Contact me at user667@example.com or +91987650667.
-TKT00669,CUST00324,ORD002428,2024-10-03,Other,Medium,Resolved,General inquiry about order ORD002428. Contact me at user668@example.com or +91987650668.
-TKT00670,CUST00209,ORD001569,2025-07-08,Payment,Critical,In Progress,Payment failed but amount debited for order ORD001569. Contact me at user669@example.com or +91987650669.
-TKT00671,CUST00125,ORD000957,2024-01-24,Refund,Low,Closed,I want a refund for order ORD000957. Item was damaged. Contact me at user670@example.com or +91987650670.
-TKT00672,CUST00364,ORD002739,2025-05-12,Payment,Medium,Closed,Payment failed but amount debited for order ORD002739. Contact me at user671@example.com or +91987650671.
-TKT00673,CUST00454,ORD003499,2024-08-03,App Issue,Low,In Progress,App crashes when I track order ORD003499. Contact me at user672@example.com or +91987650672.
-TKT00674,CUST00216,ORD001637,2024-12-21,Product Quality,Low,In Progress,Poor quality products in order ORD001637. Contact me at user673@example.com or +91987650673.
-TKT00675,CUST00172,ORD001292,2024-10-02,Refund,Critical,Resolved,I want a refund for order ORD001292. Item was damaged. Contact me at user674@example.com or +91987650674.
-TKT00676,CUST00473,ORD003649,2025-03-12,Product Quality,Medium,Open,Poor quality products in order ORD003649. Contact me at user675@example.com or +91987650675.
-TKT00677,CUST00194,ORD001441,2025-01-13,Refund,High,In Progress,I want a refund for order ORD001441. Item was damaged. Contact me at user676@example.com or +91987650676.
-TKT00678,CUST00156,ORD001192,2025-02-12,Payment,Low,In Progress,Payment failed but amount debited for order ORD001192. Contact me at user677@example.com or +91987650677.
-TKT00679,CUST00142,ORD001067,2025-03-18,Product Quality,Medium,Resolved,Poor quality products in order ORD001067. Contact me at user678@example.com or +91987650678.
-TKT00680,CUST00469,ORD003628,2025-03-30,Payment,Critical,In Progress,Payment failed but amount debited for order ORD003628. Contact me at user679@example.com or +91987650679.
-TKT00681,CUST00039,ORD000285,2024-01-10,Other,Critical,In Progress,General inquiry about order ORD000285. Contact me at user680@example.com or +91987650680.
-TKT00682,CUST00327,ORD002445,2025-05-18,App Issue,Low,Resolved,App crashes when I track order ORD002445. Contact me at user681@example.com or +91987650681.
-TKT00683,CUST00004,ORD000012,2025-05-31,Product Quality,High,Open,Poor quality products in order ORD000012. Contact me at user682@example.com or +91987650682.
-TKT00684,CUST00215,ORD001631,2025-06-23,Delivery Delay,Medium,Resolved,Order ORD001631 is very late. Please help. Contact me at user683@example.com or +91987650683.
-TKT00685,CUST00436,ORD003374,2024-05-06,Fraud,High,Open,Suspicious activity on my account related to order ORD003374. Contact me at user684@example.com or +91987650684.
-TKT00686,CUST00430,ORD003325,2025-07-18,App Issue,Critical,Closed,App crashes when I track order ORD003325. Contact me at user685@example.com or +91987650685.
-TKT00687,CUST00340,ORD002547,2025-05-08,Delivery Delay,Medium,Open,Order ORD002547 is very late. Please help. Contact me at user686@example.com or +91987650686.
-TKT00688,CUST00097,ORD000754,2024-05-26,Payment,Low,Closed,Payment failed but amount debited for order ORD000754. Contact me at user687@example.com or +91987650687.
-TKT00689,CUST00281,ORD002083,2025-01-12,Product Quality,High,Resolved,Poor quality products in order ORD002083. Contact me at user688@example.com or +91987650688.
-TKT00690,CUST00367,ORD002775,2025-07-12,Payment,Critical,Open,Payment failed but amount debited for order ORD002775. Contact me at user689@example.com or +91987650689.
-TKT00691,CUST00382,ORD002897,2024-08-31,Refund,Low,Closed,I want a refund for order ORD002897. Item was damaged. Contact me at user690@example.com or +91987650690.
-TKT00692,CUST00015,ORD000090,2025-09-19,Payment,High,Open,Payment failed but amount debited for order ORD000090. Contact me at user691@example.com or +91987650691.
-TKT00693,CUST00100,ORD000776,2025-01-20,Fraud,High,Open,Suspicious activity on my account related to order ORD000776. Contact me at user692@example.com or +91987650692.
-TKT00694,CUST00353,ORD002653,2025-02-19,Delivery Delay,Critical,In Progress,Order ORD002653 is very late. Please help. Contact me at user693@example.com or +91987650693.
-TKT00695,CUST00398,ORD003018,2025-03-01,Payment,Critical,Open,Payment failed but amount debited for order ORD003018. Contact me at user694@example.com or +91987650694.
-TKT00696,CUST00215,ORD001626,2024-10-03,Payment,Critical,Open,Payment failed but amount debited for order ORD001626. Contact me at user695@example.com or +91987650695.
-TKT00697,CUST00403,ORD003070,2024-07-25,Fraud,Medium,Closed,Suspicious activity on my account related to order ORD003070. Contact me at user696@example.com or +91987650696.
-TKT00698,CUST00053,ORD000418,2024-04-22,Other,High,Resolved,General inquiry about order ORD000418. Contact me at user697@example.com or +91987650697.
-TKT00699,CUST00018,ORD000115,2024-05-10,Other,Low,Open,General inquiry about order ORD000115. Contact me at user698@example.com or +91987650698.
-TKT00700,CUST00081,ORD000617,2024-03-16,Payment,Critical,Resolved,Payment failed but amount debited for order ORD000617. Contact me at user699@example.com or +91987650699.
-TKT00701,CUST00424,ORD003268,2025-01-10,Other,High,Resolved,General inquiry about order ORD003268. Contact me at user700@example.com or +91987650700.
-TKT00702,CUST00108,ORD000826,2024-12-13,Other,Critical,Open,General inquiry about order ORD000826. Contact me at user701@example.com or +91987650701.
-TKT00703,CUST00462,ORD003573,2025-07-26,App Issue,Medium,Open,App crashes when I track order ORD003573. Contact me at user702@example.com or +91987650702.
-TKT00704,CUST00217,ORD001650,2025-07-21,Payment,Low,Closed,Payment failed but amount debited for order ORD001650. Contact me at user703@example.com or +91987650703.
-TKT00705,CUST00202,ORD001517,2024-11-09,Delivery Delay,Low,Open,Order ORD001517 is very late. Please help. Contact me at user704@example.com or +91987650704.
-TKT00706,CUST00411,ORD003147,2025-08-05,Refund,High,Resolved,I want a refund for order ORD003147. Item was damaged. Contact me at user705@example.com or +91987650705.
-TKT00707,CUST00052,ORD000413,2025-08-14,Product Quality,Low,Open,Poor quality products in order ORD000413. Contact me at user706@example.com or +91987650706.
-TKT00708,CUST00448,ORD003448,2025-03-30,App Issue,Low,Closed,App crashes when I track order ORD003448. Contact me at user707@example.com or +91987650707.
-TKT00709,CUST00452,ORD003492,2025-02-16,Fraud,High,In Progress,Suspicious activity on my account related to order ORD003492. Contact me at user708@example.com or +91987650708.
-TKT00710,CUST00094,ORD000729,2024-11-26,Payment,Medium,Resolved,Payment failed but amount debited for order ORD000729. Contact me at user709@example.com or +91987650709.
-TKT00711,CUST00434,ORD003349,2024-03-01,Delivery Delay,Low,Closed,Order ORD003349 is very late. Please help. Contact me at user710@example.com or +91987650710.
-TKT00712,CUST00402,ORD003069,2024-12-25,Product Quality,Medium,Closed,Poor quality products in order ORD003069. Contact me at user711@example.com or +91987650711.
-TKT00713,CUST00371,ORD002809,2024-05-26,Fraud,Low,Closed,Suspicious activity on my account related to order ORD002809. Contact me at user712@example.com or +91987650712.
-TKT00714,CUST00088,ORD000676,2025-03-24,Delivery Delay,Medium,Closed,Order ORD000676 is very late. Please help. Contact me at user713@example.com or +91987650713.
-TKT00715,CUST00449,ORD003466,2025-03-28,Fraud,Low,Closed,Suspicious activity on my account related to order ORD003466. Contact me at user714@example.com or +91987650714.
-TKT00716,CUST00254,ORD001893,2025-10-01,Refund,Low,Closed,I want a refund for order ORD001893. Item was damaged. Contact me at user715@example.com or +91987650715.
-TKT00717,CUST00334,ORD002505,2024-12-22,Product Quality,High,Open,Poor quality products in order ORD002505. Contact me at user716@example.com or +91987650716.
-TKT00718,CUST00392,ORD002968,2025-06-23,Fraud,High,Closed,Suspicious activity on my account related to order ORD002968. Contact me at user717@example.com or +91987650717.
-TKT00719,CUST00303,ORD002240,2024-06-13,Delivery Delay,Low,Closed,Order ORD002240 is very late. Please help. Contact me at user718@example.com or +91987650718.
-TKT00720,CUST00368,ORD002787,2025-04-05,Delivery Delay,High,Closed,Order ORD002787 is very late. Please help. Contact me at user719@example.com or +91987650719.
-TKT00721,CUST00489,ORD003761,2024-04-12,Refund,Critical,Open,I want a refund for order ORD003761. Item was damaged. Contact me at user720@example.com or +91987650720.
-TKT00722,CUST00148,ORD001123,2024-07-15,Refund,High,In Progress,I want a refund for order ORD001123. Item was damaged. Contact me at user721@example.com or +91987650721.
-TKT00723,CUST00209,ORD001572,2024-02-20,Product Quality,Medium,Resolved,Poor quality products in order ORD001572. Contact me at user722@example.com or +91987650722.
-TKT00724,CUST00129,ORD000978,2025-05-27,Other,Low,Open,General inquiry about order ORD000978. Contact me at user723@example.com or +91987650723.
-TKT00725,CUST00135,ORD001009,2024-02-14,Fraud,High,In Progress,Suspicious activity on my account related to order ORD001009. Contact me at user724@example.com or +91987650724.
-TKT00726,CUST00290,ORD002144,2024-07-26,Payment,Medium,In Progress,Payment failed but amount debited for order ORD002144. Contact me at user725@example.com or +91987650725.
-TKT00727,CUST00223,ORD001688,2025-07-11,Payment,Medium,In Progress,Payment failed but amount debited for order ORD001688. Contact me at user726@example.com or +91987650726.
-TKT00728,CUST00361,ORD002711,2024-06-25,Payment,Low,Resolved,Payment failed but amount debited for order ORD002711. Contact me at user727@example.com or +91987650727.
-TKT00729,CUST00423,ORD003262,2025-04-19,Refund,Low,Closed,I want a refund for order ORD003262. Item was damaged. Contact me at user728@example.com or +91987650728.
-TKT00730,CUST00497,ORD003808,2024-09-24,Other,Low,Open,General inquiry about order ORD003808. Contact me at user729@example.com or +91987650729.
-TKT00731,CUST00008,ORD000037,2024-07-18,Delivery Delay,Critical,In Progress,Order ORD000037 is very late. Please help. Contact me at user730@example.com or +91987650730.
-TKT00732,CUST00446,ORD003441,2024-03-06,Product Quality,Critical,Closed,Poor quality products in order ORD003441. Contact me at user731@example.com or +91987650731.
-TKT00733,CUST00491,ORD003767,2024-04-12,Product Quality,Medium,Resolved,Poor quality products in order ORD003767. Contact me at user732@example.com or +91987650732.
-TKT00734,CUST00207,ORD001549,2024-05-18,Payment,Medium,Closed,Payment failed but amount debited for order ORD001549. Contact me at user733@example.com or +91987650733.
-TKT00735,CUST00315,ORD002327,2025-08-12,Payment,Critical,Resolved,Payment failed but amount debited for order ORD002327. Contact me at user734@example.com or +91987650734.
-TKT00736,CUST00307,ORD002265,2025-09-09,Delivery Delay,Critical,Open,Order ORD002265 is very late. Please help. Contact me at user735@example.com or +91987650735.
-TKT00737,CUST00383,ORD002915,2024-09-03,App Issue,Medium,In Progress,App crashes when I track order ORD002915. Contact me at user736@example.com or +91987650736.
-TKT00738,CUST00115,ORD000873,2025-03-02,Product Quality,Critical,Open,Poor quality products in order ORD000873. Contact me at user737@example.com or +91987650737.
-TKT00739,CUST00244,ORD001822,2024-08-19,App Issue,Medium,Open,App crashes when I track order ORD001822. Contact me at user738@example.com or +91987650738.
-TKT00740,CUST00172,ORD001297,2025-09-10,Fraud,Medium,Open,Suspicious activity on my account related to order ORD001297. Contact me at user739@example.com or +91987650739.
-TKT00741,CUST00286,ORD002110,2024-09-13,Payment,Low,In Progress,Payment failed but amount debited for order ORD002110. Contact me at user740@example.com or +91987650740.
-TKT00742,CUST00077,ORD000596,2024-12-20,Product Quality,Low,Open,Poor quality products in order ORD000596. Contact me at user741@example.com or +91987650741.
-TKT00743,CUST00254,ORD001904,2024-06-02,Product Quality,High,In Progress,Poor quality products in order ORD001904. Contact me at user742@example.com or +91987650742.
-TKT00744,CUST00094,ORD000729,2024-11-26,Payment,Low,Closed,Payment failed but amount debited for order ORD000729. Contact me at user743@example.com or +91987650743.
-TKT00745,CUST00183,ORD001366,2024-10-30,Delivery Delay,Critical,Resolved,Order ORD001366 is very late. Please help. Contact me at user744@example.com or +91987650744.
-TKT00746,CUST00050,ORD000397,2024-04-11,App Issue,Medium,Resolved,App crashes when I track order ORD000397. Contact me at user745@example.com or +91987650745.
-TKT00747,CUST00091,ORD000699,2025-04-07,Fraud,Medium,Closed,Suspicious activity on my account related to order ORD000699. Contact me at user746@example.com or +91987650746.
-TKT00748,CUST00406,ORD003091,2025-03-01,Refund,Critical,In Progress,I want a refund for order ORD003091. Item was damaged. Contact me at user747@example.com or +91987650747.
-TKT00749,CUST00301,ORD002225,2025-06-23,Refund,Low,Resolved,I want a refund for order ORD002225. Item was damaged. Contact me at user748@example.com or +91987650748.
-TKT00750,CUST00215,ORD001636,2024-05-09,Other,Critical,Closed,General inquiry about order ORD001636. Contact me at user749@example.com or +91987650749.
-TKT00751,CUST00050,ORD000396,2024-04-20,Payment,Critical,Closed,Payment failed but amount debited for order ORD000396. Contact me at user750@example.com or +91987650750.
-TKT00752,CUST00333,ORD002493,2024-01-06,Fraud,Medium,In Progress,Suspicious activity on my account related to order ORD002493. Contact me at user751@example.com or +91987650751.
-TKT00753,CUST00428,ORD003305,2025-05-20,App Issue,Low,Closed,App crashes when I track order ORD003305. Contact me at user752@example.com or +91987650752.
-TKT00754,CUST00013,ORD000076,2024-03-10,Refund,Low,Open,I want a refund for order ORD000076. Item was damaged. Contact me at user753@example.com or +91987650753.
-TKT00755,CUST00037,ORD000265,2024-04-23,Refund,Critical,Closed,I want a refund for order ORD000265. Item was damaged. Contact me at user754@example.com or +91987650754.
-TKT00756,CUST00334,ORD002503,2024-03-31,Fraud,Critical,Resolved,Suspicious activity on my account related to order ORD002503. Contact me at user755@example.com or +91987650755.
-TKT00757,CUST00244,ORD001820,2024-12-03,Delivery Delay,Medium,In Progress,Order ORD001820 is very late. Please help. Contact me at user756@example.com or +91987650756.
-TKT00758,CUST00092,ORD000718,2025-05-29,Fraud,Medium,Closed,Suspicious activity on my account related to order ORD000718. Contact me at user757@example.com or +91987650757.
-TKT00759,CUST00368,ORD002783,2024-02-13,Fraud,Medium,Closed,Suspicious activity on my account related to order ORD002783. Contact me at user758@example.com or +91987650758.
-TKT00760,CUST00448,ORD003456,2024-07-08,Other,Low,Open,General inquiry about order ORD003456. Contact me at user759@example.com or +91987650759.
-TKT00761,CUST00471,ORD003636,2024-07-09,App Issue,Critical,Closed,App crashes when I track order ORD003636. Contact me at user760@example.com or +91987650760.
-TKT00762,CUST00111,ORD000851,2025-05-01,Fraud,Low,Open,Suspicious activity on my account related to order ORD000851. Contact me at user761@example.com or +91987650761.
-TKT00763,CUST00462,ORD003578,2024-10-26,Payment,High,Closed,Payment failed but amount debited for order ORD003578. Contact me at user762@example.com or +91987650762.
-TKT00764,CUST00186,ORD001391,2024-11-20,Fraud,High,In Progress,Suspicious activity on my account related to order ORD001391. Contact me at user763@example.com or +91987650763.
-TKT00765,CUST00022,ORD000144,2024-05-08,Delivery Delay,Critical,Open,Order ORD000144 is very late. Please help. Contact me at user764@example.com or +91987650764.
-TKT00766,CUST00116,ORD000885,2025-03-15,App Issue,Low,Closed,App crashes when I track order ORD000885. Contact me at user765@example.com or +91987650765.
-TKT00767,CUST00411,ORD003141,2025-05-11,Fraud,Critical,In Progress,Suspicious activity on my account related to order ORD003141. Contact me at user766@example.com or +91987650766.
-TKT00768,CUST00413,ORD003171,2024-03-03,Fraud,Critical,Resolved,Suspicious activity on my account related to order ORD003171. Contact me at user767@example.com or +91987650767.
-TKT00769,CUST00050,ORD000396,2024-04-20,Other,Low,Closed,General inquiry about order ORD000396. Contact me at user768@example.com or +91987650768.
-TKT00770,CUST00406,ORD003097,2025-07-15,Delivery Delay,High,Closed,Order ORD003097 is very late. Please help. Contact me at user769@example.com or +91987650769.
-TKT00771,CUST00396,ORD002996,2024-01-05,Refund,Low,In Progress,I want a refund for order ORD002996. Item was damaged. Contact me at user770@example.com or +91987650770.
-TKT00772,CUST00386,ORD002939,2024-07-26,App Issue,Critical,Closed,App crashes when I track order ORD002939. Contact me at user771@example.com or +91987650771.
-TKT00773,CUST00199,ORD001493,2024-08-10,App Issue,Low,In Progress,App crashes when I track order ORD001493. Contact me at user772@example.com or +91987650772.
-TKT00774,CUST00460,ORD003556,2025-07-10,Other,Medium,Resolved,General inquiry about order ORD003556. Contact me at user773@example.com or +91987650773.
-TKT00775,CUST00471,ORD003637,2024-08-20,Delivery Delay,Critical,Resolved,Order ORD003637 is very late. Please help. Contact me at user774@example.com or +91987650774.
-TKT00776,CUST00420,ORD003223,2024-12-30,Delivery Delay,Low,Resolved,Order ORD003223 is very late. Please help. Contact me at user775@example.com or +91987650775.
-TKT00777,CUST00153,ORD001168,2025-03-01,Refund,Critical,Open,I want a refund for order ORD001168. Item was damaged. Contact me at user776@example.com or +91987650776.
-TKT00778,CUST00348,ORD002617,2025-06-13,Fraud,Critical,Open,Suspicious activity on my account related to order ORD002617. Contact me at user777@example.com or +91987650777.
-TKT00779,CUST00142,ORD001063,2024-01-18,Product Quality,Low,Closed,Poor quality products in order ORD001063. Contact me at user778@example.com or +91987650778.
-TKT00780,CUST00292,ORD002157,2024-01-08,App Issue,Medium,Closed,App crashes when I track order ORD002157. Contact me at user779@example.com or +91987650779.
-TKT00781,CUST00490,ORD003765,2024-09-16,Product Quality,Medium,Closed,Poor quality products in order ORD003765. Contact me at user780@example.com or +91987650780.
-TKT00782,CUST00142,ORD001066,2025-09-10,Other,High,Closed,General inquiry about order ORD001066. Contact me at user781@example.com or +91987650781.
-TKT00783,CUST00159,ORD001210,2024-06-16,Product Quality,Critical,In Progress,Poor quality products in order ORD001210. Contact me at user782@example.com or +91987650782.
-TKT00784,CUST00394,ORD002983,2025-05-01,Delivery Delay,High,In Progress,Order ORD002983 is very late. Please help. Contact me at user783@example.com or +91987650783.
-TKT00785,CUST00327,ORD002446,2024-05-08,App Issue,Low,Closed,App crashes when I track order ORD002446. Contact me at user784@example.com or +91987650784.
-TKT00786,CUST00426,ORD003295,2025-03-29,Payment,High,Open,Payment failed but amount debited for order ORD003295. Contact me at user785@example.com or +91987650785.
-TKT00787,CUST00082,ORD000634,2025-01-01,Refund,High,In Progress,I want a refund for order ORD000634. Item was damaged. Contact me at user786@example.com or +91987650786.
-TKT00788,CUST00152,ORD001157,2024-05-07,App Issue,High,In Progress,App crashes when I track order ORD001157. Contact me at user787@example.com or +91987650787.
-TKT00789,CUST00420,ORD003235,2024-07-14,Product Quality,Medium,In Progress,Poor quality products in order ORD003235. Contact me at user788@example.com or +91987650788.
-TKT00790,CUST00165,ORD001239,2024-05-07,Delivery Delay,High,Closed,Order ORD001239 is very late. Please help. Contact me at user789@example.com or +91987650789.
-TKT00791,CUST00094,ORD000733,2024-10-09,Product Quality,Critical,Resolved,Poor quality products in order ORD000733. Contact me at user790@example.com or +91987650790.
-TKT00792,CUST00034,ORD000235,2024-12-28,Fraud,Low,Resolved,Suspicious activity on my account related to order ORD000235. Contact me at user791@example.com or +91987650791.
-TKT00793,CUST00360,ORD002706,2024-10-21,Other,Medium,Closed,General inquiry about order ORD002706. Contact me at user792@example.com or +91987650792.
-TKT00794,CUST00096,ORD000751,2024-11-30,Refund,Low,Resolved,I want a refund for order ORD000751. Item was damaged. Contact me at user793@example.com or +91987650793.
-TKT00795,CUST00350,ORD002636,2024-06-09,App Issue,Low,Closed,App crashes when I track order ORD002636. Contact me at user794@example.com or +91987650794.
-TKT00796,CUST00405,ORD003081,2025-09-07,Refund,Critical,Open,I want a refund for order ORD003081. Item was damaged. Contact me at user795@example.com or +91987650795.
-TKT00797,CUST00411,ORD003146,2024-04-19,App Issue,Critical,In Progress,App crashes when I track order ORD003146. Contact me at user796@example.com or +91987650796.
-TKT00798,CUST00124,ORD000954,2025-07-28,Other,Critical,Closed,General inquiry about order ORD000954. Contact me at user797@example.com or +91987650797.
-TKT00799,CUST00339,ORD002540,2024-03-06,Fraud,High,Open,Suspicious activity on my account related to order ORD002540. Contact me at user798@example.com or +91987650798.
-TKT00800,CUST00390,ORD002961,2025-08-21,Fraud,Medium,Open,Suspicious activity on my account related to order ORD002961. Contact me at user799@example.com or +91987650799.
+ticket_id,customer_id,order_id,ticket_text,true_category
+T0024,C0486,ORD-105035,There is an unauthorized transaction on my card linked to order ORD-105035. I did not place it. Call 7766326255.,fraud
+T0073,C0080,ORD-100816,The invoice for ORD-100816 shows a wrong amount. Call me on 9562272031 to correct the bill.,billing
+T0095,C1087,ORD-111156,The payment page shows an error and the app freezes when I apply a coupon. Order ORD-111156.,technical
+T0080,C0910,ORD-109516,"I was charged for order ORD-109516 that I never made, it looks like fraud on my account. Call 7967039226.",fraud
+T0124,C0139,ORD-101417,"I was charged for order ORD-101417 that I never made, it looks like fraud on my account. Call 6938157663.",fraud
+T0061,C0812,ORD-108532,"Extra money was deducted for order ORD-108532, please check the bill. Contact user61@example.com.",billing
+T0118,C0355,ORD-103823,"Delivery for ORD-103823 is very late, it was promised in 20 minutes. Write to user118@example.com.",delivery
+T0037,C1156,ORD-111925,I was charged twice for order ORD-111925. Please refund the extra payment. My email is user37@example.com.,billing
+T0002,C0881,ORD-109184,The rider marked ORD-109184 as delivered but I never received the package. Call 6041016815.,delivery
+T0163,C0322,,My delivery was late. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet.,delivery
+T0031,C0958,ORD-109980,The payment page shows an error and the app freezes when I apply a coupon. Order ORD-109980.,technical
+T0047,C0756,ORD-107911,"I cannot login, the OTP never arrives on 8628493426.",technical
+T0063,C0892,ORD-109267,"I cannot login, the OTP never arrives on 7684850357.",technical
+T0121,C0852,ORD-108861,I was charged twice for order ORD-108861. Please refund the extra payment. My email is user121@example.com.,billing
+T0139,C0829,ORD-108665,The app crashes every time I open the cart. I tried to place ORD-108665 again and got an error. Email user139@example.com.,technical
+T0115,C1025,ORD-110592,"I cannot login, the OTP never arrives on 8359412522.",technical
+T0123,C0674,ORD-107015,"I cannot login, the OTP never arrives on 8051630352.",technical
+T0116,C0294,ORD-103152,"I was charged for order ORD-103152 that I never made, it looks like fraud on my account. Call 7852063392.",fraud
+T0136,C0891,ORD-109266,"Someone hacked my account and used my wallet balance. This is fraud, contact user136@example.com.",fraud
+T0008,C1177,ORD-112095,There is an unauthorized transaction on my card linked to order ORD-112095. I did not place it. Call 7279193214.,fraud
+T0102,C0985,ORD-110217,My order ORD-110217 has not arrived and the rider is not picking up calls. Please call 6606044335.,delivery
+T0072,C0218,ORD-102285,"I was charged for order ORD-102285 that I never made, it looks like fraud on my account. Call 9092617709.",fraud
+T0101,C1151,ORD-111861,The invoice for ORD-111861 shows a wrong amount. Call me on 8271812156 to correct the bill.,billing
+T0059,C0764,ORD-108001,"I cannot login, the OTP never arrives on 6543401117.",technical
+T0049,C0078,ORD-100789,The invoice for ORD-100789 shows a wrong amount. Call me on 8340913088 to correct the bill.,billing
+T0153,C0150,ORD-101580,"Extra money was deducted for order ORD-101580, please check the bill. Contact user153@example.com.",billing
+T0050,C0117,ORD-101184,The rider marked ORD-101184 as delivered but I never received the package. Call 6262224644.,delivery
+T0147,C0125,ORD-101278,The payment page shows an error and the app freezes when I apply a coupon. Order ORD-101278.,technical
+T0074,C1119,ORD-111436,The rider marked ORD-111436 as delivered but I never received the package. Call 6171250017.,delivery
+T0156,C0328,ORD-103493,There is an unauthorized transaction on my card linked to order ORD-103493. I did not place it. Call 9187445083.,fraud
+T0145,C0751,ORD-107833,The invoice for ORD-107833 shows a wrong amount. Call me on 9259872399 to correct the bill.,billing
+T0053,C0447,ORD-104751,I was charged twice for order ORD-104751. Please refund the extra payment. My email is user53@example.com.,billing
+T0134,C0608,ORD-106377,My order ORD-106377 has not arrived and the rider is not picking up calls. Please call 7934988831.,delivery
+T0039,C0298,ORD-103207,The app crashes every time I open the cart. I tried to place ORD-103207 again and got an error. Email user39@example.com.,technical
+T0016,C0962,ORD-110014,"I was charged for order ORD-110014 that I never made, it looks like fraud on my account. Call 8843374085.",fraud
+T0055,C1063,ORD-110877,The app crashes every time I open the cart. I tried to place ORD-110877 again and got an error. Email user55@example.com.,technical
+T0130,C0692,ORD-107249,My order ORD-107249 has not arrived and the rider is not picking up calls. Please call 9894737467.,delivery
+T0099,C1000,ORD-110362,The app crashes every time I open the cart. I tried to place ORD-110362 again and got an error. Email user99@example.com.,technical
+T0062,C0403,ORD-104281,The rider marked ORD-104281 as delivered but I never received the package. Call 7201800969.,delivery
+T0013,C0507,ORD-105251,I was charged twice for order ORD-105251. Please refund the extra payment. My email is user13@example.com.,billing
+T0137,C0978,ORD-110191,The invoice for ORD-110191 shows a wrong amount. Call me on 7361957014 to correct the bill.,billing
+T0152,C0530,ORD-105446,"I was charged for order ORD-105446 that I never made, it looks like fraud on my account. Call 7683885084.",fraud
+T0144,C0521,ORD-105355,"I was charged for order ORD-105355 that I never made, it looks like fraud on my account. Call 8412216382.",fraud
+T0094,C0863,ORD-108994,My order ORD-108994 has not arrived and the rider is not picking up calls. Please call 7691091433.,delivery
+T0021,C0909,ORD-109503,"Extra money was deducted for order ORD-109503, please check the bill. Contact user21@example.com.",billing
+T0077,C0082,ORD-100855,"Extra money was deducted for order ORD-100855, please check the bill. Contact user77@example.com.",billing
+T0036,C0173,ORD-101775,"I was charged for order ORD-101775 that I never made, it looks like fraud on my account. Call 7058369231.",fraud
+T0113,C0077,ORD-100782,"Extra money was deducted for order ORD-100782, please check the bill. Contact user113@example.com.",billing
+T0060,C0784,ORD-108186,There is an unauthorized transaction on my card linked to order ORD-108186. I did not place it. Call 7988528541.,fraud
+T0043,C0942,ORD-109807,"I cannot login, the OTP never arrives on 7597695541.",technical
+T0048,C0733,ORD-107646,"Someone hacked my account and used my wallet balance. This is fraud, contact user48@example.com.",fraud
+T0154,C1071,ORD-110981,My order ORD-110981 has not arrived and the rider is not picking up calls. Please call 8143727017.,delivery
+T0125,C1156,ORD-111925,"Extra money was deducted for order ORD-111925, please check the bill. Contact user125@example.com.",billing
+T0146,C1024,ORD-110585,"Delivery for ORD-110585 is very late, it was promised in 20 minutes. Write to user146@example.com.",delivery
+T0107,C0783,ORD-108183,"I cannot login, the OTP never arrives on 7798324283.",technical
+T0011,C0233,ORD-102448,The app crashes every time I open the cart. I tried to place ORD-102448 again and got an error. Email user11@example.com.,technical
+T0017,C0028,ORD-100227,The invoice for ORD-100227 shows a wrong amount. Call me on 6385401556 to correct the bill.,billing
+T0111,C1033,ORD-110648,"I cannot login, the OTP never arrives on 8708197143.",technical
+T0041,C0464,ORD-104872,I was charged twice for order ORD-104872. Please refund the extra payment. My email is user41@example.com.,billing
+T0120,C0208,ORD-102159,There is an unauthorized transaction on my card linked to order ORD-102159. I did not place it. Call 8007532020.,fraud
+T0122,C0404,ORD-104288,The rider marked ORD-104288 as delivered but I never received the package. Call 8771717716.,delivery
+T0001,C0851,ORD-108859,I was charged twice for order ORD-108859. Please refund the extra payment. My email is user1@example.com.,billing
+T0064,C0848,ORD-108847,There is an unauthorized transaction on my card linked to order ORD-108847. I did not place it. Call 8216420527.,fraud
+T0092,C0585,ORD-106087,"Someone hacked my account and used my wallet balance. This is fraud, contact user92@example.com.",fraud
+T0038,C0882,ORD-109188,The rider marked ORD-109188 as delivered but I never received the package. Call 6205468409.,delivery
+T0155,C0285,ORD-103031,The app crashes every time I open the cart. I tried to place ORD-103031 again and got an error. Email user155@example.com.,technical
+T0104,C0815,ORD-108586,"Someone hacked my account and used my wallet balance. This is fraud, contact user104@example.com.",fraud
+T0012,C0335,ORD-103540,"I was charged for order ORD-103540 that I never made, it looks like fraud on my account. Call 6768006191.",fraud
+T0084,C0569,ORD-105924,There is an unauthorized transaction on my card linked to order ORD-105924. I did not place it. Call 8877802143.,fraud
+T0051,C1049,ORD-110766,"I cannot login, the OTP never arrives on 6680542474.",technical
+T0143,C0339,ORD-103589,The app crashes every time I open the cart. I tried to place ORD-103589 again and got an error. Email user143@example.com.,technical
+T0035,C1175,ORD-112067,The payment page shows an error and the app freezes when I apply a coupon. Order ORD-112067.,technical
+T0028,C1036,ORD-110656,There is an unauthorized transaction on my card linked to order ORD-110656. I did not place it. Call 7725115153.,fraud
+T0100,C0754,ORD-107892,There is an unauthorized transaction on my card linked to order ORD-107892. I did not place it. Call 9559057500.,fraud
+T0022,C1160,ORD-111937,My order ORD-111937 has not arrived and the rider is not picking up calls. Please call 6349222189.,delivery
+T0082,C0168,ORD-101719,The rider marked ORD-101719 as delivered but I never received the package. Call 6912822254.,delivery
+T0127,C0976,ORD-110184,The payment page shows an error and the app freezes when I apply a coupon. Order ORD-110184.,technical
+T0162,C0665,,My delivery was late. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet.,delivery
+T0109,C1080,ORD-111098,I was charged twice for order ORD-111098. Please refund the extra payment. My email is user109@example.com.,billing
+T0046,C0442,ORD-104681,My order ORD-104681 has not arrived and the rider is not picking up calls. Please call 8598134016.,delivery
+T0081,C0559,ORD-105812,The invoice for ORD-105812 shows a wrong amount. Call me on 8093014981 to correct the bill.,billing
+T0007,C0682,ORD-107115,"I cannot login, the OTP never arrives on 7975837338.",technical
+T0068,C0208,ORD-102159,"I was charged for order ORD-102159 that I never made, it looks like fraud on my account. Call 9440756891.",fraud
+T0085,C0031,ORD-100246,The invoice for ORD-100246 shows a wrong amount. Call me on 6990540553 to correct the bill.,billing
+T0075,C0901,ORD-109401,The app crashes every time I open the cart. I tried to place ORD-109401 again and got an error. Email user75@example.com.,technical
+T0052,C1005,ORD-110381,There is an unauthorized transaction on my card linked to order ORD-110381. I did not place it. Call 9161875407.,fraud
+T0066,C1199,ORD-112282,My order ORD-112282 has not arrived and the rider is not picking up calls. Please call 6306629834.,delivery
+T0151,C1011,ORD-110419,"I cannot login, the OTP never arrives on 7010101525.",technical
+T0131,C0069,ORD-100640,"I cannot login, the OTP never arrives on 6439060750.",technical
+T0006,C0177,ORD-101828,"Delivery for ORD-101828 is very late, it was promised in 20 minutes. Write to user6@example.com.",delivery
+T0135,C0303,ORD-103236,The payment page shows an error and the app freezes when I apply a coupon. Order ORD-103236.,technical
+T0079,C1128,ORD-111527,"I cannot login, the OTP never arrives on 9650365658.",technical
+T0040,C0256,ORD-102771,There is an unauthorized transaction on my card linked to order ORD-102771. I did not place it. Call 8250535053.,fraud
+T0093,C0131,ORD-101353,The invoice for ORD-101353 shows a wrong amount. Call me on 9638710791 to correct the bill.,billing
+T0089,C0860,ORD-108962,"Extra money was deducted for order ORD-108962, please check the bill. Contact user89@example.com.",billing
+T0034,C1188,ORD-112150,My order ORD-112150 has not arrived and the rider is not picking up calls. Please call 7303545656.,delivery
+T0033,C0714,ORD-107436,The invoice for ORD-107436 shows a wrong amount. Call me on 6355591369 to correct the bill.,billing
+T0087,C0797,ORD-108291,The app crashes every time I open the cart. I tried to place ORD-108291 again and got an error. Email user87@example.com.,technical
+T0009,C0758,ORD-107947,I was charged twice for order ORD-107947. Please refund the extra payment. My email is user9@example.com.,billing
+T0108,C0340,ORD-103591,"I was charged for order ORD-103591 that I never made, it looks like fraud on my account. Call 8148468787.",fraud
+T0054,C0571,ORD-105954,"Delivery for ORD-105954 is very late, it was promised in 20 minutes. Write to user54@example.com.",delivery
+T0025,C0610,ORD-106410,The invoice for ORD-106410 shows a wrong amount. Call me on 9210876182 to correct the bill.,billing
+T0004,C0721,ORD-107503,There is an unauthorized transaction on my card linked to order ORD-107503. I did not place it. Call 7931118452.,fraud
+T0148,C1057,ORD-110793,There is an unauthorized transaction on my card linked to order ORD-110793. I did not place it. Call 8743023183.,fraud
+T0088,C0852,ORD-108861,"Someone hacked my account and used my wallet balance. This is fraud, contact user88@example.com.",fraud
+T0030,C0015,ORD-100142,"Delivery for ORD-100142 is very late, it was promised in 20 minutes. Write to user30@example.com.",delivery
+T0067,C0704,ORD-107331,"I cannot login, the OTP never arrives on 9138531189.",technical
+T0029,C0885,ORD-109201,The invoice for ORD-109201 shows a wrong amount. Call me on 9731351336 to correct the bill.,billing
+T0129,C0237,ORD-102464,I was charged twice for order ORD-102464. Please refund the extra payment. My email is user129@example.com.,billing
+T0105,C0063,ORD-100548,"Extra money was deducted for order ORD-100548, please check the bill. Contact user105@example.com.",billing
+T0045,C0628,ORD-106549,The invoice for ORD-106549 shows a wrong amount. Call me on 6466957196 to correct the bill.,billing
+T0069,C0491,ORD-105103,The invoice for ORD-105103 shows a wrong amount. Call me on 6427241250 to correct the bill.,billing
+T0010,C1190,ORD-112173,"Delivery for ORD-112173 is very late, it was promised in 20 minutes. Write to user10@example.com.",delivery
+T0023,C0400,ORD-104257,"I cannot login, the OTP never arrives on 8599384471.",technical
+T0106,C0197,ORD-102035,"Delivery for ORD-102035 is very late, it was promised in 20 minutes. Write to user106@example.com.",delivery
+T0015,C0488,ORD-105043,The payment page shows an error and the app freezes when I apply a coupon. Order ORD-105043.,technical
+T0091,C0796,ORD-108287,The app crashes every time I open the cart. I tried to place ORD-108287 again and got an error. Email user91@example.com.,technical
+T0126,C0996,ORD-110339,The rider marked ORD-110339 as delivered but I never received the package. Call 7324939050.,delivery
+T0096,C0324,ORD-103449,There is an unauthorized transaction on my card linked to order ORD-103449. I did not place it. Call 6854741870.,fraud
+T0149,C0770,ORD-108044,The invoice for ORD-108044 shows a wrong amount. Call me on 9045661271 to correct the bill.,billing
+T0070,C1150,ORD-111821,"Delivery for ORD-111821 is very late, it was promised in 20 minutes. Write to user70@example.com.",delivery
+T0026,C0677,ORD-107058,"Delivery for ORD-107058 is very late, it was promised in 20 minutes. Write to user26@example.com.",delivery
+T0097,C0932,ORD-109706,"Extra money was deducted for order ORD-109706, please check the bill. Contact user97@example.com.",billing
+T0132,C0282,ORD-103018,"I was charged for order ORD-103018 that I never made, it looks like fraud on my account. Call 8940109809.",fraud
+T0027,C0232,ORD-102430,The payment page shows an error and the app freezes when I apply a coupon. Order ORD-102430.,technical
+T0119,C0629,ORD-106558,The payment page shows an error and the app freezes when I apply a coupon. Order ORD-106558.,technical
+T0058,C0287,ORD-103050,"Delivery for ORD-103050 is very late, it was promised in 20 minutes. Write to user58@example.com.",delivery
+T0110,C0056,ORD-100455,My order ORD-100455 has not arrived and the rider is not picking up calls. Please call 6041708693.,delivery
+T0018,C1135,ORD-111613,"Delivery for ORD-111613 is very late, it was promised in 20 minutes. Write to user18@example.com.",delivery
+T0032,C1139,ORD-111658,There is an unauthorized transaction on my card linked to order ORD-111658. I did not place it. Call 6858531173.,fraud
+T0003,C0591,ORD-106171,"I cannot login, the OTP never arrives on 6313166640.",technical
+T0042,C0508,ORD-105268,The rider marked ORD-105268 as delivered but I never received the package. Call 7633267485.,delivery
+T0056,C0140,ORD-101422,There is an unauthorized transaction on my card linked to order ORD-101422. I did not place it. Call 9877673685.,fraud
+T0114,C0619,ORD-106475,The rider marked ORD-106475 as delivered but I never received the package. Call 8254536980.,delivery
+T0083,C0356,ORD-103829,"I cannot login, the OTP never arrives on 8060520140.",technical
+T0138,C0720,ORD-107486,"Delivery for ORD-107486 is very late, it was promised in 20 minutes. Write to user138@example.com.",delivery
+T0057,C1199,ORD-112282,"Extra money was deducted for order ORD-112282, please check the bill. Contact user57@example.com.",billing
+T0076,C0418,ORD-104437,"I was charged for order ORD-104437 that I never made, it looks like fraud on my account. Call 9750161746.",fraud
+T0019,C0579,ORD-106023,The app crashes every time I open the cart. I tried to place ORD-106023 again and got an error. Email user19@example.com.,technical
+T0103,C0499,ORD-105191,The payment page shows an error and the app freezes when I apply a coupon. Order ORD-105191.,technical
+T0164,C0794,,My delivery was late. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet.,delivery
+T0090,C0322,ORD-103437,My order ORD-103437 has not arrived and the rider is not picking up calls. Please call 6078667469.,delivery
+T0112,C0432,ORD-104576,"I was charged for order ORD-104576 that I never made, it looks like fraud on my account. Call 9423393166.",fraud
+T0133,C0717,ORD-107475,"Extra money was deducted for order ORD-107475, please check the bill. Contact user133@example.com.",billing
+T0014,C0579,ORD-106023,"Delivery for ORD-106023 is very late, it was promised in 20 minutes. Write to user14@example.com.",delivery
+T0020,C0460,ORD-104844,There is an unauthorized transaction on my card linked to order ORD-104844. I did not place it. Call 7050241954.,fraud
+T0142,C0605,ORD-106355,My order ORD-106355 has not arrived and the rider is not picking up calls. Please call 6674178701.,delivery
+T0086,C1132,ORD-111556,The rider marked ORD-111556 as delivered but I never received the package. Call 7962585664.,delivery
+T0141,C0376,ORD-103995,"Extra money was deducted for order ORD-103995, please check the bill. Contact user141@example.com.",billing
+T0044,C0862,ORD-108988,"Someone hacked my account and used my wallet balance. This is fraud, contact user44@example.com.",fraud
+T0117,C0465,ORD-104875,"Extra money was deducted for order ORD-104875, please check the bill. Contact user117@example.com.",billing
+T0078,C0586,ORD-106095,The rider marked ORD-106095 as delivered but I never received the package. Call 6379505274.,delivery
+T0140,C1173,ORD-112046,There is an unauthorized transaction on my card linked to order ORD-112046. I did not place it. Call 7680691576.,fraud
+T0071,C0966,ORD-110076,The app crashes every time I open the cart. I tried to place ORD-110076 again and got an error. Email user71@example.com.,technical
+T0161,C0202,,My delivery was late. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet. The same problem keeps happening and nobody has given me a clear answer yet.,delivery
+T0150,C0622,ORD-106507,The rider marked ORD-106507 as delivered but I never received the package. Call 7908644125.,delivery
+T0065,C0205,ORD-102139,The invoice for ORD-102139 shows a wrong amount. Call me on 6752005652 to correct the bill.,billing
+T0128,C0467,ORD-104881,"Someone hacked my account and used my wallet balance. This is fraud, contact user128@example.com.",fraud
+T0005,C0404,ORD-104288,"Extra money was deducted for order ORD-104288, please check the bill. Contact user5@example.com.",billing
+T0098,C0343,ORD-103638,The rider marked ORD-103638 as delivered but I never received the package. Call 6290377387.,delivery

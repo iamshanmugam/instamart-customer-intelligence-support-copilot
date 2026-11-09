@@ -28,7 +28,14 @@ def test_clean_customers_dedupes():
 def test_clean_orders_drops_invalid_customers():
     orders = pd.DataFrame(
         [
-            {"order_id": "O1", "customer_id": "CX", "order_date": "2024-01-01", "order_status": "Completed", "order_amount": 100, "city": "Pune"},
+            {
+                "order_id": "ORD-100001",
+                "customer_id": "CX",
+                "order_ts": "2024-01-01 12:00:00",
+                "status": "completed",
+                "order_amount": 100,
+                "delivery_minutes": 20,
+            },
         ]
     )
     out = clean_orders(orders, {"C1"})

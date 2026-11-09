@@ -1,1 +1,1 @@
-{'customers': 500, 'orders': 3829, 'tickets': 800, 'counts_match_pandas': True}
+{'customers': 1200, 'orders': 12309, 'tickets': 160, 'products': 40, 'counts_match_pandas': True}

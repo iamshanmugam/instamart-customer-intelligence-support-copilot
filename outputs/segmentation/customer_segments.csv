@@ -1,485 +1,1176 @@
 customer_id,recency_days,frequency,monetary,cluster,segment_name
-CUST00001,92.0,2,1021.51,0,High-value
-CUST00002,506.0,1,487.97,1,At-risk / Low engagement
-CUST00003,188.0,3,2765.49,0,High-value
-CUST00004,127.0,9,6245.02,2,High-value
-CUST00005,96.0,5,2671.0699999999997,0,High-value
-CUST00006,443.0,2,1348.56,1,At-risk / Low engagement
-CUST00007,550.0,1,462.49,1,At-risk / Low engagement
-CUST00008,47.0,8,8127.200000000002,2,High-value
-CUST00009,109.0,8,6275.9800000000005,2,High-value
-CUST00011,40.0,7,6417.25,2,High-value
-CUST00012,233.0,3,1220.65,0,High-value
-CUST00013,134.0,5,4664.38,0,High-value
-CUST00014,76.0,3,1652.0800000000002,0,High-value
-CUST00015,42.0,6,6677.07,2,High-value
-CUST00016,40.0,8,9133.12,2,High-value
-CUST00017,52.0,6,3474.8,0,High-value
-CUST00018,60.0,5,6136.93,2,High-value
-CUST00019,109.0,6,4279.53,0,High-value
-CUST00020,116.0,7,5836.78,2,High-value
-CUST00021,630.0,1,514.99,1,At-risk / Low engagement
-CUST00022,51.0,9,7253.299999999999,2,High-value
-CUST00023,30.0,4,3884.2599999999998,0,High-value
-CUST00024,210.0,2,1646.1799999999998,0,High-value
-CUST00025,419.0,1,1097.23,1,At-risk / Low engagement
-CUST00026,67.0,8,5666.26,2,High-value
-CUST00027,38.0,7,6176.200000000001,2,High-value
-CUST00028,86.0,12,10193.449999999999,2,High-value
-CUST00029,99.0,4,2213.995,0,High-value
-CUST00030,156.0,11,6352.719999999999,2,High-value
-CUST00031,59.0,9,8405.69,2,High-value
-CUST00032,42.0,4,2481.8199999999997,0,High-value
-CUST00033,236.0,1,724.24,0,High-value
-CUST00034,128.0,7,5445.74,2,High-value
-CUST00035,181.0,2,2638.04,0,High-value
-CUST00036,57.0,8,6667.879999999999,2,High-value
-CUST00037,104.0,13,14907.339999999998,2,High-value
-CUST00038,86.0,3,805.24,0,High-value
-CUST00039,40.0,6,5286.92,2,High-value
-CUST00040,38.0,11,8010.150000000001,2,High-value
-CUST00041,105.0,10,7613.670000000001,2,High-value
-CUST00042,115.0,3,2270.5,0,High-value
-CUST00043,54.0,10,7584.39,2,High-value
-CUST00044,80.0,7,4424.34,2,High-value
-CUST00045,150.0,9,7724.53,2,High-value
-CUST00046,57.0,4,3615.96,0,High-value
-CUST00047,42.0,8,3877.9500000000003,2,High-value
-CUST00048,161.0,3,1870.39,0,High-value
-CUST00049,227.0,8,6743.74,2,High-value
-CUST00050,559.0,2,834.0899999999999,1,At-risk / Low engagement
-CUST00051,355.0,4,3262.71,1,At-risk / Low engagement
-CUST00052,75.0,4,3373.0,0,High-value
-CUST00053,557.0,1,493.84,1,At-risk / Low engagement
-CUST00054,181.0,4,3089.4399999999996,0,High-value
-CUST00056,79.0,7,5135.21,2,High-value
-CUST00057,462.0,3,3616.89,1,At-risk / Low engagement
-CUST00058,74.0,6,6120.420000000001,2,High-value
-CUST00059,60.0,10,8011.12,2,High-value
-CUST00060,227.0,5,2948.2699999999995,0,High-value
-CUST00061,67.0,5,4088.1800000000003,0,High-value
-CUST00062,75.0,10,8294.32,2,High-value
-CUST00063,256.0,4,1567.88,0,High-value
-CUST00064,46.0,6,5811.110000000001,2,High-value
-CUST00065,111.0,8,6209.51,2,High-value
-CUST00066,219.0,5,3715.77,0,High-value
-CUST00067,109.0,10,5111.43,2,High-value
-CUST00068,87.0,8,7335.95,2,High-value
-CUST00069,84.0,3,2362.88,0,High-value
-CUST00070,95.0,10,7744.44,2,High-value
-CUST00071,97.0,8,7834.860000000001,2,High-value
-CUST00072,54.0,7,6953.089999999999,2,High-value
-CUST00073,39.0,4,3992.35,0,High-value
-CUST00075,394.0,2,1612.76,1,At-risk / Low engagement
-CUST00076,32.0,5,2718.2599999999993,0,High-value
-CUST00077,217.0,6,3391.2350000000006,0,High-value
-CUST00078,242.0,2,904.1500000000001,0,High-value
-CUST00079,231.0,1,811.18,0,High-value
-CUST00080,441.0,1,555.63,1,At-risk / Low engagement
-CUST00081,219.0,8,4873.679999999999,2,High-value
-CUST00082,46.0,9,9830.939999999999,2,High-value
-CUST00083,433.0,2,709.17,1,At-risk / Low engagement
-CUST00084,171.0,7,8176.210000000001,2,High-value
-CUST00085,91.0,7,6448.47,2,High-value
-CUST00086,387.0,5,2949.79,1,At-risk / Low engagement
-CUST00087,224.0,4,2156.02,0,High-value
-CUST00088,121.0,4,2686.84,0,High-value
-CUST00089,64.0,2,1187.37,0,High-value
-CUST00090,82.0,13,10232.82,2,High-value
-CUST00091,207.0,9,7100.16,2,High-value
-CUST00092,136.0,10,6613.46,2,High-value
-CUST00093,167.0,6,3565.2599999999998,0,High-value
-CUST00094,95.0,6,4287.070000000001,0,High-value
-CUST00095,209.0,9,8915.720000000001,2,High-value
-CUST00096,32.0,5,3544.06,0,High-value
-CUST00097,382.0,3,1628.86,1,At-risk / Low engagement
-CUST00098,111.0,9,4316.13,2,High-value
-CUST00099,307.0,2,1625.89,1,At-risk / Low engagement
-CUST00100,284.0,8,8593.349999999999,2,High-value
-CUST00101,208.0,5,3492.44,0,High-value
-CUST00102,71.0,1,584.93,0,High-value
-CUST00103,54.0,5,3469.98,0,High-value
-CUST00104,162.0,2,1818.73,0,High-value
-CUST00105,104.0,9,7028.035,2,High-value
-CUST00106,230.0,2,1579.27,0,High-value
-CUST00107,60.0,5,4238.9,0,High-value
-CUST00108,52.0,4,2839.71,0,High-value
-CUST00109,35.0,8,7246.790000000001,2,High-value
-CUST00110,128.0,2,2526.19,0,High-value
-CUST00111,72.0,9,6940.709999999999,2,High-value
-CUST00112,65.0,2,1009.24,0,High-value
-CUST00113,103.0,4,3377.16,0,High-value
-CUST00114,73.0,5,3628.8,0,High-value
-CUST00115,82.0,11,9595.12,2,High-value
-CUST00116,417.0,2,1428.8899999999999,1,At-risk / Low engagement
-CUST00117,32.0,5,6090.46,2,High-value
-CUST00118,66.0,7,5984.98,2,High-value
-CUST00119,120.0,8,5202.4800000000005,2,High-value
-CUST00120,70.0,10,7350.41,2,High-value
-CUST00121,98.0,7,5930.75,2,High-value
-CUST00122,36.0,9,9600.109999999999,2,High-value
-CUST00123,49.0,7,6095.42,2,High-value
-CUST00124,287.0,1,420.24,1,At-risk / Low engagement
-CUST00125,79.0,12,5952.26,2,High-value
-CUST00126,36.0,1,516.94,0,High-value
-CUST00127,142.0,3,3894.3900000000003,0,High-value
-CUST00128,419.0,1,806.74,1,At-risk / Low engagement
-CUST00129,157.0,1,735.71,0,High-value
-CUST00130,231.0,4,2972.85,0,High-value
-CUST00131,441.0,1,749.49,1,At-risk / Low engagement
-CUST00132,488.0,2,1506.83,1,At-risk / Low engagement
-CUST00133,102.0,9,4732.049999999999,2,High-value
-CUST00134,84.0,3,2582.655,0,High-value
-CUST00135,62.0,6,4937.13,2,High-value
-CUST00136,53.0,8,6779.34,2,High-value
-CUST00137,573.0,1,1351.62,1,At-risk / Low engagement
-CUST00138,61.0,12,7462.43,2,High-value
-CUST00139,132.0,3,1789.1399999999999,0,High-value
-CUST00140,40.0,5,4680.39,0,High-value
-CUST00141,60.0,9,5785.75,2,High-value
-CUST00142,51.0,11,9100.62,2,High-value
-CUST00143,154.0,6,4779.88,0,High-value
-CUST00144,114.0,5,2253.21,0,High-value
-CUST00145,145.0,9,10595.789999999999,2,High-value
-CUST00146,76.0,5,2143.34,0,High-value
-CUST00147,31.0,5,3208.61,0,High-value
-CUST00148,50.0,8,6031.139999999999,2,High-value
-CUST00149,75.0,5,1950.81,0,High-value
-CUST00150,157.0,5,3604.4,0,High-value
-CUST00151,82.0,12,7719.879999999999,2,High-value
-CUST00152,191.0,8,6192.57,2,High-value
-CUST00153,118.0,7,5142.64,2,High-value
-CUST00154,246.0,9,7991.700000000001,2,High-value
-CUST00155,191.0,3,2111.31,0,High-value
-CUST00156,266.0,3,1759.91,0,High-value
-CUST00157,114.0,7,5332.175,2,High-value
-CUST00158,91.0,3,1264.5800000000002,0,High-value
-CUST00159,393.0,2,1487.69,1,At-risk / Low engagement
-CUST00160,191.0,3,1738.35,0,High-value
-CUST00161,81.0,8,7296.84,2,High-value
-CUST00162,86.0,6,5250.780000000001,2,High-value
-CUST00163,35.0,4,1906.17,0,High-value
-CUST00164,206.0,2,1949.1599999999999,0,High-value
-CUST00165,356.0,5,5966.6900000000005,1,At-risk / Low engagement
-CUST00166,67.0,8,5337.79,2,High-value
-CUST00167,41.0,12,10226.24,2,High-value
-CUST00168,68.0,4,3411.26,0,High-value
-CUST00169,71.0,1,854.58,0,High-value
-CUST00170,92.0,2,2449.67,0,High-value
-CUST00171,187.0,6,4596.37,0,High-value
-CUST00172,30.0,5,3881.97,0,High-value
-CUST00173,55.0,4,5342.82,0,High-value
-CUST00174,282.0,5,4204.97,0,High-value
-CUST00175,150.0,6,4048.34,0,High-value
-CUST00176,48.0,13,8809.63,2,High-value
-CUST00177,146.0,8,4849.69,2,High-value
-CUST00178,215.0,2,1977.0300000000002,0,High-value
-CUST00179,539.0,1,983.76,1,At-risk / Low engagement
-CUST00180,66.0,1,657.14,0,High-value
-CUST00181,146.0,2,743.22,0,High-value
-CUST00182,319.0,3,1670.76,1,At-risk / Low engagement
-CUST00183,114.0,11,7752.47,2,High-value
-CUST00184,110.0,3,1976.26,0,High-value
-CUST00185,172.0,6,4652.09,0,High-value
-CUST00186,143.0,2,1706.01,0,High-value
-CUST00188,182.0,4,2605.7,0,High-value
-CUST00189,78.0,10,9067.180000000002,2,High-value
-CUST00190,51.0,6,6143.11,2,High-value
-CUST00191,108.0,9,8721.69,2,High-value
-CUST00192,190.0,2,2145.12,0,High-value
-CUST00193,326.0,2,1648.19,1,At-risk / Low engagement
-CUST00194,291.0,8,4873.27,2,High-value
-CUST00195,50.0,10,9665.53,2,High-value
-CUST00196,109.0,7,3240.6400000000003,0,High-value
-CUST00197,465.0,1,582.53,1,At-risk / Low engagement
-CUST00198,301.0,6,3161.73,0,High-value
-CUST00199,230.0,9,5485.750000000001,2,High-value
-CUST00200,58.0,10,7170.73,2,High-value
-CUST00202,35.0,8,5656.16,2,High-value
-CUST00203,158.0,5,3649.9100000000003,0,High-value
-CUST00204,274.0,3,1300.5,0,High-value
-CUST00206,133.0,4,3404.36,0,High-value
-CUST00207,161.0,8,10679.06,2,High-value
-CUST00208,38.0,5,2858.35,0,High-value
-CUST00209,37.0,9,5900.61,2,High-value
-CUST00210,64.0,12,10590.33,2,High-value
-CUST00211,104.0,9,6232.04,2,High-value
-CUST00212,136.0,7,5673.385000000001,2,High-value
-CUST00213,69.0,5,3835.5600000000004,0,High-value
-CUST00214,88.0,6,2833.4,0,High-value
-CUST00215,78.0,11,7266.44,2,High-value
-CUST00216,320.0,1,1055.81,1,At-risk / Low engagement
-CUST00217,112.0,8,5236.77,2,High-value
-CUST00218,145.0,3,1510.23,0,High-value
-CUST00219,171.0,10,5023.63,2,High-value
-CUST00220,119.0,7,3770.4100000000003,0,High-value
-CUST00221,518.0,1,852.17,1,At-risk / Low engagement
-CUST00222,667.0,1,796.53,1,At-risk / Low engagement
-CUST00223,66.0,8,7019.08,2,High-value
-CUST00224,45.0,6,4112.44,0,High-value
-CUST00225,270.0,3,1495.6299999999999,0,High-value
-CUST00226,253.0,7,5347.82,2,High-value
-CUST00228,30.0,9,4587.530000000001,2,High-value
-CUST00229,68.0,11,10934.52,2,High-value
-CUST00230,234.0,1,412.23,0,High-value
-CUST00231,478.0,2,758.79,1,At-risk / Low engagement
-CUST00232,33.0,3,1861.64,0,High-value
-CUST00233,167.0,8,6939.18,2,High-value
-CUST00234,396.0,9,5442.7699999999995,2,High-value
-CUST00236,102.0,1,1764.33,0,High-value
-CUST00237,345.0,3,1334.18,1,At-risk / Low engagement
-CUST00238,93.0,1,456.28,0,High-value
-CUST00239,69.0,8,5912.8099999999995,2,High-value
-CUST00240,39.0,8,6660.545,2,High-value
-CUST00242,52.0,8,5707.95,2,High-value
-CUST00243,428.0,2,708.47,1,At-risk / Low engagement
-CUST00244,50.0,12,8024.04,2,High-value
-CUST00245,253.0,4,2698.24,0,High-value
-CUST00246,71.0,8,6144.320000000001,2,High-value
-CUST00247,62.0,5,3522.37,0,High-value
-CUST00248,149.0,6,3481.33,0,High-value
-CUST00249,126.0,7,7379.610000000001,2,High-value
-CUST00250,33.0,4,1935.1100000000001,0,High-value
-CUST00251,33.0,6,4905.36,2,High-value
-CUST00252,129.0,5,3915.14,0,High-value
-CUST00254,30.0,8,8774.6,2,High-value
-CUST00255,513.0,1,780.22,1,At-risk / Low engagement
-CUST00256,215.0,3,1915.6599999999999,0,High-value
-CUST00257,46.0,10,10122.380000000001,2,High-value
-CUST00258,374.0,1,1040.76,1,At-risk / Low engagement
-CUST00259,214.0,5,6473.11,2,High-value
-CUST00260,143.0,7,4759.09,2,High-value
-CUST00261,236.0,1,1426.41,0,High-value
-CUST00262,171.0,1,678.14,0,High-value
-CUST00263,102.0,8,4527.43,2,High-value
-CUST00264,584.0,1,321.79,1,At-risk / Low engagement
-CUST00266,115.0,1,2146.84,0,High-value
-CUST00267,51.0,8,5881.9400000000005,2,High-value
-CUST00268,143.0,11,9865.16,2,High-value
-CUST00269,109.0,1,422.6,0,High-value
-CUST00270,47.0,9,8985.54,2,High-value
-CUST00271,207.0,2,1833.6,0,High-value
-CUST00272,30.0,10,7417.99,2,High-value
-CUST00273,172.0,2,753.01,0,High-value
-CUST00274,127.0,9,7464.1900000000005,2,High-value
-CUST00275,63.0,6,3517.88,0,High-value
-CUST00276,206.0,11,7030.4,2,High-value
-CUST00277,267.0,6,6949.699999999999,2,High-value
-CUST00278,88.0,7,4006.38,2,High-value
-CUST00279,39.0,11,8181.7,2,High-value
-CUST00280,254.0,1,986.66,0,High-value
-CUST00281,161.0,9,6693.84,2,High-value
-CUST00282,377.0,2,616.13,1,At-risk / Low engagement
-CUST00283,223.0,3,2475.68,0,High-value
-CUST00284,32.0,6,3174.51,0,High-value
-CUST00285,97.0,3,2040.21,0,High-value
-CUST00286,52.0,4,3493.92,0,High-value
-CUST00287,178.0,4,2045.98,0,High-value
-CUST00288,96.0,4,3872.91,0,High-value
-CUST00289,117.0,8,8416.550000000001,2,High-value
-CUST00290,66.0,6,3674.49,0,High-value
-CUST00291,81.0,6,3566.5699999999997,0,High-value
-CUST00292,167.0,4,2852.7900000000004,0,High-value
-CUST00293,370.0,1,313.53,1,At-risk / Low engagement
-CUST00294,65.0,6,3969.86,0,High-value
-CUST00295,107.0,6,6206.6900000000005,2,High-value
-CUST00296,105.0,7,4838.85,2,High-value
-CUST00297,132.0,12,9387.835,2,High-value
-CUST00298,269.0,4,1397.87,0,High-value
-CUST00299,51.0,2,1695.73,0,High-value
-CUST00300,276.0,3,2235.52,0,High-value
-CUST00301,50.0,6,7745.61,2,High-value
-CUST00302,127.0,2,1869.62,0,High-value
-CUST00303,110.0,8,7840.000000000001,2,High-value
-CUST00305,84.0,8,5007.13,2,High-value
-CUST00306,112.0,3,1878.9899999999998,0,High-value
-CUST00307,223.0,3,1332.2,0,High-value
-CUST00308,438.0,4,1809.38,1,At-risk / Low engagement
-CUST00309,192.0,9,6401.16,2,High-value
-CUST00310,63.0,9,5328.8,2,High-value
-CUST00311,74.0,7,6348.71,2,High-value
-CUST00312,69.0,2,2617.01,0,High-value
-CUST00313,376.0,3,1259.3500000000001,1,At-risk / Low engagement
-CUST00314,90.0,9,7147.79,2,High-value
-CUST00315,58.0,9,6973.910000000001,2,High-value
-CUST00316,107.0,8,7691.5,2,High-value
-CUST00317,168.0,7,6820.810000000001,2,High-value
-CUST00318,30.0,6,4744.09,2,High-value
-CUST00319,46.0,9,9252.32,2,High-value
-CUST00320,63.0,6,4754.63,2,High-value
-CUST00321,577.0,1,187.94,1,At-risk / Low engagement
-CUST00322,48.0,5,3346.58,0,High-value
-CUST00323,33.0,9,6476.35,2,High-value
-CUST00324,86.0,11,13262.599999999999,2,High-value
-CUST00325,51.0,6,4592.24,0,High-value
-CUST00326,376.0,2,1559.0,1,At-risk / Low engagement
-CUST00327,30.0,10,15636.550000000001,2,High-value
-CUST00328,57.0,7,5285.17,2,High-value
-CUST00329,154.0,6,4136.42,0,High-value
-CUST00330,104.0,8,5620.35,2,High-value
-CUST00331,144.0,5,2224.97,0,High-value
-CUST00332,135.0,4,3683.8100000000004,0,High-value
-CUST00333,284.0,9,10071.75,2,High-value
-CUST00334,114.0,8,5778.200000000001,2,High-value
-CUST00335,455.0,2,1613.45,1,At-risk / Low engagement
-CUST00336,577.0,2,2057.9900000000002,1,At-risk / Low engagement
-CUST00337,196.0,4,4208.179999999999,0,High-value
-CUST00338,147.0,9,5280.26,2,High-value
-CUST00339,40.0,12,9724.92,2,High-value
-CUST00340,176.0,5,3625.4,0,High-value
-CUST00341,68.0,6,3172.29,0,High-value
-CUST00342,30.0,11,8305.22,2,High-value
-CUST00343,86.0,4,3074.7400000000002,0,High-value
-CUST00344,141.0,2,1740.0,0,High-value
-CUST00345,34.0,12,10839.270000000002,2,High-value
-CUST00346,442.0,2,637.8,1,At-risk / Low engagement
-CUST00347,39.0,6,5845.869999999999,2,High-value
-CUST00348,140.0,8,4971.150000000001,2,High-value
-CUST00349,101.0,6,6800.53,2,High-value
-CUST00350,47.0,2,1679.69,0,High-value
-CUST00351,197.0,1,489.13,0,High-value
-CUST00352,66.0,5,3174.45,0,High-value
-CUST00353,41.0,7,5995.64,2,High-value
-CUST00354,114.0,5,3569.63,0,High-value
-CUST00355,64.0,8,7494.400000000001,2,High-value
-CUST00356,49.0,7,5262.919999999999,2,High-value
-CUST00357,231.0,2,2615.92,0,High-value
-CUST00358,77.0,12,8892.779999999999,2,High-value
-CUST00359,145.0,6,7205.71,2,High-value
-CUST00360,238.0,2,1907.7600000000002,0,High-value
-CUST00361,59.0,7,5731.390000000001,2,High-value
-CUST00362,107.0,13,7735.5,2,High-value
-CUST00363,226.0,5,4801.449999999999,0,High-value
-CUST00364,42.0,10,8555.56,2,High-value
-CUST00365,80.0,11,6832.01,2,High-value
-CUST00367,111.0,8,9565.57,2,High-value
-CUST00368,34.0,9,8606.14,2,High-value
-CUST00369,44.0,3,2441.9700000000003,0,High-value
-CUST00370,84.0,9,6826.4,2,High-value
-CUST00371,101.0,9,6566.7300000000005,2,High-value
-CUST00372,71.0,11,10592.26,2,High-value
-CUST00373,126.0,2,645.19,0,High-value
-CUST00374,100.0,7,5155.099999999999,2,High-value
-CUST00376,94.0,10,9007.6,2,High-value
-CUST00377,46.0,4,2574.4700000000003,0,High-value
-CUST00378,182.0,7,5483.76,2,High-value
-CUST00379,52.0,1,814.49,0,High-value
-CUST00380,118.0,2,1678.85,0,High-value
-CUST00381,141.0,5,4436.12,0,High-value
-CUST00382,139.0,8,4835.16,2,High-value
-CUST00383,45.0,10,6767.54,2,High-value
-CUST00384,36.0,9,9096.56,2,High-value
-CUST00385,383.0,1,1582.18,1,At-risk / Low engagement
-CUST00386,141.0,4,2767.59,0,High-value
-CUST00387,50.0,11,9192.88,2,High-value
-CUST00388,156.0,3,3953.6000000000004,0,High-value
-CUST00389,135.0,3,2261.8,0,High-value
-CUST00390,71.0,3,2481.14,0,High-value
-CUST00391,140.0,2,1617.08,0,High-value
-CUST00392,43.0,7,4900.01,2,High-value
-CUST00393,148.0,3,1293.65,0,High-value
-CUST00394,608.0,1,748.79,1,At-risk / Low engagement
-CUST00395,49.0,7,6133.639999999999,2,High-value
-CUST00396,143.0,5,2779.305,0,High-value
-CUST00397,170.0,12,7018.26,2,High-value
-CUST00398,44.0,10,6121.28,2,High-value
-CUST00399,36.0,8,5140.88,2,High-value
-CUST00400,30.0,13,8709.849999999999,2,High-value
-CUST00401,89.0,8,6511.040000000001,2,High-value
-CUST00402,310.0,3,2002.9099999999999,1,At-risk / Low engagement
-CUST00403,105.0,2,2304.23,0,High-value
-CUST00404,109.0,7,4936.98,2,High-value
-CUST00405,54.0,4,3129.8599999999997,0,High-value
-CUST00406,108.0,7,3865.46,0,High-value
-CUST00407,245.0,10,9467.57,2,High-value
-CUST00408,34.0,10,10412.39,2,High-value
-CUST00409,119.0,1,337.92,0,High-value
-CUST00410,238.0,7,4499.42,0,High-value
-CUST00411,87.0,9,6487.65,2,High-value
-CUST00412,41.0,9,4419.86,2,High-value
-CUST00413,175.0,5,5888.950000000001,0,High-value
-CUST00414,344.0,2,2107.5299999999997,1,At-risk / Low engagement
-CUST00415,71.0,6,4475.83,0,High-value
-CUST00416,107.0,9,5538.51,2,High-value
-CUST00417,69.0,7,7185.235000000001,2,High-value
-CUST00418,61.0,4,2895.4900000000002,0,High-value
-CUST00419,137.0,6,5301.7300000000005,2,High-value
-CUST00420,78.0,9,7676.660000000001,2,High-value
-CUST00421,95.0,3,3333.55,0,High-value
-CUST00422,56.0,9,7175.539999999999,2,High-value
-CUST00423,33.0,7,4685.0599999999995,2,High-value
-CUST00424,294.0,3,2284.25,1,At-risk / Low engagement
-CUST00425,32.0,9,8666.289999999999,2,High-value
-CUST00426,97.0,7,6007.94,2,High-value
-CUST00427,136.0,4,3339.53,0,High-value
-CUST00428,115.0,7,6528.279999999999,2,High-value
-CUST00429,226.0,1,739.03,0,High-value
-CUST00430,43.0,9,7037.28,2,High-value
-CUST00431,140.0,3,2857.01,0,High-value
-CUST00432,340.0,1,944.87,1,At-risk / Low engagement
-CUST00433,100.0,7,10302.0,2,High-value
-CUST00434,102.0,7,4565.38,2,High-value
-CUST00435,43.0,8,5698.13,2,High-value
-CUST00436,55.0,13,10026.270000000002,2,High-value
-CUST00437,154.0,9,7060.83,2,High-value
-CUST00438,338.0,3,1070.79,1,At-risk / Low engagement
-CUST00439,91.0,5,5084.31,0,High-value
-CUST00440,265.0,1,301.18,1,At-risk / Low engagement
-CUST00441,30.0,2,1442.9,0,High-value
-CUST00442,607.0,1,379.66,1,At-risk / Low engagement
-CUST00443,247.0,1,645.18,0,High-value
-CUST00444,53.0,12,7878.360000000001,2,High-value
-CUST00445,89.0,6,5684.29,2,High-value
-CUST00446,153.0,12,10012.06,2,High-value
-CUST00448,102.0,10,11420.56,2,High-value
-CUST00449,104.0,11,8117.589999999999,2,High-value
-CUST00450,86.0,10,7856.29,2,High-value
-CUST00451,184.0,2,1692.87,0,High-value
-CUST00452,257.0,1,1232.52,0,High-value
-CUST00453,649.0,1,1519.49,1,At-risk / Low engagement
-CUST00454,62.0,6,6696.5,2,High-value
-CUST00455,202.0,6,6872.5,2,High-value
-CUST00456,370.0,4,3949.26,1,At-risk / Low engagement
-CUST00457,85.0,6,4539.820000000001,0,High-value
-CUST00458,134.0,10,6339.89,2,High-value
-CUST00459,172.0,5,2999.7599999999998,0,High-value
-CUST00460,75.0,7,6480.16,2,High-value
-CUST00461,106.0,5,2086.03,0,High-value
-CUST00462,203.0,10,7278.529999999999,2,High-value
-CUST00463,154.0,3,2178.61,0,High-value
-CUST00464,46.0,9,8457.41,2,High-value
-CUST00465,35.0,8,7846.775,2,High-value
-CUST00466,54.0,5,4294.570000000001,0,High-value
-CUST00467,455.0,3,2163.83,1,At-risk / Low engagement
-CUST00468,401.0,2,2929.39,1,At-risk / Low engagement
-CUST00469,48.0,7,4551.099999999999,2,High-value
-CUST00470,278.0,3,1906.25,0,High-value
-CUST00471,306.0,6,7207.1900000000005,2,High-value
-CUST00472,64.0,6,5625.01,2,High-value
-CUST00473,223.0,2,1739.44,0,High-value
-CUST00475,315.0,4,3601.5999999999995,1,At-risk / Low engagement
-CUST00476,66.0,9,8170.46,2,High-value
-CUST00477,192.0,2,1965.6,0,High-value
-CUST00478,85.0,7,4715.4,2,High-value
-CUST00479,45.0,9,5703.8,2,High-value
-CUST00480,37.0,9,6103.56,2,High-value
-CUST00481,116.0,11,8607.35,2,High-value
-CUST00482,152.0,5,2552.3199999999997,0,High-value
-CUST00483,206.0,1,887.41,0,High-value
-CUST00484,30.0,11,6775.56,2,High-value
-CUST00485,269.0,4,4606.07,0,High-value
-CUST00486,201.0,1,1000.57,0,High-value
-CUST00487,229.0,3,2644.3,0,High-value
-CUST00488,387.0,3,3290.2200000000003,1,At-risk / Low engagement
-CUST00489,246.0,2,4852.19,0,High-value
-CUST00490,410.0,2,2298.43,1,At-risk / Low engagement
-CUST00491,151.0,11,7255.4,2,High-value
-CUST00492,139.0,3,2986.24,0,High-value
-CUST00493,164.0,2,628.47,0,High-value
-CUST00494,83.0,8,7459.624999999999,2,High-value
-CUST00495,538.0,1,443.48,1,At-risk / Low engagement
-CUST00496,220.0,3,2555.58,0,High-value
-CUST00497,58.0,3,1543.15,0,High-value
-CUST00498,151.0,9,8775.36,2,High-value
-CUST00499,263.0,2,2183.23,0,High-value
-CUST00500,43.0,2,1856.8400000000001,0,High-value
+C0001,13.0,4,622.05,0,New or developing
+C0002,27.0,7,4644.9,2,High-value
+C0003,6.0,22,3644.8500000000004,3,High-value
+C0004,-1.0,5,369.0,0,New or developing
+C0005,146.0,2,324.0,1,At-risk / Low engagement
+C0006,33.0,1,90.0,0,New or developing
+C0007,2.0,18,2600.0,3,High-value
+C0008,2.0,15,3096.5,3,High-value
+C0009,18.0,11,8424.8,2,High-value
+C0010,65.0,4,450.0,0,New or developing
+C0011,1.0,21,3583.8500000000004,3,High-value
+C0012,73.0,4,3395.3,1,At-risk / Low engagement
+C0013,124.0,3,726.0,1,At-risk / Low engagement
+C0014,21.0,8,8006.9,2,High-value
+C0015,70.0,3,718.8,1,At-risk / Low engagement
+C0016,21.0,3,3546.0,0,New or developing
+C0017,7.0,5,7521.7,2,High-value
+C0018,3.0,3,206.55,0,New or developing
+C0019,60.0,3,955.0,0,New or developing
+C0020,6.0,17,4257.55,3,High-value
+C0021,-1.0,4,5344.400000000001,2,High-value
+C0022,37.0,1,190.0,0,New or developing
+C0023,91.0,3,616.0,1,At-risk / Low engagement
+C0024,7.0,2,2766.0,0,New or developing
+C0025,17.0,7,756.1,0,New or developing
+C0026,9.0,18,4756.55,3,High-value
+C0027,13.0,5,1562.75,0,New or developing
+C0028,6.0,7,486.0,0,New or developing
+C0030,45.0,1,159.6,0,New or developing
+C0031,0.0,18,2357.5,3,High-value
+C0032,45.0,4,363.8,0,New or developing
+C0033,3.0,18,3133.25,3,High-value
+C0034,0.0,21,4437.0,3,High-value
+C0035,5.0,5,6493.8,2,High-value
+C0036,7.0,2,234.0,0,New or developing
+C0038,70.0,1,48.0,1,At-risk / Low engagement
+C0039,16.0,15,3601.55,3,High-value
+C0040,38.0,3,251.5,0,New or developing
+C0041,143.0,1,285.0,1,At-risk / Low engagement
+C0042,88.0,2,138.6,1,At-risk / Low engagement
+C0043,22.0,1,245.0,0,New or developing
+C0044,1.0,18,3020.1,3,High-value
+C0045,4.0,10,9230.9,2,High-value
+C0046,82.0,3,505.4,1,At-risk / Low engagement
+C0047,113.0,1,258.0,1,At-risk / Low engagement
+C0048,30.0,4,704.5,0,New or developing
+C0049,19.0,17,2726.25,3,High-value
+C0050,3.0,19,3207.3,3,High-value
+C0051,12.0,22,5705.7,3,High-value
+C0052,20.0,10,1470.3000000000002,0,New or developing
+C0053,147.0,2,448.5,1,At-risk / Low engagement
+C0054,101.0,5,1501.35,1,At-risk / Low engagement
+C0055,160.0,1,112.0,1,At-risk / Low engagement
+C0056,17.0,4,513.0,0,New or developing
+C0057,14.0,1,285.0,0,New or developing
+C0058,-1.0,19,2988.25,3,High-value
+C0059,7.0,21,2896.55,3,High-value
+C0060,5.0,6,6058.4,2,High-value
+C0061,-1.0,16,2248.25,3,High-value
+C0062,9.0,10,1592.1,0,New or developing
+C0063,1.0,20,4165.1,3,High-value
+C0064,44.0,6,548.85,0,New or developing
+C0065,21.0,23,2514.35,3,High-value
+C0066,1.0,23,3901.35,3,High-value
+C0067,7.0,3,316.05,0,New or developing
+C0068,26.0,21,2733.7999999999997,3,High-value
+C0069,147.0,1,294.0,1,At-risk / Low engagement
+C0070,39.0,17,2917.95,3,High-value
+C0071,2.0,9,2337.9,0,New or developing
+C0072,7.0,23,5156.25,3,High-value
+C0073,-1.0,17,2736.3999999999996,3,High-value
+C0074,2.0,27,3636.4,3,High-value
+C0075,8.0,18,3600.4999999999995,3,High-value
+C0076,8.0,3,789.8,0,New or developing
+C0077,83.0,1,150.0,1,At-risk / Low engagement
+C0078,6.0,16,3320.4500000000003,3,High-value
+C0079,14.0,4,603.2,0,New or developing
+C0080,1.0,24,3903.55,3,High-value
+C0081,11.0,17,2992.85,3,High-value
+C0082,1.0,8,12856.2,2,High-value
+C0083,33.0,15,2164.95,3,High-value
+C0084,4.0,22,5021.1,3,High-value
+C0085,106.0,3,463.25,1,At-risk / Low engagement
+C0086,0.0,17,2054.6,3,High-value
+C0087,76.0,2,302.5,1,At-risk / Low engagement
+C0088,8.0,12,2122.1000000000004,3,High-value
+C0089,0.0,19,2971.2999999999997,3,High-value
+C0090,36.0,4,661.3,0,New or developing
+C0091,15.0,7,1291.0,0,New or developing
+C0092,0.0,21,3143.2500000000005,3,High-value
+C0094,17.0,20,4154.25,3,High-value
+C0095,42.0,7,1389.2,0,New or developing
+C0096,5.0,19,3692.8,3,High-value
+C0097,88.0,1,132.0,1,At-risk / Low engagement
+C0098,3.0,8,8151.199999999999,2,High-value
+C0099,134.0,1,84.0,1,At-risk / Low engagement
+C0100,0.0,16,2513.05,3,High-value
+C0101,18.0,20,2859.9,3,High-value
+C0102,30.0,4,4325.0,2,High-value
+C0103,18.0,2,184.8,0,New or developing
+C0104,4.0,11,2670.7,3,High-value
+C0105,35.0,2,350.0,0,New or developing
+C0106,123.0,1,219.3,1,At-risk / Low engagement
+C0107,33.0,2,309.0,0,New or developing
+C0108,6.0,28,5449.699999999999,3,High-value
+C0109,54.0,4,676.4,0,New or developing
+C0110,126.0,2,190.55,1,At-risk / Low engagement
+C0111,27.0,4,452.75,0,New or developing
+C0112,23.0,3,912.8,0,New or developing
+C0113,24.0,3,357.3,0,New or developing
+C0114,106.0,3,960.9,1,At-risk / Low engagement
+C0116,20.0,2,78.85,0,New or developing
+C0117,157.0,1,157.5,1,At-risk / Low engagement
+C0118,9.0,11,1890.85,0,New or developing
+C0119,4.0,21,2909.7999999999997,3,High-value
+C0121,70.0,3,527.4,1,At-risk / Low engagement
+C0122,21.0,2,173.4,0,New or developing
+C0123,3.0,15,1980.8,3,High-value
+C0124,2.0,18,3236.95,3,High-value
+C0125,6.0,15,2023.25,3,High-value
+C0126,3.0,25,4264.7,3,High-value
+C0127,45.0,3,726.5,0,New or developing
+C0128,3.0,17,2886.05,3,High-value
+C0129,111.0,2,407.4,1,At-risk / Low engagement
+C0130,17.0,8,9422.4,2,High-value
+C0131,43.0,18,3015.05,3,High-value
+C0132,172.0,1,60.0,1,At-risk / Low engagement
+C0133,22.0,5,4746.05,2,High-value
+C0134,0.0,21,4683.5,3,High-value
+C0135,20.0,3,688.0,0,New or developing
+C0136,2.0,4,5101.3,2,High-value
+C0137,24.0,4,374.4,0,New or developing
+C0138,13.0,1,134.4,0,New or developing
+C0139,8.0,14,2481.55,3,High-value
+C0140,4.0,22,4171.55,3,High-value
+C0141,40.0,3,446.0,0,New or developing
+C0142,17.0,14,3427.2500000000005,3,High-value
+C0143,9.0,18,3757.9500000000003,3,High-value
+C0144,6.0,21,5281.25,3,High-value
+C0145,18.0,2,414.8,0,New or developing
+C0146,5.0,12,2475.3,3,High-value
+C0147,33.0,9,10028.8,2,High-value
+C0148,8.0,27,4854.5,3,High-value
+C0149,6.0,18,5229.2,3,High-value
+C0150,47.0,3,248.4,0,New or developing
+C0152,86.0,6,4456.549999999999,1,At-risk / Low engagement
+C0153,52.0,1,80.75,0,New or developing
+C0154,0.0,19,4720.85,3,High-value
+C0155,19.0,1,539.1,0,New or developing
+C0156,75.0,1,280.0,1,At-risk / Low engagement
+C0157,31.0,3,446.4,0,New or developing
+C0158,30.0,4,686.75,0,New or developing
+C0159,14.0,23,3858.9,3,High-value
+C0160,20.0,23,5436.9,3,High-value
+C0161,58.0,3,708.2,0,New or developing
+C0162,24.0,6,4685.5,2,High-value
+C0163,38.0,6,5321.25,2,High-value
+C0164,34.0,15,3594.4,3,High-value
+C0165,41.0,2,480.5,0,New or developing
+C0166,47.0,4,1536.65,0,New or developing
+C0167,13.0,5,9212.65,2,High-value
+C0168,3.0,14,2751.5,3,High-value
+C0169,29.0,5,1192.3,0,New or developing
+C0170,21.0,21,4940.349999999999,3,High-value
+C0171,71.0,4,956.6,1,At-risk / Low engagement
+C0172,114.0,1,108.0,1,At-risk / Low engagement
+C0173,0.0,18,3070.75,3,High-value
+C0174,106.0,2,483.2,1,At-risk / Low engagement
+C0175,2.0,21,3817.25,3,High-value
+C0176,5.0,15,2644.9,3,High-value
+C0177,107.0,2,357.0,1,At-risk / Low engagement
+C0178,56.0,3,2028.55,0,New or developing
+C0179,1.0,15,1906.7,3,High-value
+C0180,62.0,2,728.4,0,New or developing
+C0181,14.0,8,5513.1,2,High-value
+C0182,12.0,21,3087.05,3,High-value
+C0183,79.0,5,647.6,1,At-risk / Low engagement
+C0184,41.0,4,3626.6000000000004,0,New or developing
+C0185,8.0,3,2166.7,0,New or developing
+C0186,45.0,3,2070.8,0,New or developing
+C0187,25.0,14,2643.95,3,High-value
+C0188,42.0,7,6888.2,2,High-value
+C0189,18.0,3,508.8,0,New or developing
+C0190,-1.0,24,4489.299999999999,3,High-value
+C0191,3.0,9,2052.95,0,New or developing
+C0192,7.0,16,3131.2,3,High-value
+C0193,3.0,17,3404.1499999999996,3,High-value
+C0194,20.0,3,461.5,0,New or developing
+C0195,24.0,4,410.5,0,New or developing
+C0196,3.0,5,2440.7,0,New or developing
+C0197,1.0,18,3484.5,3,High-value
+C0198,41.0,2,1172.4,0,New or developing
+C0199,26.0,4,671.5,0,New or developing
+C0200,11.0,15,3092.95,3,High-value
+C0201,5.0,17,2169.3,3,High-value
+C0202,6.0,24,2980.15,3,High-value
+C0203,33.0,5,934.1,0,New or developing
+C0204,58.0,3,266.8,0,New or developing
+C0205,7.0,22,3472.5,3,High-value
+C0206,33.0,4,693.4,0,New or developing
+C0207,12.0,7,1208.5,0,New or developing
+C0208,-1.0,16,3778.2000000000003,3,High-value
+C0209,1.0,25,5694.2,3,High-value
+C0210,25.0,9,809.6499999999999,0,New or developing
+C0211,32.0,5,3565.85,0,New or developing
+C0212,21.0,6,6972.1,2,High-value
+C0213,3.0,22,3556.0,3,High-value
+C0214,30.0,3,323.1,0,New or developing
+C0215,64.0,2,512.0,0,New or developing
+C0216,11.0,22,4459.25,3,High-value
+C0217,13.0,4,2236.7000000000003,0,New or developing
+C0218,8.0,21,3508.6499999999996,3,High-value
+C0219,43.0,3,315.5,0,New or developing
+C0220,1.0,29,4713.35,3,High-value
+C0221,36.0,4,1201.3,0,New or developing
+C0222,63.0,1,252.0,0,New or developing
+C0223,92.0,2,114.0,1,At-risk / Low engagement
+C0224,66.0,5,2434.0,0,New or developing
+C0225,98.0,3,393.0,1,At-risk / Low engagement
+C0226,34.0,4,366.5,0,New or developing
+C0227,0.0,33,4474.950000000001,3,High-value
+C0228,28.0,2,253.0,0,New or developing
+C0229,0.0,19,3113.3500000000004,3,High-value
+C0230,1.0,6,5022.95,2,High-value
+C0231,123.0,2,466.1,1,At-risk / Low engagement
+C0232,8.0,18,2569.6,3,High-value
+C0233,46.0,4,1903.05,0,New or developing
+C0234,44.0,4,780.0,0,New or developing
+C0235,24.0,4,464.95,0,New or developing
+C0236,37.0,4,596.6,0,New or developing
+C0237,20.0,2,211.8,0,New or developing
+C0238,-1.0,10,7255.9,2,High-value
+C0239,34.0,3,213.3,0,New or developing
+C0240,2.0,20,3389.1,3,High-value
+C0241,3.0,22,3435.5,3,High-value
+C0242,0.0,19,4084.9,3,High-value
+C0243,1.0,29,6082.299999999999,3,High-value
+C0244,22.0,16,1964.5000000000002,3,High-value
+C0245,18.0,3,1097.0,0,New or developing
+C0246,6.0,19,2611.9,3,High-value
+C0247,8.0,21,2608.4500000000003,3,High-value
+C0248,-1.0,25,4147.75,3,High-value
+C0249,4.0,2,186.25,0,New or developing
+C0250,4.0,5,2762.7,0,New or developing
+C0251,30.0,20,3646.6,3,High-value
+C0252,2.0,15,3303.2,3,High-value
+C0253,36.0,4,938.8,0,New or developing
+C0254,76.0,4,307.15,1,At-risk / Low engagement
+C0255,-1.0,28,5181.999999999999,3,High-value
+C0256,3.0,20,3011.75,3,High-value
+C0257,35.0,3,237.3,0,New or developing
+C0258,8.0,21,2966.45,3,High-value
+C0259,68.0,5,959.0,0,New or developing
+C0260,7.0,11,2403.0,3,High-value
+C0261,3.0,17,1609.6000000000001,3,High-value
+C0262,69.0,3,739.0,1,At-risk / Low engagement
+C0263,21.0,19,4997.2,3,High-value
+C0264,46.0,4,2629.4,0,New or developing
+C0265,2.0,5,566.6,0,New or developing
+C0266,173.0,1,15.0,1,At-risk / Low engagement
+C0267,23.0,7,12210.25,2,High-value
+C0268,3.0,17,2702.45,3,High-value
+C0269,44.0,2,717.5,0,New or developing
+C0270,11.0,15,2857.0,3,High-value
+C0271,30.0,4,7488.3,2,High-value
+C0272,4.0,17,2689.3,3,High-value
+C0273,73.0,5,903.5,1,At-risk / Low engagement
+C0274,155.0,1,2698.2,1,At-risk / Low engagement
+C0275,39.0,11,1986.8999999999999,0,New or developing
+C0276,114.0,2,114.0,1,At-risk / Low engagement
+C0277,165.0,1,54.0,1,At-risk / Low engagement
+C0278,72.0,3,1534.5,1,At-risk / Low engagement
+C0279,58.0,2,250.0,0,New or developing
+C0280,5.0,4,2505.75,0,New or developing
+C0281,35.0,19,2379.15,3,High-value
+C0282,8.0,26,3686.85,3,High-value
+C0283,58.0,2,408.0,0,New or developing
+C0284,49.0,2,730.0,0,New or developing
+C0285,102.0,3,210.0,1,At-risk / Low engagement
+C0286,8.0,4,838.0,0,New or developing
+C0287,2.0,20,3364.0499999999997,3,High-value
+C0288,15.0,2,283.2,0,New or developing
+C0289,-1.0,15,3277.75,3,High-value
+C0290,2.0,24,4178.2,3,High-value
+C0291,21.0,11,13742.599999999999,2,High-value
+C0292,63.0,3,1012.0,0,New or developing
+C0293,-1.0,17,3024.05,3,High-value
+C0294,21.0,22,4064.45,3,High-value
+C0295,60.0,2,100.19999999999999,0,New or developing
+C0296,61.0,2,2767.1,0,New or developing
+C0297,4.0,14,2289.0,3,High-value
+C0298,0.0,22,4419.9,3,High-value
+C0299,3.0,6,5147.299999999999,2,High-value
+C0300,38.0,4,4099.75,0,New or developing
+C0301,117.0,2,573.5,1,At-risk / Low engagement
+C0302,38.0,4,854.2,0,New or developing
+C0303,18.0,6,3390.15,0,New or developing
+C0304,40.0,3,360.25,0,New or developing
+C0305,8.0,22,3921.0,3,High-value
+C0306,12.0,3,1308.2,0,New or developing
+C0307,84.0,2,361.2,1,At-risk / Low engagement
+C0308,27.0,6,10750.8,2,High-value
+C0309,-1.0,25,4565.6,3,High-value
+C0310,36.0,1,329.4,0,New or developing
+C0311,37.0,7,3751.3999999999996,0,New or developing
+C0312,13.0,8,6095.199999999999,2,High-value
+C0313,3.0,17,2799.1,3,High-value
+C0314,7.0,19,3198.0,3,High-value
+C0315,17.0,10,1982.1,0,New or developing
+C0316,6.0,4,4045.0,0,New or developing
+C0317,7.0,21,3834.3999999999996,3,High-value
+C0318,81.0,3,475.8,1,At-risk / Low engagement
+C0319,136.0,1,180.0,1,At-risk / Low engagement
+C0320,0.0,5,2861.2,0,New or developing
+C0321,51.0,2,285.8,0,New or developing
+C0322,1.0,17,4850.4,3,High-value
+C0323,76.0,1,116.0,1,At-risk / Low engagement
+C0324,13.0,5,6142.8,2,High-value
+C0325,26.0,4,1338.4,0,New or developing
+C0326,50.0,14,2018.0,3,High-value
+C0327,9.0,21,3265.4,3,High-value
+C0328,61.0,2,331.5,0,New or developing
+C0329,24.0,3,2395.0,0,New or developing
+C0330,11.0,4,268.65,0,New or developing
+C0331,22.0,6,4519.45,2,High-value
+C0332,43.0,9,11806.400000000001,2,High-value
+C0333,153.0,1,718.2,1,At-risk / Low engagement
+C0334,3.0,18,2080.75,3,High-value
+C0335,36.0,4,6720.9,2,High-value
+C0336,2.0,6,641.7,0,New or developing
+C0337,17.0,15,1818.75,3,High-value
+C0338,7.0,18,4391.25,3,High-value
+C0339,11.0,2,245.8,0,New or developing
+C0340,69.0,1,314.1,1,At-risk / Low engagement
+C0341,10.0,27,4376.05,3,High-value
+C0342,2.0,19,3631.15,3,High-value
+C0343,-1.0,7,1323.5,0,New or developing
+C0344,1.0,19,3167.7,3,High-value
+C0345,1.0,20,2623.2000000000003,3,High-value
+C0346,5.0,20,3038.55,3,High-value
+C0347,9.0,7,3426.8500000000004,0,New or developing
+C0348,1.0,33,6014.35,3,High-value
+C0349,25.0,3,249.0,0,New or developing
+C0350,0.0,4,606.7,0,New or developing
+C0351,20.0,2,1396.0,0,New or developing
+C0352,18.0,25,3496.3999999999996,3,High-value
+C0353,7.0,19,2431.25,3,High-value
+C0355,6.0,25,4024.0,3,High-value
+C0356,139.0,2,538.0,1,At-risk / Low engagement
+C0357,22.0,5,1021.1,0,New or developing
+C0358,16.0,3,833.2,0,New or developing
+C0359,20.0,22,4627.9,3,High-value
+C0360,18.0,12,2648.0499999999997,3,High-value
+C0361,80.0,5,4377.6,1,At-risk / Low engagement
+C0362,4.0,3,903.75,0,New or developing
+C0364,46.0,3,730.5,0,New or developing
+C0365,70.0,2,96.0,1,At-risk / Low engagement
+C0366,65.0,1,33.6,0,New or developing
+C0367,2.0,16,1982.5,3,High-value
+C0368,23.0,4,709.0,0,New or developing
+C0369,8.0,8,7070.849999999999,2,High-value
+C0370,25.0,18,2823.45,3,High-value
+C0371,1.0,20,4242.049999999999,3,High-value
+C0372,-1.0,6,4981.0,2,High-value
+C0373,53.0,3,926.0,0,New or developing
+C0374,1.0,7,1600.0,0,New or developing
+C0375,15.0,7,5177.249999999999,2,High-value
+C0376,66.0,3,536.3,0,New or developing
+C0377,73.0,4,980.6,1,At-risk / Low engagement
+C0378,6.0,19,4015.25,3,High-value
+C0379,49.0,4,1002.1,0,New or developing
+C0380,5.0,6,5810.6,2,High-value
+C0381,-1.0,21,3692.2999999999997,3,High-value
+C0382,7.0,23,4744.9,3,High-value
+C0383,19.0,19,3687.0,3,High-value
+C0384,17.0,26,6207.9,3,High-value
+C0385,2.0,11,2253.2,3,High-value
+C0386,11.0,2,906.6,0,New or developing
+C0387,154.0,1,700.0,1,At-risk / Low engagement
+C0388,4.0,12,1683.9499999999998,3,High-value
+C0389,6.0,4,2634.35,0,New or developing
+C0390,116.0,3,604.0,1,At-risk / Low engagement
+C0391,58.0,3,1063.2,0,New or developing
+C0392,19.0,16,2692.75,3,High-value
+C0393,48.0,4,870.1,0,New or developing
+C0394,53.0,9,3233.2999999999997,0,New or developing
+C0395,40.0,4,412.7,0,New or developing
+C0396,0.0,17,2483.65,3,High-value
+C0397,76.0,3,288.5,1,At-risk / Low engagement
+C0398,22.0,16,2661.85,3,High-value
+C0399,128.0,1,272.0,1,At-risk / Low engagement
+C0400,0.0,23,5759.9,3,High-value
+C0401,49.0,2,190.7,0,New or developing
+C0402,9.0,5,2374.0,0,New or developing
+C0403,0.0,5,1045.25,0,New or developing
+C0404,52.0,4,707.6,0,New or developing
+C0405,60.0,4,1208.2,0,New or developing
+C0406,19.0,3,911.8,0,New or developing
+C0407,69.0,8,9945.849999999999,2,High-value
+C0408,7.0,24,3442.9,3,High-value
+C0409,12.0,11,1924.55,0,New or developing
+C0410,44.0,7,4762.45,2,High-value
+C0411,24.0,20,2756.15,3,High-value
+C0413,7.0,3,299.2,0,New or developing
+C0414,40.0,4,740.5,0,New or developing
+C0415,37.0,3,1244.6000000000001,0,New or developing
+C0416,28.0,19,3647.15,3,High-value
+C0417,5.0,24,3776.75,3,High-value
+C0418,173.0,1,399.0,1,At-risk / Low engagement
+C0419,77.0,4,1682.9,1,At-risk / Low engagement
+C0420,0.0,28,4419.15,3,High-value
+C0421,45.0,3,1414.0,0,New or developing
+C0422,161.0,2,682.0,1,At-risk / Low engagement
+C0423,79.0,1,116.0,1,At-risk / Low engagement
+C0424,45.0,7,9292.3,2,High-value
+C0425,53.0,3,744.0,0,New or developing
+C0426,22.0,11,10377.099999999999,2,High-value
+C0427,34.0,4,697.0,0,New or developing
+C0428,1.0,23,4445.3,3,High-value
+C0429,19.0,13,1145.1,0,New or developing
+C0430,4.0,6,420.9,0,New or developing
+C0431,6.0,20,2246.35,3,High-value
+C0432,-1.0,23,4913.95,3,High-value
+C0433,42.0,8,2878.0,0,New or developing
+C0434,16.0,2,542.5,0,New or developing
+C0435,5.0,28,6485.1,3,High-value
+C0436,160.0,3,2295.25,1,At-risk / Low engagement
+C0437,109.0,3,813.6,1,At-risk / Low engagement
+C0438,20.0,4,1226.1,0,New or developing
+C0439,12.0,2,213.0,0,New or developing
+C0440,0.0,2,328.3,0,New or developing
+C0441,3.0,19,2412.15,3,High-value
+C0442,6.0,4,2144.3500000000004,0,New or developing
+C0443,8.0,3,987.2,0,New or developing
+C0444,4.0,16,4888.700000000001,3,High-value
+C0445,5.0,4,1070.95,0,New or developing
+C0446,28.0,19,3168.55,3,High-value
+C0447,20.0,28,4645.5,3,High-value
+C0448,147.0,2,463.5,1,At-risk / Low engagement
+C0449,65.0,3,1310.5,0,New or developing
+C0450,93.0,5,4323.15,1,At-risk / Low engagement
+C0451,23.0,4,3295.7,0,New or developing
+C0452,3.0,4,1319.3,0,New or developing
+C0453,85.0,4,2081.25,1,At-risk / Low engagement
+C0454,53.0,6,8447.65,2,High-value
+C0455,70.0,4,1975.8000000000002,1,At-risk / Low engagement
+C0456,3.0,17,3393.1,3,High-value
+C0457,6.0,7,6115.200000000001,2,High-value
+C0458,138.0,5,892.3499999999999,1,At-risk / Low engagement
+C0459,14.0,5,979.0,0,New or developing
+C0460,1.0,15,2286.5,3,High-value
+C0462,3.0,21,3852.35,3,High-value
+C0463,121.0,1,208.0,1,At-risk / Low engagement
+C0464,2.0,3,663.5,0,New or developing
+C0465,23.0,3,379.2,0,New or developing
+C0466,22.0,3,972.5,0,New or developing
+C0467,15.0,3,744.0,0,New or developing
+C0468,109.0,3,180.6,1,At-risk / Low engagement
+C0469,0.0,23,4102.4,3,High-value
+C0470,16.0,8,5170.4,2,High-value
+C0471,45.0,6,7889.799999999999,2,High-value
+C0472,6.0,18,2983.95,3,High-value
+C0473,177.0,1,45.0,1,At-risk / Low engagement
+C0474,10.0,16,2231.3499999999995,3,High-value
+C0475,115.0,1,36.0,1,At-risk / Low engagement
+C0476,53.0,6,6361.85,2,High-value
+C0478,22.0,4,480.0,0,New or developing
+C0479,19.0,7,6497.4,2,High-value
+C0480,5.0,14,3982.6,3,High-value
+C0481,143.0,1,193.5,1,At-risk / Low engagement
+C0482,2.0,4,875.1999999999999,0,New or developing
+C0483,45.0,10,4126.0,2,High-value
+C0484,111.0,4,662.0,1,At-risk / Low engagement
+C0485,11.0,13,1811.35,3,High-value
+C0486,94.0,2,393.0,1,At-risk / Low engagement
+C0487,32.0,3,292.9,0,New or developing
+C0488,7.0,11,13187.5,2,High-value
+C0489,-1.0,18,2706.3999999999996,3,High-value
+C0490,0.0,19,3835.75,3,High-value
+C0491,9.0,20,3192.15,3,High-value
+C0492,5.0,27,5191.5,3,High-value
+C0493,5.0,3,3968.55,0,New or developing
+C0494,20.0,15,1886.55,3,High-value
+C0495,40.0,1,73.5,0,New or developing
+C0496,24.0,5,3230.9,0,New or developing
+C0497,20.0,4,3471.25,0,New or developing
+C0498,1.0,17,2803.9,3,High-value
+C0499,61.0,2,278.8,0,New or developing
+C0501,87.0,1,69.6,1,At-risk / Low engagement
+C0502,17.0,14,2305.25,3,High-value
+C0503,-1.0,18,3419.1000000000004,3,High-value
+C0504,112.0,2,154.0,1,At-risk / Low engagement
+C0505,29.0,11,1784.8999999999999,0,New or developing
+C0506,43.0,5,3102.45,0,New or developing
+C0507,89.0,1,209.0,1,At-risk / Low engagement
+C0508,14.0,13,2892.35,3,High-value
+C0509,2.0,5,5703.65,2,High-value
+C0510,1.0,22,3385.8999999999996,3,High-value
+C0511,21.0,2,776.0,0,New or developing
+C0512,70.0,5,11617.650000000001,2,High-value
+C0513,83.0,3,505.5,1,At-risk / Low engagement
+C0514,35.0,4,1138.65,0,New or developing
+C0515,84.0,5,1327.2,1,At-risk / Low engagement
+C0516,-1.0,21,3642.35,3,High-value
+C0517,6.0,1,90.25,0,New or developing
+C0518,81.0,3,245.75,1,At-risk / Low engagement
+C0519,24.0,6,4674.35,2,High-value
+C0520,22.0,5,3051.7,0,New or developing
+C0521,7.0,5,1976.05,0,New or developing
+C0522,37.0,4,855.5,0,New or developing
+C0523,11.0,17,2805.5499999999997,3,High-value
+C0524,42.0,7,7961.4,2,High-value
+C0525,29.0,7,12719.7,2,High-value
+C0526,0.0,4,508.05,0,New or developing
+C0527,4.0,24,6047.700000000001,3,High-value
+C0528,114.0,1,28.8,1,At-risk / Low engagement
+C0529,24.0,13,1264.3999999999999,0,New or developing
+C0530,15.0,25,4825.9,3,High-value
+C0531,7.0,21,3876.35,3,High-value
+C0532,86.0,1,80.75,1,At-risk / Low engagement
+C0533,29.0,7,6870.7,2,High-value
+C0534,4.0,7,990.0,0,New or developing
+C0535,65.0,3,469.5,0,New or developing
+C0536,10.0,20,3285.7999999999997,3,High-value
+C0537,2.0,20,3988.0,3,High-value
+C0538,1.0,15,2739.1,3,High-value
+C0539,11.0,23,3920.85,3,High-value
+C0540,7.0,18,3299.85,3,High-value
+C0541,88.0,1,38.25,1,At-risk / Low engagement
+C0542,23.0,2,169.5,0,New or developing
+C0543,12.0,9,11195.100000000002,2,High-value
+C0544,5.0,18,2674.8500000000004,3,High-value
+C0545,12.0,1,127.5,0,New or developing
+C0546,21.0,12,2269.35,3,High-value
+C0547,3.0,22,3180.8,3,High-value
+C0548,-1.0,25,5399.45,3,High-value
+C0549,1.0,3,389.0,0,New or developing
+C0550,0.0,12,2855.2,3,High-value
+C0551,12.0,3,1280.25,0,New or developing
+C0552,40.0,2,488.0,0,New or developing
+C0553,12.0,7,6989.5,2,High-value
+C0554,15.0,13,2887.5,3,High-value
+C0555,11.0,15,3199.4,3,High-value
+C0556,28.0,5,1598.2,0,New or developing
+C0557,6.0,10,7527.8,2,High-value
+C0558,46.0,13,1627.35,0,New or developing
+C0559,1.0,18,2762.65,3,High-value
+C0560,16.0,8,1147.75,0,New or developing
+C0561,1.0,17,2757.5,3,High-value
+C0562,6.0,3,1537.7,0,New or developing
+C0563,26.0,3,4116.4,0,New or developing
+C0564,3.0,17,3626.7999999999997,3,High-value
+C0565,46.0,4,4399.65,2,High-value
+C0566,22.0,4,769.9,0,New or developing
+C0567,3.0,22,2127.4,3,High-value
+C0568,39.0,2,88.8,0,New or developing
+C0569,24.0,5,643.4,0,New or developing
+C0570,5.0,22,3339.4,3,High-value
+C0571,38.0,4,1950.95,0,New or developing
+C0572,56.0,4,497.35,0,New or developing
+C0573,74.0,5,1221.9,1,At-risk / Low engagement
+C0574,3.0,23,3256.4,3,High-value
+C0575,-1.0,15,3115.7000000000003,3,High-value
+C0576,8.0,2,383.2,0,New or developing
+C0577,8.0,5,5138.4,2,High-value
+C0578,55.0,3,1064.75,0,New or developing
+C0579,5.0,13,1983.55,3,High-value
+C0580,5.0,17,2881.15,3,High-value
+C0581,109.0,2,387.3,1,At-risk / Low engagement
+C0582,89.0,3,2775.8,1,At-risk / Low engagement
+C0583,9.0,16,2651.3,3,High-value
+C0584,45.0,4,943.5,0,New or developing
+C0585,3.0,14,1956.75,3,High-value
+C0586,38.0,1,247.0,0,New or developing
+C0587,1.0,26,4184.8,3,High-value
+C0588,17.0,6,6344.1,2,High-value
+C0589,7.0,18,3246.15,3,High-value
+C0590,24.0,2,270.2,0,New or developing
+C0591,13.0,19,2530.85,3,High-value
+C0592,6.0,23,3862.25,3,High-value
+C0593,16.0,11,971.0,0,New or developing
+C0594,20.0,26,3828.7,3,High-value
+C0595,3.0,18,2532.3,3,High-value
+C0596,6.0,26,4031.7,3,High-value
+C0597,2.0,21,3030.75,3,High-value
+C0598,4.0,4,597.75,0,New or developing
+C0599,15.0,3,353.25,0,New or developing
+C0600,2.0,8,5292.650000000001,2,High-value
+C0601,39.0,2,204.0,0,New or developing
+C0602,120.0,2,164.4,1,At-risk / Low engagement
+C0603,89.0,2,331.20000000000005,1,At-risk / Low engagement
+C0604,-1.0,19,4975.9,3,High-value
+C0605,60.0,4,685.0,0,New or developing
+C0606,21.0,17,3362.8999999999996,3,High-value
+C0608,97.0,1,280.0,1,At-risk / Low engagement
+C0609,30.0,26,4752.65,3,High-value
+C0610,141.0,2,4497.0,1,At-risk / Low engagement
+C0611,0.0,11,2703.55,3,High-value
+C0612,0.0,7,981.6,0,New or developing
+C0613,2.0,18,2678.9,3,High-value
+C0614,19.0,1,21.75,0,New or developing
+C0615,4.0,12,1970.2,3,High-value
+C0616,71.0,3,2518.6,1,At-risk / Low engagement
+C0617,47.0,2,61.0,0,New or developing
+C0618,13.0,2,74.0,0,New or developing
+C0619,13.0,3,3554.0,0,New or developing
+C0620,10.0,22,3356.0000000000005,3,High-value
+C0621,8.0,2,366.0,0,New or developing
+C0622,51.0,5,785.0,0,New or developing
+C0623,85.0,1,245.0,1,At-risk / Low engagement
+C0624,42.0,6,1049.6000000000001,0,New or developing
+C0626,12.0,19,2999.95,3,High-value
+C0627,14.0,7,5244.9,2,High-value
+C0628,21.0,2,158.0,0,New or developing
+C0629,-1.0,24,3514.9,3,High-value
+C0630,44.0,4,649.1,0,New or developing
+C0631,57.0,7,3931.25,0,New or developing
+C0632,3.0,3,517.0,0,New or developing
+C0633,0.0,23,4396.1,3,High-value
+C0634,39.0,1,255.0,0,New or developing
+C0635,75.0,4,292.2,1,At-risk / Low engagement
+C0636,1.0,19,2835.1,3,High-value
+C0637,85.0,1,80.75,1,At-risk / Low engagement
+C0638,2.0,18,2777.15,3,High-value
+C0639,28.0,19,3571.2,3,High-value
+C0640,-1.0,23,3421.6000000000004,3,High-value
+C0641,12.0,24,4045.4,3,High-value
+C0642,32.0,2,548.0,0,New or developing
+C0643,-1.0,9,1088.4,0,New or developing
+C0644,0.0,22,4039.3,3,High-value
+C0645,5.0,4,512.25,0,New or developing
+C0646,-1.0,20,2775.5,3,High-value
+C0647,2.0,5,2106.0,0,New or developing
+C0648,59.0,1,142.5,0,New or developing
+C0649,37.0,3,1131.4,0,New or developing
+C0650,5.0,21,3955.75,3,High-value
+C0651,19.0,3,1610.75,0,New or developing
+C0652,5.0,2,191.0,0,New or developing
+C0653,40.0,9,8764.1,2,High-value
+C0655,39.0,2,121.8,0,New or developing
+C0656,3.0,17,2959.9,3,High-value
+C0657,0.0,3,496.0,0,New or developing
+C0658,29.0,3,185.5,0,New or developing
+C0659,3.0,10,8321.8,2,High-value
+C0660,75.0,2,300.0,1,At-risk / Low engagement
+C0661,72.0,5,558.5,1,At-risk / Low engagement
+C0662,7.0,3,175.1,0,New or developing
+C0663,11.0,16,2786.55,3,High-value
+C0664,29.0,21,3332.95,3,High-value
+C0665,8.0,6,6817.5,2,High-value
+C0666,14.0,18,3008.0,3,High-value
+C0667,56.0,4,284.8,0,New or developing
+C0668,46.0,1,168.0,0,New or developing
+C0669,23.0,15,2157.15,3,High-value
+C0670,11.0,6,4534.0,2,High-value
+C0671,9.0,21,3478.9,3,High-value
+C0672,46.0,2,228.0,0,New or developing
+C0673,52.0,1,399.0,0,New or developing
+C0674,14.0,17,4001.8500000000004,3,High-value
+C0675,5.0,18,2990.5,3,High-value
+C0676,7.0,4,316.5,0,New or developing
+C0677,135.0,2,244.0,1,At-risk / Low engagement
+C0678,23.0,24,3480.2000000000003,3,High-value
+C0679,-1.0,15,2777.7999999999997,3,High-value
+C0680,3.0,2,135.0,0,New or developing
+C0681,81.0,7,5284.9,2,High-value
+C0682,50.0,7,7733.3,2,High-value
+C0683,-1.0,25,3976.5,3,High-value
+C0684,11.0,30,6773.15,3,High-value
+C0685,9.0,13,3493.25,3,High-value
+C0686,42.0,1,131.75,0,New or developing
+C0687,27.0,3,4065.85,0,New or developing
+C0688,17.0,6,1138.0,0,New or developing
+C0689,3.0,15,2834.6000000000004,3,High-value
+C0690,5.0,22,3370.4500000000003,3,High-value
+C0691,117.0,2,318.0,1,At-risk / Low engagement
+C0692,179.0,1,2598.0,1,At-risk / Low engagement
+C0693,26.0,9,14766.55,2,High-value
+C0694,31.0,3,578.6,0,New or developing
+C0695,22.0,3,703.9499999999999,0,New or developing
+C0696,50.0,9,10087.8,2,High-value
+C0697,28.0,4,5003.1,2,High-value
+C0698,35.0,2,239.0,0,New or developing
+C0699,1.0,10,12471.8,2,High-value
+C0700,31.0,7,6049.799999999999,2,High-value
+C0701,6.0,20,3626.5,3,High-value
+C0702,127.0,3,904.0,1,At-risk / Low engagement
+C0703,43.0,5,2388.7,0,New or developing
+C0704,7.0,5,717.65,0,New or developing
+C0705,-1.0,21,3106.05,3,High-value
+C0706,63.0,2,672.0,0,New or developing
+C0707,22.0,4,2543.35,0,New or developing
+C0708,4.0,23,4217.55,3,High-value
+C0709,8.0,13,1644.0500000000002,3,High-value
+C0710,122.0,1,47.5,1,At-risk / Low engagement
+C0711,72.0,2,119.4,1,At-risk / Low engagement
+C0712,0.0,4,5995.4,2,High-value
+C0713,13.0,7,7898.4,2,High-value
+C0714,1.0,14,3023.15,3,High-value
+C0715,59.0,4,671.1,0,New or developing
+C0716,13.0,24,4746.25,3,High-value
+C0717,3.0,4,5099.5,2,High-value
+C0718,40.0,2,1497.0,0,New or developing
+C0719,38.0,2,822.0,0,New or developing
+C0720,7.0,5,605.4,0,New or developing
+C0721,18.0,21,4087.65,3,High-value
+C0722,4.0,4,432.5,0,New or developing
+C0723,157.0,1,135.0,1,At-risk / Low engagement
+C0725,10.0,10,8597.55,2,High-value
+C0726,6.0,20,3711.75,3,High-value
+C0727,2.0,18,3649.5,3,High-value
+C0728,3.0,21,3921.75,3,High-value
+C0729,21.0,2,1061.7,0,New or developing
+C0730,32.0,3,271.5,0,New or developing
+C0731,2.0,23,3266.3500000000004,3,High-value
+C0732,6.0,21,2935.0,3,High-value
+C0733,11.0,6,2086.85,0,New or developing
+C0734,177.0,1,2598.0,1,At-risk / Low engagement
+C0735,39.0,2,39.25,0,New or developing
+C0736,155.0,1,50.0,1,At-risk / Low engagement
+C0737,27.0,3,860.0,0,New or developing
+C0738,39.0,5,313.4,0,New or developing
+C0739,0.0,4,2570.3,0,New or developing
+C0740,42.0,17,1984.65,3,High-value
+C0741,50.0,4,5844.1,2,High-value
+C0742,8.0,16,4395.5,3,High-value
+C0743,58.0,7,12730.050000000001,2,High-value
+C0744,119.0,2,288.75,1,At-risk / Low engagement
+C0745,-1.0,17,3663.55,3,High-value
+C0746,-1.0,21,2566.2,3,High-value
+C0747,7.0,2,55.35,0,New or developing
+C0748,9.0,25,4509.7,3,High-value
+C0749,8.0,14,1778.0,3,High-value
+C0750,4.0,22,3603.9,3,High-value
+C0751,2.0,17,2444.1,3,High-value
+C0752,1.0,21,4236.9,3,High-value
+C0753,0.0,16,2038.85,3,High-value
+C0754,2.0,4,920.4,0,New or developing
+C0755,29.0,3,681.2,0,New or developing
+C0756,1.0,17,3515.8499999999995,3,High-value
+C0757,6.0,16,3463.4,3,High-value
+C0758,1.0,16,2800.3,3,High-value
+C0760,19.0,20,3746.1,3,High-value
+C0761,55.0,5,1305.25,0,New or developing
+C0762,21.0,17,3474.6499999999996,3,High-value
+C0763,106.0,4,1563.25,1,At-risk / Low engagement
+C0764,44.0,4,883.0,0,New or developing
+C0765,6.0,4,780.0,0,New or developing
+C0766,95.0,2,487.65,1,At-risk / Low engagement
+C0767,-1.0,21,3663.85,3,High-value
+C0768,160.0,1,40.0,1,At-risk / Low engagement
+C0769,0.0,6,2407.45,0,New or developing
+C0770,1.0,20,2686.55,3,High-value
+C0771,71.0,2,171.0,1,At-risk / Low engagement
+C0772,3.0,21,3596.7999999999997,3,High-value
+C0773,1.0,15,2684.25,3,High-value
+C0774,101.0,2,174.0,1,At-risk / Low engagement
+C0775,13.0,8,10759.199999999999,2,High-value
+C0776,10.0,26,5157.75,3,High-value
+C0777,3.0,8,6034.3,2,High-value
+C0778,99.0,5,3335.6000000000004,1,At-risk / Low engagement
+C0779,135.0,3,4504.65,1,At-risk / Low engagement
+C0780,2.0,17,3164.55,3,High-value
+C0781,83.0,1,560.0,1,At-risk / Low engagement
+C0782,25.0,4,465.15,0,New or developing
+C0783,30.0,3,1140.8,0,New or developing
+C0784,35.0,6,2802.4500000000003,0,New or developing
+C0785,5.0,5,6373.65,2,High-value
+C0786,5.0,13,2349.8,3,High-value
+C0787,28.0,2,236.1,0,New or developing
+C0788,46.0,4,561.0,0,New or developing
+C0789,58.0,1,52.2,0,New or developing
+C0790,5.0,24,4238.5,3,High-value
+C0791,73.0,2,184.3,1,At-risk / Low engagement
+C0792,4.0,22,4221.25,3,High-value
+C0793,-1.0,7,3865.85,0,New or developing
+C0794,11.0,1,21.6,0,New or developing
+C0795,30.0,6,910.7,0,New or developing
+C0796,87.0,1,352.0,1,At-risk / Low engagement
+C0797,5.0,22,4764.85,3,High-value
+C0798,8.0,29,4653.75,3,High-value
+C0799,0.0,26,2839.3999999999996,3,High-value
+C0800,5.0,22,2773.0,3,High-value
+C0801,19.0,1,76.5,0,New or developing
+C0802,9.0,7,7464.1,2,High-value
+C0803,-1.0,15,2818.25,3,High-value
+C0804,-1.0,16,3278.95,3,High-value
+C0805,1.0,13,2075.85,3,High-value
+C0806,12.0,4,429.4,0,New or developing
+C0807,8.0,18,3122.4500000000003,3,High-value
+C0808,12.0,23,3046.2999999999997,3,High-value
+C0809,29.0,3,642.5,0,New or developing
+C0810,105.0,1,48.0,1,At-risk / Low engagement
+C0811,20.0,7,4948.15,2,High-value
+C0812,11.0,22,2897.3500000000004,3,High-value
+C0813,21.0,16,1777.2,3,High-value
+C0814,39.0,18,5887.4,3,High-value
+C0815,0.0,3,1047.8,0,New or developing
+C0816,0.0,7,6514.0,2,High-value
+C0817,8.0,3,451.65,0,New or developing
+C0818,63.0,4,2860.0,0,New or developing
+C0819,51.0,4,9144.55,2,High-value
+C0820,34.0,3,178.0,0,New or developing
+C0821,2.0,23,4362.200000000001,3,High-value
+C0822,3.0,1,198.0,0,New or developing
+C0823,23.0,4,827.95,0,New or developing
+C0824,113.0,2,612.0,1,At-risk / Low engagement
+C0825,59.0,6,4042.2499999999995,0,New or developing
+C0826,40.0,5,881.1,0,New or developing
+C0828,22.0,6,3644.9500000000003,0,New or developing
+C0829,6.0,4,1195.5,0,New or developing
+C0830,5.0,2,353.5,0,New or developing
+C0831,11.0,5,5037.35,2,High-value
+C0832,139.0,1,339.15,1,At-risk / Low engagement
+C0833,12.0,8,4444.9,2,High-value
+C0834,21.0,2,1225.0,0,New or developing
+C0836,13.0,4,440.5,0,New or developing
+C0837,4.0,20,2896.35,3,High-value
+C0838,70.0,2,432.5,1,At-risk / Low engagement
+C0839,-1.0,28,3334.5500000000006,3,High-value
+C0840,3.0,20,3689.0,3,High-value
+C0841,35.0,6,3446.45,0,New or developing
+C0842,6.0,17,3712.45,3,High-value
+C0843,33.0,2,107.4,0,New or developing
+C0844,1.0,15,1770.45,3,High-value
+C0845,30.0,16,3411.2,3,High-value
+C0846,1.0,18,3421.2999999999997,3,High-value
+C0847,10.0,3,921.2,0,New or developing
+C0848,24.0,3,785.2,0,New or developing
+C0849,71.0,1,129.0,1,At-risk / Low engagement
+C0850,15.0,5,3006.6,0,New or developing
+C0851,167.0,1,129.0,1,At-risk / Low engagement
+C0852,87.0,4,429.2,1,At-risk / Low engagement
+C0853,3.0,23,3668.4,3,High-value
+C0854,10.0,17,3477.2000000000003,3,High-value
+C0855,3.0,15,2477.5,3,High-value
+C0856,3.0,17,4203.95,3,High-value
+C0857,47.0,2,168.3,0,New or developing
+C0858,123.0,5,575.1,1,At-risk / Low engagement
+C0859,38.0,3,482.6,0,New or developing
+C0860,3.0,23,3998.1499999999996,3,High-value
+C0861,102.0,1,29.0,1,At-risk / Low engagement
+C0862,27.0,6,4456.049999999999,2,High-value
+C0863,60.0,2,581.75,0,New or developing
+C0864,17.0,3,544.0,0,New or developing
+C0865,6.0,5,2282.2,0,New or developing
+C0866,135.0,2,286.8,1,At-risk / Low engagement
+C0867,104.0,3,2794.5,1,At-risk / Low engagement
+C0868,41.0,16,3161.85,3,High-value
+C0869,9.0,8,4789.0,2,High-value
+C0870,33.0,14,2589.3,3,High-value
+C0871,3.0,19,3235.25,3,High-value
+C0872,1.0,20,3303.7,3,High-value
+C0873,55.0,7,7062.7,2,High-value
+C0874,62.0,2,204.6,0,New or developing
+C0875,6.0,19,3885.0,3,High-value
+C0876,13.0,5,1954.9,0,New or developing
+C0877,15.0,12,1173.65,0,New or developing
+C0878,15.0,2,277.4,0,New or developing
+C0879,51.0,4,2070.15,0,New or developing
+C0880,43.0,19,2659.0499999999997,3,High-value
+C0881,17.0,3,228.95,0,New or developing
+C0882,96.0,2,888.0,1,At-risk / Low engagement
+C0883,35.0,4,5603.0,2,High-value
+C0884,38.0,5,1144.1,0,New or developing
+C0885,62.0,1,225.0,0,New or developing
+C0886,9.0,20,3112.4500000000003,3,High-value
+C0887,76.0,4,2150.15,1,At-risk / Low engagement
+C0888,26.0,7,6854.4,2,High-value
+C0889,6.0,19,2949.4,3,High-value
+C0890,26.0,5,745.0,0,New or developing
+C0891,58.0,5,487.45,0,New or developing
+C0892,45.0,2,241.25,0,New or developing
+C0893,0.0,8,1529.3,0,New or developing
+C0894,12.0,17,2919.2000000000003,3,High-value
+C0895,5.0,14,1314.8,3,High-value
+C0896,2.0,22,4153.15,3,High-value
+C0897,0.0,17,2234.75,3,High-value
+C0898,2.0,5,492.2,0,New or developing
+C0899,32.0,3,5255.3,2,High-value
+C0900,-1.0,17,4774.700000000001,3,High-value
+C0901,18.0,17,3170.2,3,High-value
+C0902,93.0,1,12.0,1,At-risk / Low engagement
+C0903,3.0,15,4348.4,3,High-value
+C0904,13.0,8,5360.8,2,High-value
+C0905,51.0,16,2647.75,3,High-value
+C0906,11.0,17,2166.05,3,High-value
+C0907,11.0,19,2407.95,3,High-value
+C0908,93.0,4,1140.15,1,At-risk / Low engagement
+C0909,21.0,18,3825.55,3,High-value
+C0910,37.0,5,3347.3,0,New or developing
+C0911,-1.0,19,3818.35,3,High-value
+C0912,69.0,5,897.6,1,At-risk / Low engagement
+C0913,8.0,13,2592.3999999999996,3,High-value
+C0914,10.0,5,5849.5,2,High-value
+C0915,11.0,8,5522.749999999999,2,High-value
+C0916,12.0,6,8444.85,2,High-value
+C0917,35.0,2,747.5,0,New or developing
+C0918,16.0,19,3997.3999999999996,3,High-value
+C0919,63.0,1,134.4,0,New or developing
+C0920,15.0,5,4248.2,2,High-value
+C0921,35.0,8,6020.8,2,High-value
+C0922,0.0,8,914.5500000000001,0,New or developing
+C0923,27.0,3,387.0,0,New or developing
+C0924,2.0,22,4272.9,3,High-value
+C0925,6.0,20,3100.2,3,High-value
+C0926,156.0,1,139.5,1,At-risk / Low engagement
+C0927,64.0,4,767.65,0,New or developing
+C0928,47.0,1,129.0,0,New or developing
+C0929,14.0,20,3121.4500000000003,3,High-value
+C0930,4.0,9,10151.4,2,High-value
+C0931,105.0,1,260.0,1,At-risk / Low engagement
+C0932,126.0,1,525.0,1,At-risk / Low engagement
+C0933,28.0,14,1561.45,3,High-value
+C0934,30.0,7,5058.4,2,High-value
+C0935,58.0,2,378.0,0,New or developing
+C0936,132.0,1,285.0,1,At-risk / Low engagement
+C0937,10.0,21,4160.799999999999,3,High-value
+C0938,37.0,5,3674.4,0,New or developing
+C0939,124.0,3,459.5,1,At-risk / Low engagement
+C0940,21.0,9,8874.2,2,High-value
+C0941,8.0,23,3866.4500000000003,3,High-value
+C0942,11.0,6,8643.599999999999,2,High-value
+C0943,47.0,1,89.1,0,New or developing
+C0944,22.0,7,4795.35,2,High-value
+C0945,5.0,17,1982.8000000000002,3,High-value
+C0946,21.0,2,261.0,0,New or developing
+C0947,16.0,8,2787.8500000000004,0,New or developing
+C0948,16.0,17,2977.95,3,High-value
+C0949,0.0,18,2500.6,3,High-value
+C0950,13.0,8,6788.849999999999,2,High-value
+C0951,6.0,5,3871.9500000000003,0,New or developing
+C0952,2.0,22,3302.7,3,High-value
+C0953,-1.0,17,3240.95,3,High-value
+C0954,62.0,2,534.0,0,New or developing
+C0955,175.0,1,272.0,1,At-risk / Low engagement
+C0956,29.0,6,4567.55,2,High-value
+C0957,24.0,21,2999.2,3,High-value
+C0958,163.0,1,416.5,1,At-risk / Low engagement
+C0959,-1.0,19,3062.2999999999997,3,High-value
+C0960,22.0,8,1446.7,0,New or developing
+C0961,69.0,3,483.0,1,At-risk / Low engagement
+C0962,5.0,4,559.85,0,New or developing
+C0963,19.0,23,3350.2000000000003,3,High-value
+C0964,0.0,20,4320.900000000001,3,High-value
+C0965,25.0,4,360.8,0,New or developing
+C0966,5.0,21,4185.3,3,High-value
+C0967,106.0,2,185.1,1,At-risk / Low engagement
+C0968,-1.0,19,2619.7,3,High-value
+C0969,12.0,18,3411.25,3,High-value
+C0970,26.0,2,510.0,0,New or developing
+C0971,119.0,2,594.4,1,At-risk / Low engagement
+C0972,92.0,6,4427.5,1,At-risk / Low engagement
+C0973,0.0,21,4499.2,3,High-value
+C0974,10.0,4,1094.5,0,New or developing
+C0975,33.0,5,484.55000000000007,0,New or developing
+C0976,53.0,1,560.0,0,New or developing
+C0977,32.0,5,5444.6,2,High-value
+C0978,36.0,6,918.65,0,New or developing
+C0979,9.0,1,76.8,0,New or developing
+C0980,33.0,4,3944.0,0,New or developing
+C0981,23.0,2,518.3,0,New or developing
+C0982,171.0,1,18.0,1,At-risk / Low engagement
+C0983,33.0,5,6478.9,2,High-value
+C0984,3.0,5,4077.25,2,High-value
+C0985,45.0,4,338.6,0,New or developing
+C0986,18.0,23,3459.35,3,High-value
+C0987,5.0,17,2664.35,3,High-value
+C0988,133.0,1,396.0,1,At-risk / Low engagement
+C0989,18.0,4,387.75,0,New or developing
+C0990,7.0,26,4186.95,3,High-value
+C0991,93.0,2,148.05,1,At-risk / Low engagement
+C0992,85.0,3,614.75,1,At-risk / Low engagement
+C0993,8.0,2,151.2,0,New or developing
+C0994,19.0,3,3751.65,0,New or developing
+C0995,13.0,24,3500.4,3,High-value
+C0996,25.0,6,5134.0,2,High-value
+C0997,27.0,3,960.9499999999999,0,New or developing
+C0998,127.0,1,58.8,1,At-risk / Low engagement
+C0999,23.0,8,6428.599999999999,2,High-value
+C1000,0.0,8,8943.2,2,High-value
+C1001,34.0,5,963.5,0,New or developing
+C1002,51.0,2,270.0,0,New or developing
+C1003,68.0,5,3747.8999999999996,0,New or developing
+C1004,78.0,2,112.80000000000001,1,At-risk / Low engagement
+C1005,32.0,2,888.0,0,New or developing
+C1006,42.0,2,252.0,0,New or developing
+C1007,128.0,1,40.0,1,At-risk / Low engagement
+C1008,14.0,7,6100.05,2,High-value
+C1009,87.0,6,6931.4,2,High-value
+C1010,-1.0,9,797.5,0,New or developing
+C1011,4.0,19,4400.8,3,High-value
+C1012,8.0,3,307.5,0,New or developing
+C1013,78.0,4,2647.2,1,At-risk / Low engagement
+C1014,3.0,24,5429.900000000001,3,High-value
+C1015,3.0,17,2968.85,3,High-value
+C1016,36.0,17,3376.0499999999997,3,High-value
+C1017,147.0,2,188.4,1,At-risk / Low engagement
+C1018,1.0,15,3156.9,3,High-value
+C1019,33.0,4,1398.1499999999999,0,New or developing
+C1020,2.0,25,4918.299999999999,3,High-value
+C1021,40.0,6,1296.0,0,New or developing
+C1022,9.0,2,124.2,0,New or developing
+C1023,-1.0,20,3613.8500000000004,3,High-value
+C1024,14.0,7,10444.15,2,High-value
+C1025,18.0,2,276.0,0,New or developing
+C1026,82.0,1,72.0,1,At-risk / Low engagement
+C1027,50.0,3,327.3,0,New or developing
+C1028,42.0,4,999.0,0,New or developing
+C1029,44.0,7,711.25,0,New or developing
+C1030,6.0,7,3565.5499999999997,0,New or developing
+C1031,82.0,6,5778.5,2,High-value
+C1032,6.0,5,6889.150000000001,2,High-value
+C1033,11.0,18,2318.35,3,High-value
+C1034,82.0,3,655.5,1,At-risk / Low engagement
+C1035,102.0,2,624.0,1,At-risk / Low engagement
+C1036,19.0,2,328.5,0,New or developing
+C1037,66.0,3,227.0,0,New or developing
+C1038,11.0,2,441.0,0,New or developing
+C1039,10.0,7,4787.05,2,High-value
+C1040,60.0,2,135.0,0,New or developing
+C1042,6.0,21,4268.5,3,High-value
+C1043,3.0,16,3558.45,3,High-value
+C1044,5.0,7,6982.549999999999,2,High-value
+C1045,46.0,5,2965.05,0,New or developing
+C1046,23.0,2,173.1,0,New or developing
+C1047,4.0,15,1651.9,3,High-value
+C1048,96.0,3,446.0,1,At-risk / Low engagement
+C1049,-1.0,24,4396.7,3,High-value
+C1050,71.0,2,162.75,1,At-risk / Low engagement
+C1051,27.0,2,316.8,0,New or developing
+C1053,153.0,1,396.0,1,At-risk / Low engagement
+C1054,109.0,1,43.2,1,At-risk / Low engagement
+C1055,24.0,7,1319.5,0,New or developing
+C1056,4.0,3,388.0,0,New or developing
+C1057,15.0,18,2788.55,3,High-value
+C1058,2.0,21,3951.15,3,High-value
+C1059,2.0,11,7107.35,2,High-value
+C1060,7.0,16,2292.05,3,High-value
+C1061,72.0,1,34.8,1,At-risk / Low engagement
+C1062,19.0,6,1885.7,0,New or developing
+C1063,3.0,15,1742.05,3,High-value
+C1064,4.0,19,3236.9500000000003,3,High-value
+C1065,134.0,2,103.0,1,At-risk / Low engagement
+C1066,28.0,4,385.3,0,New or developing
+C1067,13.0,6,2486.2,0,New or developing
+C1068,0.0,24,3908.95,3,High-value
+C1069,28.0,19,4652.35,3,High-value
+C1070,134.0,2,378.0,1,At-risk / Low engagement
+C1071,-1.0,1,188.1,0,New or developing
+C1072,-1.0,21,2945.6,3,High-value
+C1073,13.0,3,420.4,0,New or developing
+C1074,37.0,18,2098.6,3,High-value
+C1075,120.0,1,198.0,1,At-risk / Low engagement
+C1076,29.0,3,458.6,0,New or developing
+C1077,9.0,22,3324.9,3,High-value
+C1078,22.0,4,1285.8500000000001,0,New or developing
+C1079,7.0,22,4655.950000000001,3,High-value
+C1080,9.0,27,4473.75,3,High-value
+C1081,43.0,7,6216.250000000001,2,High-value
+C1082,1.0,17,2687.9,3,High-value
+C1084,36.0,3,233.8,0,New or developing
+C1085,10.0,5,7222.9,2,High-value
+C1086,-1.0,3,1605.8,0,New or developing
+C1087,38.0,2,512.4,0,New or developing
+C1088,43.0,4,604.5,0,New or developing
+C1089,148.0,2,1060.5,1,At-risk / Low engagement
+C1090,46.0,4,2701.1000000000004,0,New or developing
+C1091,2.0,12,1237.2,0,New or developing
+C1092,18.0,3,760.8000000000001,0,New or developing
+C1093,7.0,19,3138.85,3,High-value
+C1094,8.0,4,3932.8,0,New or developing
+C1095,-1.0,26,4852.6,3,High-value
+C1096,4.0,23,4024.9,3,High-value
+C1097,131.0,1,379.05,1,At-risk / Low engagement
+C1098,26.0,4,6644.5,2,High-value
+C1099,21.0,3,1323.05,0,New or developing
+C1100,47.0,2,718.0,0,New or developing
+C1101,59.0,5,699.5,0,New or developing
+C1102,7.0,8,7503.6,2,High-value
+C1103,16.0,2,202.5,0,New or developing
+C1104,84.0,3,504.6,1,At-risk / Low engagement
+C1105,13.0,1,260.0,0,New or developing
+C1106,69.0,3,485.0,1,At-risk / Low engagement
+C1107,1.0,13,2075.0,3,High-value
+C1108,10.0,5,834.8000000000001,0,New or developing
+C1109,2.0,27,3815.65,3,High-value
+C1110,-1.0,21,4191.5,3,High-value
+C1112,18.0,6,5620.4,2,High-value
+C1113,12.0,3,2760.45,0,New or developing
+C1114,-1.0,5,2149.8,0,New or developing
+C1115,64.0,3,294.4,0,New or developing
+C1116,19.0,3,352.95,0,New or developing
+C1117,13.0,6,7042.2,2,High-value
+C1118,20.0,19,2079.0499999999997,3,High-value
+C1119,5.0,19,3447.5,3,High-value
+C1120,5.0,13,3189.5,3,High-value
+C1121,23.0,4,770.25,0,New or developing
+C1122,5.0,21,3215.2,3,High-value
+C1123,23.0,3,3002.1,0,New or developing
+C1124,-1.0,12,1700.8,3,High-value
+C1125,11.0,5,372.55,0,New or developing
+C1126,46.0,8,8595.7,2,High-value
+C1127,19.0,5,4292.5,2,High-value
+C1128,6.0,1,126.0,0,New or developing
+C1129,62.0,3,2902.85,0,New or developing
+C1130,5.0,18,3919.3500000000004,3,High-value
+C1131,61.0,4,1091.8,0,New or developing
+C1132,65.0,4,4776.9,2,High-value
+C1133,18.0,18,3068.0,3,High-value
+C1134,15.0,20,4973.849999999999,3,High-value
+C1135,6.0,18,3371.3499999999995,3,High-value
+C1136,58.0,6,9650.250000000002,2,High-value
+C1137,18.0,18,3775.9,3,High-value
+C1138,64.0,2,342.0,0,New or developing
+C1139,15.0,29,5139.25,3,High-value
+C1140,17.0,23,4223.15,3,High-value
+C1141,20.0,20,3163.8999999999996,3,High-value
+C1142,3.0,20,5120.95,3,High-value
+C1143,11.0,13,2253.4,3,High-value
+C1144,109.0,1,71.25,1,At-risk / Low engagement
+C1145,43.0,22,2527.4500000000003,3,High-value
+C1146,45.0,6,9082.65,2,High-value
+C1147,18.0,9,10156.9,2,High-value
+C1148,6.0,5,3155.45,0,New or developing
+C1149,83.0,2,161.4,1,At-risk / Low engagement
+C1150,5.0,20,2392.8,3,High-value
+C1151,29.0,21,2647.5,3,High-value
+C1152,1.0,21,3026.9500000000003,3,High-value
+C1153,16.0,4,2490.9,0,New or developing
+C1154,93.0,3,477.2,1,At-risk / Low engagement
+C1155,-1.0,21,4552.9,3,High-value
+C1156,20.0,4,5894.6,2,High-value
+C1157,38.0,3,2132.2,0,New or developing
+C1158,64.0,1,33.6,0,New or developing
+C1159,93.0,1,108.0,1,At-risk / Low engagement
+C1160,1.0,1,51.0,0,New or developing
+C1161,30.0,3,374.0,0,New or developing
+C1162,17.0,1,183.75,0,New or developing
+C1163,84.0,3,664.05,1,At-risk / Low engagement
+C1164,8.0,14,2185.9,3,High-value
+C1166,0.0,19,2158.8,3,High-value
+C1167,4.0,23,2263.3,3,High-value
+C1168,35.0,3,488.6,0,New or developing
+C1169,42.0,2,496.0,0,New or developing
+C1170,154.0,3,393.0,1,At-risk / Low engagement
+C1171,37.0,11,5540.849999999999,2,High-value
+C1172,10.0,16,2847.6,3,High-value
+C1173,45.0,4,350.75,0,New or developing
+C1174,37.0,13,1816.9,0,New or developing
+C1175,6.0,22,4868.95,3,High-value
+C1176,35.0,4,762.5,0,New or developing
+C1177,72.0,2,404.0,1,At-risk / Low engagement
+C1178,66.0,3,370.5,0,New or developing
+C1179,23.0,2,157.75,0,New or developing
+C1180,108.0,1,44.8,1,At-risk / Low engagement
+C1181,13.0,6,7094.0,2,High-value
+C1182,23.0,5,1228.5,0,New or developing
+C1183,97.0,2,4447.25,1,At-risk / Low engagement
+C1184,88.0,2,143.6,1,At-risk / Low engagement
+C1185,-1.0,21,3594.3,3,High-value
+C1186,16.0,3,601.0,0,New or developing
+C1187,26.0,3,347.0,0,New or developing
+C1188,25.0,6,2202.45,0,New or developing
+C1190,4.0,21,2092.5,3,High-value
+C1191,1.0,24,4569.999999999999,3,High-value
+C1192,7.0,4,252.89999999999998,0,New or developing
+C1193,1.0,1,20.0,0,New or developing
+C1194,74.0,3,461.5,1,At-risk / Low engagement
+C1195,-1.0,15,2485.85,3,High-value
+C1196,103.0,3,339.0,1,At-risk / Low engagement
+C1197,3.0,23,3488.35,3,High-value
+C1198,2.0,18,2803.2,3,High-value
+C1199,15.0,4,3861.8500000000004,0,New or developing
+C1200,1.0,22,3559.0999999999995,3,High-value

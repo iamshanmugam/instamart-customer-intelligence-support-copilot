@@ -15,14 +15,9 @@ def test_rag_no_context_escalates():
 
 
 def test_refund_fraud_escalates():
-    policy = pd.DataFrame(
-        [{"policy_id": "P1", "policy_title": "Fraud", "policy_text": "Fraud policy", "category": "Fraud"}]
-    )
-    rag = RAGAssistant()
-    rag.build(policy)
-    agent = RefundAgent(rag)
-    out = agent.process("ORD999999", "fraudulent charge")
-    assert out["decision"] == "escalate_human" or out.get("status") == "escalated"
+    agent = RefundAgent()
+    out = agent.process("ORD-100001", "fraudulent unauthorized charge")
+    assert out.get("status") == "escalated"
 
 
 def test_lookup_invalid_order():

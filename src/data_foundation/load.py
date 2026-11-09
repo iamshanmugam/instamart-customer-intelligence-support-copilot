@@ -7,12 +7,12 @@ import pandas as pd
 
 from src.common.paths import DATA_RAW
 
-
 REQUIRED_FILES = [
     "customers.csv",
     "orders.csv",
-    "support_tickets.csv",
-    "policy_evaluation.csv",
+    "tickets.csv",
+    "policy_eval.csv",
+    "products.csv",
 ]
 
 
@@ -22,8 +22,7 @@ class DataLoadError(FileNotFoundError):
 
 def validate_raw_files(data_dir: Path | None = None) -> list[str]:
     data_dir = data_dir or DATA_RAW
-    missing = [f for f in REQUIRED_FILES if not (data_dir / f).exists()]
-    return missing
+    return [f for f in REQUIRED_FILES if not (data_dir / f).exists()]
 
 
 def load_csv(path: Path) -> pd.DataFrame:
@@ -37,12 +36,17 @@ def load_raw_datasets(data_dir: Path | None = None) -> dict[str, pd.DataFrame]:
     missing = validate_raw_files(data_dir)
     if missing:
         raise DataLoadError(f"Missing files in {data_dir}: {missing}")
-    return {
+    datasets = {
         "customers": load_csv(data_dir / "customers.csv"),
         "orders": load_csv(data_dir / "orders.csv"),
-        "tickets": load_csv(data_dir / "support_tickets.csv"),
-        "policy": load_csv(data_dir / "policy_evaluation.csv"),
+        "tickets": load_csv(data_dir / "tickets.csv"),
+        "policy": load_csv(data_dir / "policy_eval.csv"),
+        "products": load_csv(data_dir / "products.csv"),
     }
+    scenarios_path = data_dir / "agent_scenarios.csv"
+    if scenarios_path.exists():
+        datasets["agent_scenarios"] = load_csv(scenarios_path)
+    return datasets
 
 
 def inspect_dataset(df: pd.DataFrame, name: str) -> dict[str, Any]:

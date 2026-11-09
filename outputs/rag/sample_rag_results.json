@@ -1,48 +1,53 @@
 [
   {
-    "answer": "Based on Instamart policy context: [Partial refund for quality issues] Partial refund for quality issues\nProduct quality complaints may qualify for partial refund up to 50% when the item is usable but below quality standards. Fraud or repeated abuse of refunds leads to manual review.\n\n[Refund within 24 hours of delivery] Refund within 24 hours of delivery\nCustomers may request a full refund within 24 hours of confirmed delivery if items are damaged, expired, or missing. Proof photo may be required. Refunds are not automatic for o\n\nAnswer (simulated): This guidance applies to your question about ' full refund within 24 hours of confirmed delivery if items are damaged, expired...'. For edge cases, escalate to a human agent.",
+    "answer": "If a completed order is delivered in more than 45 minutes, the customer receives a full refund of the order amount.",
     "sources": [
       {
-        "chunk_id": "POL-REF-002_0",
-        "title": "Partial refund for quality issues",
-        "score": 0.22662587829209785
+        "chunk_id": "refund_policy",
+        "title": "Refund Policy",
+        "score": 0.34661406778290754
       },
       {
-        "chunk_id": "POL-REF-001_0",
-        "title": "Refund within 24 hours of delivery",
-        "score": 0.13322136768408926
+        "chunk_id": "delivery_policy",
+        "title": "Delivery Policy",
+        "score": 0.10773267622431157
+      },
+      {
+        "chunk_id": "payment_policy",
+        "title": "Payment Policy",
+        "score": 0.10054824946628356
       }
     ],
     "escalate": false
   },
   {
-    "answer": "Based on Instamart policy context: [Delivery delay compensation] Delivery delay compensation\nIf delivery exceeds promised time by more than 45 minutes, customer may receive a voucher. Escalate to operations if delay exceeds 2 hours.\n\n[Refund within 24 hours of delivery] Refund within 24 hours of delivery\nCustomers may request a full refund within 24 hours of confirmed delivery if items are damaged, expired, or missing. Proof photo may be required. Refunds are not automatic for orders marked Delivered more than 48 hours ago.\n\n[Par\n\nAnswer (simulated): This guidance applies to your question about 'd for quality issues\nProduct quality complaints may qualify for partial refund u...'. For edge cases, escalate to a human agent.",
+    "answer": "A refund above INR 1000 must be approved by a human support lead before money is returned.",
     "sources": [
       {
-        "chunk_id": "POL-DEL-001_0",
-        "title": "Delivery delay compensation",
-        "score": 0.23437743404118794
+        "chunk_id": "refund_policy",
+        "title": "Refund Policy",
+        "score": 0.3773388656791603
       },
       {
-        "chunk_id": "POL-REF-001_0",
-        "title": "Refund within 24 hours of delivery",
-        "score": 0.18147656083054686
-      },
-      {
-        "chunk_id": "POL-REF-002_0",
-        "title": "Partial refund for quality issues",
-        "score": 0.06311176292140579
+        "chunk_id": "escalation_policy",
+        "title": "Escalation Policy",
+        "score": 0.05255869346910464
       }
     ],
     "escalate": false
   },
   {
-    "answer": "Based on Instamart policy context: [Fraud escalation] Fraud escalation\nAll fraud allegations require human review. Do not auto-approve refunds for fraud tickets. Collect order ID and verify account activity.\n\nAnswer (simulated): This guidance applies to your question about 'ount fraudulently.\nContext:\n[Fraud escalation] Fraud escalation\nAll fraud allega...'. For edge cases, escalate to a human agent.",
+    "answer": "A ticket about fraud or an unauthorized transaction is marked high priority and sent to the security team within 2 hours.",
     "sources": [
       {
-        "chunk_id": "POL-FRD-001_0",
-        "title": "Fraud escalation",
-        "score": 0.14869527203328287
+        "chunk_id": "escalation_policy",
+        "title": "Escalation Policy",
+        "score": 0.28245626972882143
+      },
+      {
+        "chunk_id": "refund_policy",
+        "title": "Refund Policy",
+        "score": 0.06220089777673957
       }
     ],
     "escalate": false

@@ -1,10 +1,8 @@
 from __future__ import annotations
 
 import joblib
-import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import seaborn as sns
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 from sklearn.metrics import silhouette_score
@@ -55,22 +53,6 @@ def run_kmeans_pipeline(rfm: pd.DataFrame) -> dict:
     eval_df = pd.DataFrame(rows)
     eval_df.to_csv(OUTPUTS_SEGMENTATION / "kmeans_evaluation.csv", index=False)
 
-    plt.figure(figsize=(8, 5))
-    plt.plot(list(k_range), inertias, marker="o")
-    plt.xlabel("K")
-    plt.ylabel("Inertia")
-    plt.title("K-Means Elbow")
-    plt.savefig(OUTPUTS_SEGMENTATION / "elbow_chart.png", dpi=120)
-    plt.close()
-
-    plt.figure(figsize=(8, 5))
-    plt.bar(list(k_range), silhouettes)
-    plt.xlabel("K")
-    plt.ylabel("Silhouette Score")
-    plt.title("Silhouette by K")
-    plt.savefig(OUTPUTS_SEGMENTATION / "silhouette_chart.png", dpi=120)
-    plt.close()
-
     best_k = int(eval_df.loc[eval_df["silhouette"].idxmax(), "k"])
     if best_k < 3:
         best_k = 3
@@ -95,12 +77,6 @@ def run_kmeans_pipeline(rfm: pd.DataFrame) -> dict:
             "cumulative_var": float(var_ratio.sum()),
         }
     ).to_csv(OUTPUTS_SEGMENTATION / "pca_variance.csv")
-
-    plt.figure(figsize=(8, 6))
-    sns.scatterplot(data=active, x="pca1", y="pca2", hue="cluster", palette="tab10")
-    plt.title("Customer Clusters (PCA 2D)")
-    plt.savefig(OUTPUTS_SEGMENTATION / "pca_clusters.png", dpi=120)
-    plt.close()
 
     segments_out = active[
         ["customer_id", "recency_days", "frequency", "monetary", "cluster", "segment_name"]

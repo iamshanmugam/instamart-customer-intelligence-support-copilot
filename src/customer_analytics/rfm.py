@@ -16,13 +16,15 @@ def calculate_rfm(
     reference_date = reference_date or get_rfm_reference_date()
     ref = pd.Timestamp(reference_date)
 
-    completed = orders[orders["order_status"] == "Completed"].copy()
-    completed["order_date"] = pd.to_datetime(completed["order_date"])
+    status_col = "status" if "status" in orders.columns else "order_status"
+    completed = orders[orders[status_col].astype(str).str.lower() == "completed"].copy()
+    date_col = "order_ts" if "order_ts" in completed.columns else "order_date"
+    completed[date_col] = pd.to_datetime(completed[date_col], errors="coerce")
 
     agg = (
         completed.groupby("customer_id")
         .agg(
-            last_order=("order_date", "max"),
+            last_order=(date_col, "max"),
             frequency=("order_id", "nunique"),
             monetary=("order_amount", "sum"),
         )

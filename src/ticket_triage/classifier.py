@@ -1,30 +1,44 @@
 from __future__ import annotations
 
 import json
-from pathlib import Path
 
 import pandas as pd
 
-from mock_llm import get_llm
+import mock_llm
+from mock_llm import TransientLLMError
 from src.common.paths import OUTPUTS_TICKET
 from src.ticket_triage.guardrails import apply_guardrails
-from src.ticket_triage.prompts import few_shot_prompt, zero_shot_prompt
+from src.ticket_triage.prompts import build_classify_messages
 from src.ticket_triage.routing import assign_priority, assign_route
 
 
-def _parse_llm_json(raw: str) -> dict:
+def _parse_category(content: str) -> str:
+    if not content:
+        return "technical"
     try:
-        return json.loads(raw)
+        data = json.loads(content)
+        return str(data.get("category", "technical")).lower()
     except json.JSONDecodeError:
-        return {"category": "Other", "confidence": 0.3}
+        lower = content.lower()
+        for cat in mock_llm.CATS:
+            if cat in lower:
+                return cat
+        return "technical"
 
 
-def classify_ticket(
-    text: str,
-    strategy: str = "zero_shot",
-    llm=None,
-) -> dict:
-    llm = llm or get_llm()
+def _chat_classify(masked_ticket: str, few_shot: bool = False) -> str:
+    messages = build_classify_messages(masked_ticket, few_shot=few_shot)
+    for attempt in range(3):
+        try:
+            response = mock_llm.chat(messages)
+            return response.choices[0].message.content or ""
+        except TransientLLMError:
+            if attempt == 2:
+                raise
+    return ""
+
+
+def classify_ticket(text: str, strategy: str = "zero_shot", **_kwargs) -> dict:
     gr = apply_guardrails(text)
     if not gr.ok:
         return {
@@ -32,28 +46,18 @@ def classify_ticket(
             "rejected_reason": gr.reason,
             "llm_called": False,
         }
-
-    mode = "few_shot_classify" if strategy == "few_shot" else "zero_shot_classify"
-    prompt = (
-        few_shot_prompt(gr.masked_text)
-        if strategy == "few_shot"
-        else zero_shot_prompt(gr.masked_text)
-    )
-
-    result = llm.complete(prompt, mode=mode)
-    parsed = _parse_llm_json(result)
-    category = parsed.get("category", "Other")
-    priority = assign_priority(category)
-    route = assign_route(category)
+    raw = _chat_classify(gr.masked_text, few_shot=(strategy == "few_shot"))
+    category = _parse_category(raw)
     return {
         "success": True,
         "category": category,
-        "confidence": parsed.get("confidence", 0.5),
-        "priority": priority,
-        "route": route,
+        "confidence": 0.5,
+        "priority": assign_priority(category),
+        "route": assign_route(category),
         "masked_ticket_preview": gr.masked_text[:200],
         "llm_called": True,
         "strategy": strategy,
+        "raw_response_preview": raw[:120],
     }
 
 
@@ -63,11 +67,12 @@ def classify_tickets_batch(
     strategy: str = "zero_shot",
     limit: int | None = 50,
 ) -> pd.DataFrame:
-    llm = get_llm()
+    mock_llm.reset()
     subset = tickets.head(limit) if limit else tickets
     rows = []
     for _, row in subset.iterrows():
-        res = classify_ticket(row[text_col], strategy=strategy, llm=llm)
+        col = text_col if text_col in row else "text"
+        res = classify_ticket(row[col], strategy=strategy)
         rows.append(
             {
                 "ticket_id": row.get("ticket_id"),

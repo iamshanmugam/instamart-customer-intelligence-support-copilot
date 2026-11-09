@@ -1,108 +1,271 @@
 customer_id,recency_days,frequency,monetary,segment_name
-CUST00002,506.0,1,487.97,At-risk / Low engagement
-CUST00006,443.0,2,1348.56,At-risk / Low engagement
-CUST00007,550.0,1,462.49,At-risk / Low engagement
-CUST00012,233.0,3,1220.65,High-value
-CUST00021,630.0,1,514.99,At-risk / Low engagement
-CUST00024,210.0,2,1646.1799999999998,High-value
-CUST00025,419.0,1,1097.23,At-risk / Low engagement
-CUST00033,236.0,1,724.24,High-value
-CUST00050,559.0,2,834.0899999999999,At-risk / Low engagement
-CUST00051,355.0,4,3262.71,At-risk / Low engagement
-CUST00053,557.0,1,493.84,At-risk / Low engagement
-CUST00057,462.0,3,3616.89,At-risk / Low engagement
-CUST00060,227.0,5,2948.2699999999995,High-value
-CUST00063,256.0,4,1567.88,High-value
-CUST00066,219.0,5,3715.77,High-value
-CUST00075,394.0,2,1612.76,At-risk / Low engagement
-CUST00077,217.0,6,3391.2350000000006,High-value
-CUST00078,242.0,2,904.1500000000001,High-value
-CUST00079,231.0,1,811.18,High-value
-CUST00080,441.0,1,555.63,At-risk / Low engagement
-CUST00083,433.0,2,709.17,At-risk / Low engagement
-CUST00086,387.0,5,2949.79,At-risk / Low engagement
-CUST00087,224.0,4,2156.02,High-value
-CUST00097,382.0,3,1628.86,At-risk / Low engagement
-CUST00099,307.0,2,1625.89,At-risk / Low engagement
-CUST00101,208.0,5,3492.44,High-value
-CUST00106,230.0,2,1579.27,High-value
-CUST00116,417.0,2,1428.8899999999999,At-risk / Low engagement
-CUST00124,287.0,1,420.24,At-risk / Low engagement
-CUST00128,419.0,1,806.74,At-risk / Low engagement
-CUST00130,231.0,4,2972.85,High-value
-CUST00131,441.0,1,749.49,At-risk / Low engagement
-CUST00132,488.0,2,1506.83,At-risk / Low engagement
-CUST00137,573.0,1,1351.62,At-risk / Low engagement
-CUST00156,266.0,3,1759.91,High-value
-CUST00159,393.0,2,1487.69,At-risk / Low engagement
-CUST00165,356.0,5,5966.6900000000005,At-risk / Low engagement
-CUST00174,282.0,5,4204.97,High-value
-CUST00178,215.0,2,1977.0300000000002,High-value
-CUST00179,539.0,1,983.76,At-risk / Low engagement
-CUST00182,319.0,3,1670.76,At-risk / Low engagement
-CUST00193,326.0,2,1648.19,At-risk / Low engagement
-CUST00197,465.0,1,582.53,At-risk / Low engagement
-CUST00198,301.0,6,3161.73,High-value
-CUST00204,274.0,3,1300.5,High-value
-CUST00216,320.0,1,1055.81,At-risk / Low engagement
-CUST00221,518.0,1,852.17,At-risk / Low engagement
-CUST00222,667.0,1,796.53,At-risk / Low engagement
-CUST00225,270.0,3,1495.6299999999999,High-value
-CUST00230,234.0,1,412.23,High-value
-CUST00231,478.0,2,758.79,At-risk / Low engagement
-CUST00237,345.0,3,1334.18,At-risk / Low engagement
-CUST00243,428.0,2,708.47,At-risk / Low engagement
-CUST00245,253.0,4,2698.24,High-value
-CUST00255,513.0,1,780.22,At-risk / Low engagement
-CUST00256,215.0,3,1915.6599999999999,High-value
-CUST00258,374.0,1,1040.76,At-risk / Low engagement
-CUST00259,214.0,5,6473.11,High-value
-CUST00261,236.0,1,1426.41,High-value
-CUST00264,584.0,1,321.79,At-risk / Low engagement
-CUST00271,207.0,2,1833.6,High-value
-CUST00277,267.0,6,6949.699999999999,High-value
-CUST00280,254.0,1,986.66,High-value
-CUST00282,377.0,2,616.13,At-risk / Low engagement
-CUST00283,223.0,3,2475.68,High-value
-CUST00293,370.0,1,313.53,At-risk / Low engagement
-CUST00298,269.0,4,1397.87,High-value
-CUST00300,276.0,3,2235.52,High-value
-CUST00307,223.0,3,1332.2,High-value
-CUST00308,438.0,4,1809.38,At-risk / Low engagement
-CUST00313,376.0,3,1259.3500000000001,At-risk / Low engagement
-CUST00321,577.0,1,187.94,At-risk / Low engagement
-CUST00326,376.0,2,1559.0,At-risk / Low engagement
-CUST00335,455.0,2,1613.45,At-risk / Low engagement
-CUST00336,577.0,2,2057.9900000000002,At-risk / Low engagement
-CUST00346,442.0,2,637.8,At-risk / Low engagement
-CUST00357,231.0,2,2615.92,High-value
-CUST00360,238.0,2,1907.7600000000002,High-value
-CUST00363,226.0,5,4801.449999999999,High-value
-CUST00385,383.0,1,1582.18,At-risk / Low engagement
-CUST00394,608.0,1,748.79,At-risk / Low engagement
-CUST00402,310.0,3,2002.9099999999999,At-risk / Low engagement
-CUST00414,344.0,2,2107.5299999999997,At-risk / Low engagement
-CUST00424,294.0,3,2284.25,At-risk / Low engagement
-CUST00429,226.0,1,739.03,High-value
-CUST00432,340.0,1,944.87,At-risk / Low engagement
-CUST00438,338.0,3,1070.79,At-risk / Low engagement
-CUST00440,265.0,1,301.18,At-risk / Low engagement
-CUST00442,607.0,1,379.66,At-risk / Low engagement
-CUST00443,247.0,1,645.18,High-value
-CUST00452,257.0,1,1232.52,High-value
-CUST00453,649.0,1,1519.49,At-risk / Low engagement
-CUST00456,370.0,4,3949.26,At-risk / Low engagement
-CUST00467,455.0,3,2163.83,At-risk / Low engagement
-CUST00468,401.0,2,2929.39,At-risk / Low engagement
-CUST00470,278.0,3,1906.25,High-value
-CUST00471,306.0,6,7207.1900000000005,High-value
-CUST00473,223.0,2,1739.44,High-value
-CUST00475,315.0,4,3601.5999999999995,At-risk / Low engagement
-CUST00485,269.0,4,4606.07,High-value
-CUST00487,229.0,3,2644.3,High-value
-CUST00488,387.0,3,3290.2200000000003,At-risk / Low engagement
-CUST00489,246.0,2,4852.19,High-value
-CUST00490,410.0,2,2298.43,At-risk / Low engagement
-CUST00495,538.0,1,443.48,At-risk / Low engagement
-CUST00496,220.0,3,2555.58,High-value
-CUST00499,263.0,2,2183.23,High-value
+C0005,146.0,2,324.0,At-risk / Low engagement
+C0010,65.0,4,450.0,New or developing
+C0012,73.0,4,3395.3,At-risk / Low engagement
+C0013,124.0,3,726.0,At-risk / Low engagement
+C0015,70.0,3,718.8,At-risk / Low engagement
+C0019,60.0,3,955.0,New or developing
+C0023,91.0,3,616.0,At-risk / Low engagement
+C0038,70.0,1,48.0,At-risk / Low engagement
+C0041,143.0,1,285.0,At-risk / Low engagement
+C0042,88.0,2,138.6,At-risk / Low engagement
+C0046,82.0,3,505.4,At-risk / Low engagement
+C0047,113.0,1,258.0,At-risk / Low engagement
+C0053,147.0,2,448.5,At-risk / Low engagement
+C0054,101.0,5,1501.35,At-risk / Low engagement
+C0055,160.0,1,112.0,At-risk / Low engagement
+C0069,147.0,1,294.0,At-risk / Low engagement
+C0077,83.0,1,150.0,At-risk / Low engagement
+C0085,106.0,3,463.25,At-risk / Low engagement
+C0087,76.0,2,302.5,At-risk / Low engagement
+C0097,88.0,1,132.0,At-risk / Low engagement
+C0099,134.0,1,84.0,At-risk / Low engagement
+C0106,123.0,1,219.3,At-risk / Low engagement
+C0109,54.0,4,676.4,New or developing
+C0110,126.0,2,190.55,At-risk / Low engagement
+C0114,106.0,3,960.9,At-risk / Low engagement
+C0117,157.0,1,157.5,At-risk / Low engagement
+C0121,70.0,3,527.4,At-risk / Low engagement
+C0129,111.0,2,407.4,At-risk / Low engagement
+C0132,172.0,1,60.0,At-risk / Low engagement
+C0150,47.0,3,248.4,New or developing
+C0152,86.0,6,4456.549999999999,At-risk / Low engagement
+C0153,52.0,1,80.75,New or developing
+C0156,75.0,1,280.0,At-risk / Low engagement
+C0161,58.0,3,708.2,New or developing
+C0166,47.0,4,1536.65,New or developing
+C0171,71.0,4,956.6,At-risk / Low engagement
+C0172,114.0,1,108.0,At-risk / Low engagement
+C0174,106.0,2,483.2,At-risk / Low engagement
+C0177,107.0,2,357.0,At-risk / Low engagement
+C0178,56.0,3,2028.55,New or developing
+C0180,62.0,2,728.4,New or developing
+C0183,79.0,5,647.6,At-risk / Low engagement
+C0204,58.0,3,266.8,New or developing
+C0215,64.0,2,512.0,New or developing
+C0222,63.0,1,252.0,New or developing
+C0223,92.0,2,114.0,At-risk / Low engagement
+C0224,66.0,5,2434.0,New or developing
+C0225,98.0,3,393.0,At-risk / Low engagement
+C0231,123.0,2,466.1,At-risk / Low engagement
+C0233,46.0,4,1903.05,New or developing
+C0254,76.0,4,307.15,At-risk / Low engagement
+C0259,68.0,5,959.0,New or developing
+C0262,69.0,3,739.0,At-risk / Low engagement
+C0264,46.0,4,2629.4,New or developing
+C0266,173.0,1,15.0,At-risk / Low engagement
+C0273,73.0,5,903.5,At-risk / Low engagement
+C0274,155.0,1,2698.2,At-risk / Low engagement
+C0276,114.0,2,114.0,At-risk / Low engagement
+C0277,165.0,1,54.0,At-risk / Low engagement
+C0278,72.0,3,1534.5,At-risk / Low engagement
+C0279,58.0,2,250.0,New or developing
+C0283,58.0,2,408.0,New or developing
+C0284,49.0,2,730.0,New or developing
+C0285,102.0,3,210.0,At-risk / Low engagement
+C0292,63.0,3,1012.0,New or developing
+C0295,60.0,2,100.19999999999999,New or developing
+C0296,61.0,2,2767.1,New or developing
+C0301,117.0,2,573.5,At-risk / Low engagement
+C0307,84.0,2,361.2,At-risk / Low engagement
+C0318,81.0,3,475.8,At-risk / Low engagement
+C0319,136.0,1,180.0,At-risk / Low engagement
+C0321,51.0,2,285.8,New or developing
+C0323,76.0,1,116.0,At-risk / Low engagement
+C0328,61.0,2,331.5,New or developing
+C0333,153.0,1,718.2,At-risk / Low engagement
+C0340,69.0,1,314.1,At-risk / Low engagement
+C0356,139.0,2,538.0,At-risk / Low engagement
+C0361,80.0,5,4377.6,At-risk / Low engagement
+C0364,46.0,3,730.5,New or developing
+C0365,70.0,2,96.0,At-risk / Low engagement
+C0366,65.0,1,33.6,New or developing
+C0373,53.0,3,926.0,New or developing
+C0376,66.0,3,536.3,New or developing
+C0377,73.0,4,980.6,At-risk / Low engagement
+C0379,49.0,4,1002.1,New or developing
+C0387,154.0,1,700.0,At-risk / Low engagement
+C0390,116.0,3,604.0,At-risk / Low engagement
+C0391,58.0,3,1063.2,New or developing
+C0393,48.0,4,870.1,New or developing
+C0397,76.0,3,288.5,At-risk / Low engagement
+C0399,128.0,1,272.0,At-risk / Low engagement
+C0401,49.0,2,190.7,New or developing
+C0404,52.0,4,707.6,New or developing
+C0405,60.0,4,1208.2,New or developing
+C0418,173.0,1,399.0,At-risk / Low engagement
+C0419,77.0,4,1682.9,At-risk / Low engagement
+C0422,161.0,2,682.0,At-risk / Low engagement
+C0423,79.0,1,116.0,At-risk / Low engagement
+C0425,53.0,3,744.0,New or developing
+C0436,160.0,3,2295.25,At-risk / Low engagement
+C0437,109.0,3,813.6,At-risk / Low engagement
+C0448,147.0,2,463.5,At-risk / Low engagement
+C0449,65.0,3,1310.5,New or developing
+C0450,93.0,5,4323.15,At-risk / Low engagement
+C0453,85.0,4,2081.25,At-risk / Low engagement
+C0455,70.0,4,1975.8000000000002,At-risk / Low engagement
+C0458,138.0,5,892.3499999999999,At-risk / Low engagement
+C0463,121.0,1,208.0,At-risk / Low engagement
+C0468,109.0,3,180.6,At-risk / Low engagement
+C0473,177.0,1,45.0,At-risk / Low engagement
+C0475,115.0,1,36.0,At-risk / Low engagement
+C0481,143.0,1,193.5,At-risk / Low engagement
+C0484,111.0,4,662.0,At-risk / Low engagement
+C0486,94.0,2,393.0,At-risk / Low engagement
+C0499,61.0,2,278.8,New or developing
+C0501,87.0,1,69.6,At-risk / Low engagement
+C0504,112.0,2,154.0,At-risk / Low engagement
+C0507,89.0,1,209.0,At-risk / Low engagement
+C0512,70.0,5,11617.650000000001,High-value
+C0513,83.0,3,505.5,At-risk / Low engagement
+C0515,84.0,5,1327.2,At-risk / Low engagement
+C0518,81.0,3,245.75,At-risk / Low engagement
+C0528,114.0,1,28.8,At-risk / Low engagement
+C0532,86.0,1,80.75,At-risk / Low engagement
+C0535,65.0,3,469.5,New or developing
+C0541,88.0,1,38.25,At-risk / Low engagement
+C0565,46.0,4,4399.65,High-value
+C0572,56.0,4,497.35,New or developing
+C0573,74.0,5,1221.9,At-risk / Low engagement
+C0578,55.0,3,1064.75,New or developing
+C0581,109.0,2,387.3,At-risk / Low engagement
+C0582,89.0,3,2775.8,At-risk / Low engagement
+C0602,120.0,2,164.4,At-risk / Low engagement
+C0603,89.0,2,331.20000000000005,At-risk / Low engagement
+C0605,60.0,4,685.0,New or developing
+C0608,97.0,1,280.0,At-risk / Low engagement
+C0610,141.0,2,4497.0,At-risk / Low engagement
+C0616,71.0,3,2518.6,At-risk / Low engagement
+C0617,47.0,2,61.0,New or developing
+C0622,51.0,5,785.0,New or developing
+C0623,85.0,1,245.0,At-risk / Low engagement
+C0635,75.0,4,292.2,At-risk / Low engagement
+C0637,85.0,1,80.75,At-risk / Low engagement
+C0648,59.0,1,142.5,New or developing
+C0660,75.0,2,300.0,At-risk / Low engagement
+C0661,72.0,5,558.5,At-risk / Low engagement
+C0667,56.0,4,284.8,New or developing
+C0668,46.0,1,168.0,New or developing
+C0672,46.0,2,228.0,New or developing
+C0673,52.0,1,399.0,New or developing
+C0677,135.0,2,244.0,At-risk / Low engagement
+C0691,117.0,2,318.0,At-risk / Low engagement
+C0692,179.0,1,2598.0,At-risk / Low engagement
+C0702,127.0,3,904.0,At-risk / Low engagement
+C0706,63.0,2,672.0,New or developing
+C0710,122.0,1,47.5,At-risk / Low engagement
+C0711,72.0,2,119.4,At-risk / Low engagement
+C0715,59.0,4,671.1,New or developing
+C0723,157.0,1,135.0,At-risk / Low engagement
+C0734,177.0,1,2598.0,At-risk / Low engagement
+C0736,155.0,1,50.0,At-risk / Low engagement
+C0741,50.0,4,5844.1,High-value
+C0744,119.0,2,288.75,At-risk / Low engagement
+C0761,55.0,5,1305.25,New or developing
+C0763,106.0,4,1563.25,At-risk / Low engagement
+C0766,95.0,2,487.65,At-risk / Low engagement
+C0768,160.0,1,40.0,At-risk / Low engagement
+C0771,71.0,2,171.0,At-risk / Low engagement
+C0774,101.0,2,174.0,At-risk / Low engagement
+C0778,99.0,5,3335.6000000000004,At-risk / Low engagement
+C0779,135.0,3,4504.65,At-risk / Low engagement
+C0781,83.0,1,560.0,At-risk / Low engagement
+C0788,46.0,4,561.0,New or developing
+C0789,58.0,1,52.2,New or developing
+C0791,73.0,2,184.3,At-risk / Low engagement
+C0796,87.0,1,352.0,At-risk / Low engagement
+C0810,105.0,1,48.0,At-risk / Low engagement
+C0818,63.0,4,2860.0,New or developing
+C0819,51.0,4,9144.55,High-value
+C0824,113.0,2,612.0,At-risk / Low engagement
+C0832,139.0,1,339.15,At-risk / Low engagement
+C0838,70.0,2,432.5,At-risk / Low engagement
+C0849,71.0,1,129.0,At-risk / Low engagement
+C0851,167.0,1,129.0,At-risk / Low engagement
+C0852,87.0,4,429.2,At-risk / Low engagement
+C0857,47.0,2,168.3,New or developing
+C0858,123.0,5,575.1,At-risk / Low engagement
+C0861,102.0,1,29.0,At-risk / Low engagement
+C0863,60.0,2,581.75,New or developing
+C0866,135.0,2,286.8,At-risk / Low engagement
+C0867,104.0,3,2794.5,At-risk / Low engagement
+C0874,62.0,2,204.6,New or developing
+C0879,51.0,4,2070.15,New or developing
+C0882,96.0,2,888.0,At-risk / Low engagement
+C0885,62.0,1,225.0,New or developing
+C0887,76.0,4,2150.15,At-risk / Low engagement
+C0891,58.0,5,487.45,New or developing
+C0902,93.0,1,12.0,At-risk / Low engagement
+C0908,93.0,4,1140.15,At-risk / Low engagement
+C0912,69.0,5,897.6,At-risk / Low engagement
+C0919,63.0,1,134.4,New or developing
+C0926,156.0,1,139.5,At-risk / Low engagement
+C0927,64.0,4,767.65,New or developing
+C0928,47.0,1,129.0,New or developing
+C0931,105.0,1,260.0,At-risk / Low engagement
+C0932,126.0,1,525.0,At-risk / Low engagement
+C0935,58.0,2,378.0,New or developing
+C0936,132.0,1,285.0,At-risk / Low engagement
+C0939,124.0,3,459.5,At-risk / Low engagement
+C0943,47.0,1,89.1,New or developing
+C0954,62.0,2,534.0,New or developing
+C0955,175.0,1,272.0,At-risk / Low engagement
+C0958,163.0,1,416.5,At-risk / Low engagement
+C0961,69.0,3,483.0,At-risk / Low engagement
+C0967,106.0,2,185.1,At-risk / Low engagement
+C0971,119.0,2,594.4,At-risk / Low engagement
+C0972,92.0,6,4427.5,At-risk / Low engagement
+C0976,53.0,1,560.0,New or developing
+C0982,171.0,1,18.0,At-risk / Low engagement
+C0988,133.0,1,396.0,At-risk / Low engagement
+C0991,93.0,2,148.05,At-risk / Low engagement
+C0992,85.0,3,614.75,At-risk / Low engagement
+C0998,127.0,1,58.8,At-risk / Low engagement
+C1002,51.0,2,270.0,New or developing
+C1003,68.0,5,3747.8999999999996,New or developing
+C1004,78.0,2,112.80000000000001,At-risk / Low engagement
+C1007,128.0,1,40.0,At-risk / Low engagement
+C1013,78.0,4,2647.2,At-risk / Low engagement
+C1017,147.0,2,188.4,At-risk / Low engagement
+C1026,82.0,1,72.0,At-risk / Low engagement
+C1027,50.0,3,327.3,New or developing
+C1034,82.0,3,655.5,At-risk / Low engagement
+C1035,102.0,2,624.0,At-risk / Low engagement
+C1037,66.0,3,227.0,New or developing
+C1040,60.0,2,135.0,New or developing
+C1045,46.0,5,2965.05,New or developing
+C1048,96.0,3,446.0,At-risk / Low engagement
+C1050,71.0,2,162.75,At-risk / Low engagement
+C1053,153.0,1,396.0,At-risk / Low engagement
+C1054,109.0,1,43.2,At-risk / Low engagement
+C1061,72.0,1,34.8,At-risk / Low engagement
+C1065,134.0,2,103.0,At-risk / Low engagement
+C1070,134.0,2,378.0,At-risk / Low engagement
+C1075,120.0,1,198.0,At-risk / Low engagement
+C1089,148.0,2,1060.5,At-risk / Low engagement
+C1090,46.0,4,2701.1000000000004,New or developing
+C1097,131.0,1,379.05,At-risk / Low engagement
+C1100,47.0,2,718.0,New or developing
+C1101,59.0,5,699.5,New or developing
+C1104,84.0,3,504.6,At-risk / Low engagement
+C1106,69.0,3,485.0,At-risk / Low engagement
+C1115,64.0,3,294.4,New or developing
+C1129,62.0,3,2902.85,New or developing
+C1131,61.0,4,1091.8,New or developing
+C1132,65.0,4,4776.9,High-value
+C1138,64.0,2,342.0,New or developing
+C1144,109.0,1,71.25,At-risk / Low engagement
+C1149,83.0,2,161.4,At-risk / Low engagement
+C1154,93.0,3,477.2,At-risk / Low engagement
+C1158,64.0,1,33.6,New or developing
+C1159,93.0,1,108.0,At-risk / Low engagement
+C1163,84.0,3,664.05,At-risk / Low engagement
+C1170,154.0,3,393.0,At-risk / Low engagement
+C1177,72.0,2,404.0,At-risk / Low engagement
+C1178,66.0,3,370.5,New or developing
+C1180,108.0,1,44.8,At-risk / Low engagement
+C1183,97.0,2,4447.25,At-risk / Low engagement
+C1184,88.0,2,143.6,At-risk / Low engagement
+C1194,74.0,3,461.5,At-risk / Low engagement
+C1196,103.0,3,339.0,At-risk / Low engagement

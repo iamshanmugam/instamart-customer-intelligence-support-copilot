@@ -5,7 +5,7 @@ import sqlite3
 
 from src.common.paths import DATABASE_PATH
 
-ORDER_ID_PATTERN = re.compile(r"^ORD\d{6}$", re.IGNORECASE)
+ORDER_ID_PATTERN = re.compile(r"^ORD-\d{6}$", re.IGNORECASE)
 
 
 def lookup_order(order_id: str, db_path=None) -> dict:
@@ -19,7 +19,7 @@ def lookup_order(order_id: str, db_path=None) -> dict:
     try:
         cur = conn.execute(
             """
-            SELECT o.order_id, o.customer_id, o.order_date, o.order_status, o.order_amount, o.city
+            SELECT o.order_id, o.customer_id, o.order_ts, o.status, o.order_amount, o.delivery_minutes
             FROM orders o
             WHERE o.order_id = ?
             """,
@@ -35,7 +35,7 @@ def lookup_order(order_id: str, db_path=None) -> dict:
             "order_date": row[2],
             "order_status": row[3],
             "order_amount": row[4],
-            "city": row[5],
+            "delivery_minutes": row[5],
         }
     finally:
         conn.close()

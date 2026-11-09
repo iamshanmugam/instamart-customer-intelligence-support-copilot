@@ -1,11 +1,12 @@
 # Data Cleaning Report
 
-- Customers: 506 -> 500 (dedupe by customer_id)
-- Orders: 3829 -> 3829 (invalid customers/amounts handled)
-- Tickets: 800 -> 800
-- Policy rows: 5
+- Customers: 1200 -> 1200
+- Orders: 13084 -> 12309
+- Tickets: 164 -> 160
+- Policy eval rows: 14
+- Products: 40
 
 ## Decisions
-- City/gender standardized; placeholder email for missing emails (not dropped).
-- Negative/zero order amounts imputed with median.
-- Orders/tickets without valid customer_id removed.
+- Cities normalised; invalid ages and negative delivery minutes set to missing.
+- Duplicate order_id rows kept at latest order_ts.
+- Empty ticket text removed.

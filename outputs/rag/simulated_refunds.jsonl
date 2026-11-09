@@ -12,3 +12,10 @@
 {"status": "escalated", "decision": "escalate_human", "message": "Fraud-related case requires human review.", "simulation": true, "logged_at": "2026-11-09T17:31:37.765942+00:00"}
 {"status": "escalated", "decision": "escalate_human", "message": "Fraud-related case requires human review.", "simulation": true, "logged_at": "2026-11-09T17:31:37.767386+00:00"}
 {"status": "escalated", "decision": "escalate_human", "message": "Fraud-related case requires human review.", "simulation": true, "logged_at": "2026-11-09T17:32:21.488303+00:00"}
+{"status": "escalated", "decision": "escalate_human", "message": "Fraud-related case requires human review.", "simulation": true, "logged_at": "2026-11-09T17:42:35.792910+00:00"}
+{"status": "escalated", "decision": "escalate_human", "message": "Fraud-related case requires human review.", "simulation": true, "logged_at": "2026-11-09T17:42:49.297254+00:00"}
+{"status": "escalated", "decision": "escalate_human", "message": "Fraud-related case requires human review.", "simulation": true, "logged_at": "2026-11-09T17:42:49.298785+00:00"}
+{"status": "escalated", "message": "Fraud-related case requires human review.", "simulation": true, "logged_at": "2026-11-09T17:52:17.996722+00:00"}
+{"status": "escalated", "message": "Fraud-related case requires human review.", "simulation": true, "logged_at": "2026-11-09T17:52:40.477421+00:00"}
+{"status": "escalated", "message": "Fraud-related case requires human review.", "simulation": true, "logged_at": "2026-11-09T17:55:23.428214+00:00"}
+{"status": "escalated", "message": "Fraud-related case requires human review.", "simulation": true, "logged_at": "2026-11-09T17:56:45.606953+00:00"}
