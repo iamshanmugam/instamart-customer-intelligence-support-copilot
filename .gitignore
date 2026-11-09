@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project outputs (optional - keep structure, ignore large regenerable)
+# Uncomment to ignore all outputs:
+# outputs/**
+# models/**
+# database/*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env.local
+credentials.json
+
+# Vector store cache
+data/knowledge_base/faiss_index/
+.chroma/

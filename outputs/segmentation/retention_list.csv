@@ -1,0 +1,108 @@
+customer_id,recency_days,frequency,monetary,segment_name
+CUST00002,506.0,1,487.97,At-risk / Low engagement
+CUST00006,443.0,2,1348.56,At-risk / Low engagement
+CUST00007,550.0,1,462.49,At-risk / Low engagement
+CUST00012,233.0,3,1220.65,High-value
+CUST00021,630.0,1,514.99,At-risk / Low engagement
+CUST00024,210.0,2,1646.1799999999998,High-value
+CUST00025,419.0,1,1097.23,At-risk / Low engagement
+CUST00033,236.0,1,724.24,High-value
+CUST00050,559.0,2,834.0899999999999,At-risk / Low engagement
+CUST00051,355.0,4,3262.71,At-risk / Low engagement
+CUST00053,557.0,1,493.84,At-risk / Low engagement
+CUST00057,462.0,3,3616.89,At-risk / Low engagement
+CUST00060,227.0,5,2948.2699999999995,High-value
+CUST00063,256.0,4,1567.88,High-value
+CUST00066,219.0,5,3715.77,High-value
+CUST00075,394.0,2,1612.76,At-risk / Low engagement
+CUST00077,217.0,6,3391.2350000000006,High-value
+CUST00078,242.0,2,904.1500000000001,High-value
+CUST00079,231.0,1,811.18,High-value
+CUST00080,441.0,1,555.63,At-risk / Low engagement
+CUST00083,433.0,2,709.17,At-risk / Low engagement
+CUST00086,387.0,5,2949.79,At-risk / Low engagement
+CUST00087,224.0,4,2156.02,High-value
+CUST00097,382.0,3,1628.86,At-risk / Low engagement
+CUST00099,307.0,2,1625.89,At-risk / Low engagement
+CUST00101,208.0,5,3492.44,High-value
+CUST00106,230.0,2,1579.27,High-value
+CUST00116,417.0,2,1428.8899999999999,At-risk / Low engagement
+CUST00124,287.0,1,420.24,At-risk / Low engagement
+CUST00128,419.0,1,806.74,At-risk / Low engagement
+CUST00130,231.0,4,2972.85,High-value
+CUST00131,441.0,1,749.49,At-risk / Low engagement
+CUST00132,488.0,2,1506.83,At-risk / Low engagement
+CUST00137,573.0,1,1351.62,At-risk / Low engagement
+CUST00156,266.0,3,1759.91,High-value
+CUST00159,393.0,2,1487.69,At-risk / Low engagement
+CUST00165,356.0,5,5966.6900000000005,At-risk / Low engagement
+CUST00174,282.0,5,4204.97,High-value
+CUST00178,215.0,2,1977.0300000000002,High-value
+CUST00179,539.0,1,983.76,At-risk / Low engagement
+CUST00182,319.0,3,1670.76,At-risk / Low engagement
+CUST00193,326.0,2,1648.19,At-risk / Low engagement
+CUST00197,465.0,1,582.53,At-risk / Low engagement
+CUST00198,301.0,6,3161.73,High-value
+CUST00204,274.0,3,1300.5,High-value
+CUST00216,320.0,1,1055.81,At-risk / Low engagement
+CUST00221,518.0,1,852.17,At-risk / Low engagement
+CUST00222,667.0,1,796.53,At-risk / Low engagement
+CUST00225,270.0,3,1495.6299999999999,High-value
+CUST00230,234.0,1,412.23,High-value
+CUST00231,478.0,2,758.79,At-risk / Low engagement
+CUST00237,345.0,3,1334.18,At-risk / Low engagement
+CUST00243,428.0,2,708.47,At-risk / Low engagement
+CUST00245,253.0,4,2698.24,High-value
+CUST00255,513.0,1,780.22,At-risk / Low engagement
+CUST00256,215.0,3,1915.6599999999999,High-value
+CUST00258,374.0,1,1040.76,At-risk / Low engagement
+CUST00259,214.0,5,6473.11,High-value
+CUST00261,236.0,1,1426.41,High-value
+CUST00264,584.0,1,321.79,At-risk / Low engagement
+CUST00271,207.0,2,1833.6,High-value
+CUST00277,267.0,6,6949.699999999999,High-value
+CUST00280,254.0,1,986.66,High-value
+CUST00282,377.0,2,616.13,At-risk / Low engagement
+CUST00283,223.0,3,2475.68,High-value
+CUST00293,370.0,1,313.53,At-risk / Low engagement
+CUST00298,269.0,4,1397.87,High-value
+CUST00300,276.0,3,2235.52,High-value
+CUST00307,223.0,3,1332.2,High-value
+CUST00308,438.0,4,1809.38,At-risk / Low engagement
+CUST00313,376.0,3,1259.3500000000001,At-risk / Low engagement
+CUST00321,577.0,1,187.94,At-risk / Low engagement
+CUST00326,376.0,2,1559.0,At-risk / Low engagement
+CUST00335,455.0,2,1613.45,At-risk / Low engagement
+CUST00336,577.0,2,2057.9900000000002,At-risk / Low engagement
+CUST00346,442.0,2,637.8,At-risk / Low engagement
+CUST00357,231.0,2,2615.92,High-value
+CUST00360,238.0,2,1907.7600000000002,High-value
+CUST00363,226.0,5,4801.449999999999,High-value
+CUST00385,383.0,1,1582.18,At-risk / Low engagement
+CUST00394,608.0,1,748.79,At-risk / Low engagement
+CUST00402,310.0,3,2002.9099999999999,At-risk / Low engagement
+CUST00414,344.0,2,2107.5299999999997,At-risk / Low engagement
+CUST00424,294.0,3,2284.25,At-risk / Low engagement
+CUST00429,226.0,1,739.03,High-value
+CUST00432,340.0,1,944.87,At-risk / Low engagement
+CUST00438,338.0,3,1070.79,At-risk / Low engagement
+CUST00440,265.0,1,301.18,At-risk / Low engagement
+CUST00442,607.0,1,379.66,At-risk / Low engagement
+CUST00443,247.0,1,645.18,High-value
+CUST00452,257.0,1,1232.52,High-value
+CUST00453,649.0,1,1519.49,At-risk / Low engagement
+CUST00456,370.0,4,3949.26,At-risk / Low engagement
+CUST00467,455.0,3,2163.83,At-risk / Low engagement
+CUST00468,401.0,2,2929.39,At-risk / Low engagement
+CUST00470,278.0,3,1906.25,High-value
+CUST00471,306.0,6,7207.1900000000005,High-value
+CUST00473,223.0,2,1739.44,High-value
+CUST00475,315.0,4,3601.5999999999995,At-risk / Low engagement
+CUST00485,269.0,4,4606.07,High-value
+CUST00487,229.0,3,2644.3,High-value
+CUST00488,387.0,3,3290.2200000000003,At-risk / Low engagement
+CUST00489,246.0,2,4852.19,High-value
+CUST00490,410.0,2,2298.43,At-risk / Low engagement
+CUST00495,538.0,1,443.48,At-risk / Low engagement
+CUST00496,220.0,3,2555.58,High-value
+CUST00499,263.0,2,2183.23,High-value

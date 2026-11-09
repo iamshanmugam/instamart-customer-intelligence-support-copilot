@@ -1,0 +1,10 @@
+from .paths import PROJECT_ROOT, DATA_RAW, DATA_PROCESSED, OUTPUTS, DATABASE_PATH, MODELS_DIR
+
+__all__ = [
+    "PROJECT_ROOT",
+    "DATA_RAW",
+    "DATA_PROCESSED",
+    "OUTPUTS",
+    "DATABASE_PATH",
+    "MODELS_DIR",
+]

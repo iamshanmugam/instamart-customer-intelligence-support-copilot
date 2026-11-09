@@ -1,0 +1,3 @@
+customer_id,last_order,frequency,monetary,recency_days
+C1,,0,0.0,9999.0
+C2,,0,0.0,9999.0
