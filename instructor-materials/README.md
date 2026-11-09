@@ -1,7 +1,8 @@
-# Instructor-supplied files
+# Instructor-supplied files (unmodified)
 
-The course submission requires **two original supplied files** included **without modification**.
+These files must match the course distribution **byte-for-byte**:
 
-At the time of this audit, this folder does **not** contain those instructor originals—only this README. Place the unmodified copies here (exact filenames as provided by your instructor) before final submission.
+- `generate_data.py`
+- `mock_llm.py`
 
-Do **not** replace them with the project’s implemented `generate_data.py` or `mock_llm.py` at the repository root; those are student implementations unless your instructor designated them as the supplied files.
+Identical copies are also at the repository root because `python generate_data.py` and `import mock_llm` are run from there. Do not edit these files.
